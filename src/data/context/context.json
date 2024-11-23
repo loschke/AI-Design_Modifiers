@@ -1,0 +1,21 @@
+{
+    "name": "Context",
+    "description": "Fundamental Environmental Context",
+    "icon": "context-icon",
+    "categories": {
+      "medium": {
+        "name": "Action",
+        "description": "Different types of artistic and visual media",
+        "path": "/context/action"
+      },
+      "style": {
+        "name": "Interaction",
+        "description": "Artistic styles and visual characteristics",
+        "path": "/context/interaction"
+      }
+    },
+    "metadata": {
+      "order": 1,
+      "tags": ["basic", "essential"]
+    }
+  }

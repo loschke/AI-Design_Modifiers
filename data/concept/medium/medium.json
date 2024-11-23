@@ -1,0 +1,30 @@
+{
+    "name": "Medium",
+    "description": "Types of visual and artistic media for image generation",
+    "imagePath": "/src/images/concept/medium/medium.png",
+    "subcategories": {
+      "realistic": {
+        "name": "Realistic Media",
+        "description": "Photography and film-based visual media",
+        "path": "/concept/medium/realistic",
+        "imagePath": "/src/images/concept/medium/realistic/realistic.png"
+      },
+      "artistic": {
+        "name": "Artistic Media",
+        "description": "Traditional art forms and techniques",
+        "path": "/concept/medium/artistic",
+        "imagePath": "/src/images/concept/medium/artistic/artistic.png"
+      },
+      "digital": {
+        "name": "Digital Media",
+        "description": "Computer-generated and digital art forms",
+        "path": "/concept/medium/digital",
+        "imagePath": "/src/images/concept/medium/digital/digital.png"
+      }
+    },
+    "metadata": {
+      "order": 1,
+      "defaultSubcategory": "realistic",
+      "tags": ["media", "visual"]
+    }
+}

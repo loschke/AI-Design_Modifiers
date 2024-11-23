@@ -1,0 +1,21 @@
+{
+    "name": "Concept",
+    "description": "Fundamental conceptual elements for AI image generation",
+    "icon": "concept-icon",
+    "categories": {
+      "medium": {
+        "name": "Medium",
+        "description": "Different types of artistic and visual media",
+        "path": "/concept/medium"
+      },
+      "style": {
+        "name": "Style",
+        "description": "Artistic styles and visual characteristics",
+        "path": "/concept/style"
+      }
+    },
+    "metadata": {
+      "order": 1,
+      "tags": ["basic", "essential"]
+    }
+  }

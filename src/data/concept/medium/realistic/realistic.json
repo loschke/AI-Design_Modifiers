@@ -1,0 +1,31 @@
+{
+    "name": "Realistic Media",
+    "description": "Photo-realistic and camera-based media types",
+    "modifiers": {
+      "photography": {
+        "name": "Photography",
+        "description": "Camera-based image capture",
+        "items": {
+          "general": [
+            "a photo of",
+            "a photograph of",
+            "a snapshot of"
+          ],
+          "professional": [
+            "a professional photo of",
+            "a studio photograph of",
+            "a high-quality photograph of"
+          ]
+        }
+      },
+      "film": {
+        "name": "Film & Cinema",
+        "description": "Movie and video-based imagery",
+        "items": [
+          "a film still of",
+          "a movie scene of",
+          "a cinematic shot of"
+        ]
+      }
+    }
+  }

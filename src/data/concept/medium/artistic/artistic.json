@@ -1,0 +1,31 @@
+{
+    "name": "Artistic Media",
+    "description": "Traditional artistic media and techniques",
+    "modifiers": {
+      "painting": {
+        "name": "Painting",
+        "description": "Traditional painting techniques",
+        "items": {
+          "oils": [
+            "an oil painting of",
+            "a detailed oil painting of",
+            "an impressionist oil painting of"
+          ],
+          "watercolor": [
+            "a watercolor painting of",
+            "a loose watercolor of",
+            "a detailed watercolor illustration of"
+          ]
+        }
+      },
+      "drawing": {
+        "name": "Drawing",
+        "description": "Hand-drawn artistic techniques",
+        "items": [
+          "a pencil drawing of",
+          "a detailed sketch of",
+          "a charcoal drawing of"
+        ]
+      }
+    }
+  }
