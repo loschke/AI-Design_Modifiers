@@ -35,6 +35,7 @@ export interface Subcategory {
   description: string;
   items: string[] | Record<string, string[]>;
   modifiers?: Record<string, Modifier>;
+  subcategories?: Record<string, NavigationSubcategory | Subcategory>;
   metadata?: Metadata;
 }
 
@@ -42,6 +43,7 @@ export interface Modifier {
   name: string;
   description: string;
   items: string[] | Record<string, string[]>;
+  subcategories?: Record<string, NavigationSubcategory | Subcategory>;
   metadata?: Metadata;
 }
 

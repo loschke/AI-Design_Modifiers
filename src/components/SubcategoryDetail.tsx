@@ -1,5 +1,5 @@
 import { useState } from 'react';
-import { Subcategory, Modifier, SubcategoryData } from '../types/data';
+import { Subcategory, SubcategoryData } from '../types/data';
 
 interface SubcategoryDetailProps {
   subcategory: SubcategoryData;
@@ -53,36 +53,56 @@ export const SubcategoryDetail = ({ subcategory }: SubcategoryDetailProps) => {
       );
     }
 
-    return Object.entries(items).map(([key, values], index) => (
-      <div key={index} className="flex flex-col gap-2">
-        <h3 className="text-sm font-medium text-gray-500 dark:text-gray-400 capitalize">{key}</h3>
-        <div className="flex flex-wrap gap-2">
-          {values.map((value, valueIndex) => (
-            <div key={`${index}-${valueIndex}`}>
-              {renderCopyButton(value)}
+    return Object.entries(items).map(([category, values], index) => {
+      // Check if values is an array
+      if (Array.isArray(values)) {
+        return (
+          <div key={index} className="flex flex-col gap-2">
+            <h3 className="text-sm font-medium text-gray-500 dark:text-gray-400 capitalize">{category}</h3>
+            <div className="flex flex-wrap gap-2">
+              {values.map((value, valueIndex) => (
+                <div key={`${index}-${valueIndex}`}>
+                  {renderCopyButton(value)}
+                </div>
+              ))}
             </div>
-          ))}
+          </div>
+        );
+      }
+      // If values is another object, render it recursively
+      return (
+        <div key={index} className="flex flex-col gap-4">
+          <h3 className="text-sm font-medium text-gray-500 dark:text-gray-400 capitalize">{category}</h3>
+          {renderModifierItems(values)}
         </div>
-      </div>
-    ));
+      );
+    });
   };
 
-  const renderModifiers = () => {
-    if (!subcategory.modifiers) return null;
+  const renderContent = () => {
+    // If it's a subcategory with items
+    if ('items' in subcategory) {
+      return renderModifierItems((subcategory as Subcategory).items);
+    }
+    
+    // If it's a subcategory with modifiers
+    if (subcategory.modifiers) {
+      return Object.entries(subcategory.modifiers).map(([, modifier], index) => (
+        <div key={index} className="border-t border-gray-200 dark:border-gray-700 pt-4 mt-4 first:border-0 first:pt-0 first:mt-0">
+          <h3 className="text-lg font-semibold text-gray-800 dark:text-white mb-2">
+            {modifier.name}
+          </h3>
+          {modifier.description && (
+            <p className="text-gray-600 dark:text-gray-400 mb-3">
+              {modifier.description}
+            </p>
+          )}
+          {renderModifierItems(modifier.items)}
+        </div>
+      ));
+    }
 
-    return Object.entries(subcategory.modifiers).map(([key, modifier], index) => (
-      <div key={index} className="border-t border-gray-200 dark:border-gray-700 pt-4 mt-4 first:border-0 first:pt-0 first:mt-0">
-        <h3 className="text-lg font-semibold text-gray-800 dark:text-white mb-2">
-          {modifier.name}
-        </h3>
-        {modifier.description && (
-          <p className="text-gray-600 dark:text-gray-400 mb-3">
-            {modifier.description}
-          </p>
-        )}
-        {renderModifierItems(modifier.items)}
-      </div>
-    ));
+    return null;
   };
 
   return (
@@ -99,7 +119,7 @@ export const SubcategoryDetail = ({ subcategory }: SubcategoryDetailProps) => {
       </div>
 
       <div className="flex flex-col gap-4">
-        {renderModifiers()}
+        {renderContent()}
       </div>
     </div>
   );

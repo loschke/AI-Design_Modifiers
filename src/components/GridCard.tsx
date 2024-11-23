@@ -1,4 +1,5 @@
 import { useState } from 'react';
+import { NavigationSubcategory, Subcategory, Category } from '../types/data';
 
 interface GridCardProps {
   title: string;
@@ -6,6 +7,8 @@ interface GridCardProps {
   icon?: string;
   onClick: () => void;
   items?: string[] | Record<string, string[]>;
+  subcategories?: Record<string, NavigationSubcategory | Subcategory | Category>;
+  onSubcategoryClick?: (key: string, subcategory: NavigationSubcategory | Subcategory | Category) => void;
 }
 
 export const GridCard = ({ 
@@ -13,7 +16,9 @@ export const GridCard = ({
   description, 
   icon, 
   onClick, 
-  items 
+  items,
+  subcategories,
+  onSubcategoryClick
 }: GridCardProps) => {
   const [copiedValue, setCopiedValue] = useState<string | null>(null);
 
@@ -25,6 +30,13 @@ export const GridCard = ({
       setTimeout(() => setCopiedValue(null), 2000);
     } catch (err) {
       console.error('Failed to copy:', err);
+    }
+  };
+
+  const handleSubcategoryClick = (e: React.MouseEvent, key: string, subcategory: NavigationSubcategory | Subcategory | Category) => {
+    e.stopPropagation(); // Prevent card click when clicking subcategory
+    if (onSubcategoryClick) {
+      onSubcategoryClick(key, subcategory);
     }
   };
 
@@ -79,6 +91,27 @@ export const GridCard = ({
     ));
   };
 
+  const renderSubcategories = () => {
+    if (!subcategories) return null;
+
+    return (
+      <div className="mt-4 space-y-3">
+        <h4 className="text-sm font-medium text-gray-500 dark:text-gray-400">Contains:</h4>
+        <div className="flex flex-wrap gap-2">
+          {Object.entries(subcategories).map(([key, subcategory]) => (
+            <button 
+              key={key}
+              onClick={(e) => handleSubcategoryClick(e, key, subcategory)}
+              className="inline-flex items-center px-2.5 py-0.5 rounded-md text-sm font-medium bg-blue-100 dark:bg-blue-900 text-blue-800 dark:text-blue-200 hover:bg-blue-200 dark:hover:bg-blue-800 transition-colors duration-200"
+            >
+              {subcategory.name}
+            </button>
+          ))}
+        </div>
+      </div>
+    );
+  };
+
   return (
     <div 
       onClick={onClick}
@@ -101,6 +134,8 @@ export const GridCard = ({
             <p className="mt-1 text-sm text-gray-500 dark:text-gray-400">
               {description}
             </p>
+            
+            {renderSubcategories()}
             
             {items && (
               <div className="mt-4">

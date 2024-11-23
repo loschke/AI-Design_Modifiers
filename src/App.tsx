@@ -12,6 +12,7 @@ function App() {
   const [currentCluster, setCurrentCluster] = useState<Cluster | null>(null);
   const [currentCategoryData, setCurrentCategoryData] = useState<Category | null>(null);
   const [selectedSubcategory, setSelectedSubcategory] = useState<Subcategory | Modifier | null>(null);
+  const [categoryDataMap, setCategoryDataMap] = useState<Record<string, Category>>({});
   const [loading, setLoading] = useState(true);
   const [error, setError] = useState<string | null>(null);
 
@@ -45,6 +46,23 @@ function App() {
       const data = await import(`./data/${clusterName}/${clusterName}.json`);
       setCurrentCluster(data.default);
       setCurrentCategoryData(null);
+      
+      // Load category data for each category in the cluster
+      const categoryDataPromises = Object.keys(data.default.categories).map(async (categoryKey) => {
+        try {
+          const categoryData = await import(`./data/${clusterName}/${categoryKey}/${categoryKey}.json`);
+          return [categoryKey, categoryData.default] as const;
+        } catch (err) {
+          console.error(`Failed to load category data for ${categoryKey}:`, err);
+          return [categoryKey, null] as const;
+        }
+      });
+
+      const categoryDataEntries = await Promise.all(categoryDataPromises);
+      const newCategoryDataMap = Object.fromEntries(
+        categoryDataEntries.filter(([, data]) => data !== null)
+      );
+      setCategoryDataMap(newCategoryDataMap);
     } catch (err) {
       setError(`Failed to load cluster data: ${clusterName}`);
       console.error('Error loading cluster data:', err);
@@ -72,7 +90,7 @@ function App() {
       const subcategory = pathParts[pathParts.length - 1];
       const data = await import(`./data/${clusterName}/${categoryPath}/${subcategory}/${subcategory}.json`);
       setSelectedSubcategory(data.default);
-      setCurrentCategoryData(null); // Clear category data to show subcategory detail
+      setCurrentCategoryData(null);
     } catch (err) {
       setError(`Failed to load subcategory data: ${subcategoryPath}`);
       console.error('Error loading subcategory data:', err);
@@ -171,6 +189,13 @@ function App() {
     }
   };
 
+  const handleSubcategoryClick = (key: string, subcategory: NavigationSubcategory | Subcategory | Category) => {
+    const pathParts = currentPath.split('/').filter(Boolean);
+    if (pathParts.length > 0) {
+      handleCardClick(subcategory, key);
+    }
+  };
+
   const isNavigationSubcategory = (
     item: CategoryItem
   ): item is NavigationSubcategory => {
@@ -217,6 +242,8 @@ function App() {
               description={cluster.description}
               icon="📁"
               onClick={() => handleCardClick(cluster, key)}
+              subcategories={cluster.categories}
+              onSubcategoryClick={handleSubcategoryClick}
             />
           ))}
         </div>
@@ -233,6 +260,8 @@ function App() {
               description={category.description}
               icon="📁"
               onClick={() => handleCardClick(category, key)}
+              subcategories={categoryDataMap[key]?.subcategories}
+              onSubcategoryClick={handleSubcategoryClick}
             />
           ))}
         </div>
@@ -251,6 +280,8 @@ function App() {
                 icon="📄"
                 onClick={() => handleCardClick(modifier, key)}
                 items={modifier.items}
+                subcategories={modifier.subcategories}
+                onSubcategoryClick={handleSubcategoryClick}
               />
             ))}
           </div>
@@ -263,7 +294,7 @@ function App() {
             {Object.entries(currentCategoryData.subcategories).map(([key, subcategory]) => {
               const items = isNavigationSubcategory(subcategory)
                 ? undefined
-                : subcategory.items;
+                : (subcategory as Subcategory).items;
 
               return (
                 <GridCard
@@ -273,6 +304,8 @@ function App() {
                   icon="📄"
                   onClick={() => handleCardClick(subcategory, key)}
                   items={items}
+                  subcategories={isNavigationSubcategory(subcategory) ? undefined : (subcategory as Subcategory).subcategories}
+                  onSubcategoryClick={handleSubcategoryClick}
                 />
               );
             })}
