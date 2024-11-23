@@ -243,8 +243,10 @@ function App() {
   };
 
   const handleSubcategoryClick = (key: string, item: NavigationSubcategory | Subcategory | Category | Modifier) => {
-    const pathParts = currentPath.split('/').filter(Boolean);
-    if (pathParts.length > 0) {
+    // Check if the item has a direct path property (category or navigation subcategory)
+    if ('path' in item && item.path) {
+      handleNavigate(item.path);
+    } else {
       handleCardClick(item, key);
     }
   };
