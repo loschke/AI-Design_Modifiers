@@ -1,5 +1,5 @@
 import { useState } from 'react';
-import { NavigationSubcategory, Subcategory, Category } from '../types/data';
+import { NavigationSubcategory, Subcategory, Category, Modifier } from '../types/data';
 
 interface GridCardProps {
   title: string;
@@ -8,7 +8,8 @@ interface GridCardProps {
   onClick: () => void;
   items?: string[] | Record<string, string[]>;
   subcategories?: Record<string, NavigationSubcategory | Subcategory | Category>;
-  onSubcategoryClick?: (key: string, subcategory: NavigationSubcategory | Subcategory | Category) => void;
+  modifiers?: Record<string, Modifier>;
+  onSubcategoryClick?: (key: string, item: NavigationSubcategory | Subcategory | Category | Modifier) => void;
 }
 
 export const GridCard = ({ 
@@ -18,6 +19,7 @@ export const GridCard = ({
   onClick, 
   items,
   subcategories,
+  modifiers,
   onSubcategoryClick
 }: GridCardProps) => {
   const [copiedValue, setCopiedValue] = useState<string | null>(null);
@@ -33,10 +35,10 @@ export const GridCard = ({
     }
   };
 
-  const handleSubcategoryClick = (e: React.MouseEvent, key: string, subcategory: NavigationSubcategory | Subcategory | Category) => {
+  const handleItemClick = (e: React.MouseEvent, key: string, item: NavigationSubcategory | Subcategory | Category | Modifier) => {
     e.stopPropagation(); // Prevent card click when clicking subcategory
     if (onSubcategoryClick) {
-      onSubcategoryClick(key, subcategory);
+      onSubcategoryClick(key, item);
     }
   };
 
@@ -62,33 +64,46 @@ export const GridCard = ({
     </button>
   );
 
-  const renderItems = () => {
-    if (!items) return null;
-
+  const renderItems = (items: string[] | Record<string, string[]>, title?: string) => {
     if (Array.isArray(items)) {
       return (
         <div className="flex flex-wrap gap-2">
-          {items.map((item, index) => (
+          {items.slice(0, 3).map((item, index) => (
             <div key={index}>
               {renderCopyButton(item)}
             </div>
           ))}
+          {items.length > 3 && (
+            <span className="text-sm text-gray-500 dark:text-gray-400 self-center">
+              +{items.length - 3} more
+            </span>
+          )}
         </div>
       );
     }
 
-    return Object.entries(items).map(([key, values], index) => (
-      <div key={index} className="flex flex-col gap-2 mt-3">
+    const firstCategory = Object.entries(items)[0];
+    if (!firstCategory) return null;
+
+    const [key, values] = firstCategory;
+    return (
+      <div className="flex flex-col gap-2 mt-3">
+        {title && <h4 className="text-sm font-medium text-gray-500 dark:text-gray-400">{title}</h4>}
         <h4 className="text-sm font-medium text-gray-500 dark:text-gray-400">{key}</h4>
         <div className="flex flex-wrap gap-2">
-          {values.map((value, valueIndex) => (
-            <div key={`${index}-${valueIndex}`}>
+          {values.slice(0, 3).map((value, valueIndex) => (
+            <div key={`${key}-${valueIndex}`}>
               {renderCopyButton(value)}
             </div>
           ))}
+          {values.length > 3 && (
+            <span className="text-sm text-gray-500 dark:text-gray-400 self-center">
+              +{values.length - 3} more
+            </span>
+          )}
         </div>
       </div>
-    ));
+    );
   };
 
   const renderSubcategories = () => {
@@ -101,10 +116,31 @@ export const GridCard = ({
           {Object.entries(subcategories).map(([key, subcategory]) => (
             <button 
               key={key}
-              onClick={(e) => handleSubcategoryClick(e, key, subcategory)}
+              onClick={(e) => handleItemClick(e, key, subcategory)}
               className="inline-flex items-center px-2.5 py-0.5 rounded-md text-sm font-medium bg-blue-100 dark:bg-blue-900 text-blue-800 dark:text-blue-200 hover:bg-blue-200 dark:hover:bg-blue-800 transition-colors duration-200"
             >
               {subcategory.name}
+            </button>
+          ))}
+        </div>
+      </div>
+    );
+  };
+
+  const renderModifiers = () => {
+    if (!modifiers) return null;
+
+    return (
+      <div className="mt-4 space-y-3">
+        <h4 className="text-sm font-medium text-gray-500 dark:text-gray-400">Contains:</h4>
+        <div className="flex flex-wrap gap-2">
+          {Object.entries(modifiers).map(([key, modifier]) => (
+            <button 
+              key={key}
+              onClick={(e) => handleItemClick(e, key, modifier)}
+              className="inline-flex items-center px-2.5 py-0.5 rounded-md text-sm font-medium bg-blue-100 dark:bg-blue-900 text-blue-800 dark:text-blue-200 hover:bg-blue-200 dark:hover:bg-blue-800 transition-colors duration-200"
+            >
+              {modifier.name}
             </button>
           ))}
         </div>
@@ -139,9 +175,11 @@ export const GridCard = ({
             
             {items && (
               <div className="mt-4">
-                {renderItems()}
+                {renderItems(items)}
               </div>
             )}
+
+            {renderModifiers()}
           </div>
         </div>
       </div>

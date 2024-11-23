@@ -3,7 +3,9 @@ import { Hero } from './components/Hero';
 import { Breadcrumb } from './components/Breadcrumb';
 import { GridCard } from './components/GridCard';
 import { SubcategoryDetail } from './components/SubcategoryDetail';
-import { Cluster, Category, Subcategory, NavigationSubcategory, Modifier, CategoryItem } from './types/data';
+import { Cluster, Category, Subcategory, NavigationSubcategory, Modifier, CategoryItem, SubcategoryData } from './types/data';
+
+type SubcategoryEntry = [string, NavigationSubcategory | Subcategory];
 
 function App() {
   const [currentPath, setCurrentPath] = useState('/');
@@ -11,8 +13,9 @@ function App() {
   const [clusters, setClusters] = useState<Record<string, Cluster>>({});
   const [currentCluster, setCurrentCluster] = useState<Cluster | null>(null);
   const [currentCategoryData, setCurrentCategoryData] = useState<Category | null>(null);
-  const [selectedSubcategory, setSelectedSubcategory] = useState<Subcategory | Modifier | null>(null);
+  const [selectedSubcategory, setSelectedSubcategory] = useState<SubcategoryData | null>(null);
   const [categoryDataMap, setCategoryDataMap] = useState<Record<string, Category>>({});
+  const [subcategoryDataMap, setSubcategoryDataMap] = useState<Record<string, SubcategoryData>>({});
   const [loading, setLoading] = useState(true);
   const [error, setError] = useState<string | null>(null);
 
@@ -63,6 +66,30 @@ function App() {
         categoryDataEntries.filter(([, data]) => data !== null)
       );
       setCategoryDataMap(newCategoryDataMap);
+
+      // Load subcategory data for previews
+      const firstCategoryKey = Object.keys(newCategoryDataMap)[0];
+      const loadedCategoryData = newCategoryDataMap[firstCategoryKey];
+      if (loadedCategoryData?.subcategories) {
+        const subcategoryPromises = (Object.entries(loadedCategoryData.subcategories) as SubcategoryEntry[]).map(async ([key, subcat]) => {
+          if ('path' in subcat) {
+            try {
+              const subcategoryData = await import(`./data/${clusterName}/${firstCategoryKey}/${key}/${key}.json`);
+              return [key, subcategoryData.default] as const;
+            } catch (err) {
+              console.error(`Failed to load subcategory data for ${key}:`, err);
+              return [key, null] as const;
+            }
+          }
+          return [key, null] as const;
+        });
+
+        const subcategoryEntries = await Promise.all(subcategoryPromises);
+        const newSubcategoryDataMap = Object.fromEntries(
+          subcategoryEntries.filter(([, data]) => data !== null)
+        ) as Record<string, SubcategoryData>;
+        setSubcategoryDataMap(newSubcategoryDataMap);
+      }
     } catch (err) {
       setError(`Failed to load cluster data: ${clusterName}`);
       console.error('Error loading cluster data:', err);
@@ -74,6 +101,28 @@ function App() {
       setLoading(true);
       const data = await import(`./data/${clusterName}/${categoryPath}/${categoryPath}.json`);
       setCurrentCategoryData(data.default);
+
+      // Load subcategory data for previews
+      if (data.default.subcategories) {
+        const subcategoryPromises = (Object.entries(data.default.subcategories) as SubcategoryEntry[]).map(async ([key, subcat]) => {
+          if ('path' in subcat) {
+            try {
+              const subcategoryData = await import(`./data/${clusterName}/${categoryPath}/${key}/${key}.json`);
+              return [key, subcategoryData.default] as const;
+            } catch (err) {
+              console.error(`Failed to load subcategory data for ${key}:`, err);
+              return [key, null] as const;
+            }
+          }
+          return [key, null] as const;
+        });
+
+        const subcategoryEntries = await Promise.all(subcategoryPromises);
+        const newSubcategoryDataMap = Object.fromEntries(
+          subcategoryEntries.filter(([, data]) => data !== null)
+        ) as Record<string, SubcategoryData>;
+        setSubcategoryDataMap(newSubcategoryDataMap);
+      }
     } catch (err) {
       setError(`Failed to load category data: ${categoryPath}`);
       console.error('Error loading category data:', err);
@@ -86,10 +135,21 @@ function App() {
     try {
       setLoading(true);
       const pathParts = subcategoryPath.split('/');
-      const categoryPath = pathParts[0];
+      const category = pathParts[0];
       const subcategory = pathParts[pathParts.length - 1];
-      const data = await import(`./data/${clusterName}/${categoryPath}/${subcategory}/${subcategory}.json`);
-      setSelectedSubcategory(data.default);
+      
+      // Load the subcategory data using the correct path structure including the category
+      const data = await import(`./data/${clusterName}/${category}/${subcategory}/${subcategory}.json`);
+      
+      // Create a proper SubcategoryData object that includes both items and modifiers
+      const subcategoryData: SubcategoryData = {
+        name: data.default.name,
+        description: data.default.description,
+        items: data.default.items,
+        modifiers: data.default.modifiers
+      };
+      
+      setSelectedSubcategory(subcategoryData);
       setCurrentCategoryData(null);
     } catch (err) {
       setError(`Failed to load subcategory data: ${subcategoryPath}`);
@@ -134,18 +194,11 @@ function App() {
       const clusterName = pathParts[0];
       
       if (level === 1) {
-        // Only load cluster data when navigating to cluster level
         loadClusterData(clusterName);
       } else if (level === 2) {
-        // Load both cluster and category data when navigating to category level
-        loadClusterData(clusterName).then(() => {
-          loadCategoryData(clusterName, pathParts[1]);
-        });
+        loadCategoryData(clusterName, pathParts[1]);
       } else if (level === 3) {
-        // Load cluster, category, and subcategory data
-        loadClusterData(clusterName).then(() => {
-          loadSubcategoryData(clusterName, pathParts.slice(1).join('/'));
-        });
+        loadSubcategoryData(clusterName, pathParts.slice(1).join('/'));
       }
       return;
     }
@@ -166,14 +219,14 @@ function App() {
     }
   };
 
-  const handleCardClick = (item: CategoryItem, itemPath: string) => {
+  const handleCardClick = (item: CategoryItem | Modifier, itemPath: string) => {
     const pathParts = currentPath.split('/').filter(Boolean);
     const clusterName = pathParts[0];
 
     if (isNavigationSubcategory(item)) {
       handleNavigate(itemPath);
     } else if ('items' in item || 'modifiers' in item) {
-      if (pathParts.length === 2) { // We're at the category level
+      if (pathParts.length === 2) {
         loadSubcategoryData(clusterName, `${pathParts[1]}/${itemPath}`);
         const newBreadcrumbItems = [...breadcrumbItems, {
           label: item.name,
@@ -182,22 +235,22 @@ function App() {
         setBreadcrumbItems(newBreadcrumbItems);
         setCurrentPath(`${currentPath}${itemPath}/`);
       } else {
-        setSelectedSubcategory(item as Subcategory | Modifier);
+        setSelectedSubcategory(item as SubcategoryData);
       }
     } else {
       handleNavigate(itemPath);
     }
   };
 
-  const handleSubcategoryClick = (key: string, subcategory: NavigationSubcategory | Subcategory | Category) => {
+  const handleSubcategoryClick = (key: string, item: NavigationSubcategory | Subcategory | Category | Modifier) => {
     const pathParts = currentPath.split('/').filter(Boolean);
     if (pathParts.length > 0) {
-      handleCardClick(subcategory, key);
+      handleCardClick(item, key);
     }
   };
 
   const isNavigationSubcategory = (
-    item: CategoryItem
+    item: CategoryItem | Modifier
   ): item is NavigationSubcategory => {
     return 'path' in item && typeof item.path === 'string';
   };
@@ -253,17 +306,34 @@ function App() {
     if (currentCluster && !currentCategoryData) {
       return (
         <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
-          {Object.entries(currentCluster.categories).map(([key, category]) => (
-            <GridCard
-              key={key}
-              title={category.name}
-              description={category.description}
-              icon="📁"
-              onClick={() => handleCardClick(category, key)}
-              subcategories={categoryDataMap[key]?.subcategories}
-              onSubcategoryClick={handleSubcategoryClick}
-            />
-          ))}
+          {Object.entries(currentCluster.categories).map(([key, category]) => {
+            const categoryData = categoryDataMap[key];
+            let previewItems: string[] | Record<string, string[]> | undefined;
+            let previewModifiers: Record<string, Modifier> | undefined;
+
+            // Get preview data from the category's data
+            if (categoryData) {
+              if (categoryData.items) {
+                previewItems = categoryData.items;
+              } else if (categoryData.modifiers) {
+                previewModifiers = categoryData.modifiers;
+              }
+            }
+
+            return (
+              <GridCard
+                key={key}
+                title={category.name}
+                description={category.description}
+                icon="📁"
+                onClick={() => handleCardClick(category, key)}
+                subcategories={categoryData?.subcategories}
+                items={previewItems}
+                modifiers={previewModifiers}
+                onSubcategoryClick={handleSubcategoryClick}
+              />
+            );
+          })}
         </div>
       );
     }
@@ -292,9 +362,32 @@ function App() {
         return (
           <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
             {Object.entries(currentCategoryData.subcategories).map(([key, subcategory]) => {
-              const items = isNavigationSubcategory(subcategory)
-                ? undefined
-                : (subcategory as Subcategory).items;
+              if (isNavigationSubcategory(subcategory)) {
+                const subcategoryData = subcategoryDataMap[key];
+                let previewItems: string[] | Record<string, string[]> | undefined;
+                let previewModifiers: Record<string, Modifier> | undefined;
+
+                // Get preview data from the subcategory's data
+                if (subcategoryData) {
+                  if (subcategoryData.items) {
+                    previewItems = subcategoryData.items;
+                  } else if (subcategoryData.modifiers) {
+                    previewModifiers = subcategoryData.modifiers;
+                  }
+                }
+
+                return (
+                  <GridCard
+                    key={key}
+                    title={subcategory.name}
+                    description={subcategory.description || ''}
+                    icon="📄"
+                    onClick={() => handleCardClick(subcategory, key)}
+                    items={previewItems}
+                    modifiers={previewModifiers}
+                  />
+                );
+              }
 
               return (
                 <GridCard
@@ -303,8 +396,9 @@ function App() {
                   description={subcategory.description || ''}
                   icon="📄"
                   onClick={() => handleCardClick(subcategory, key)}
-                  items={items}
-                  subcategories={isNavigationSubcategory(subcategory) ? undefined : (subcategory as Subcategory).subcategories}
+                  items={(subcategory as Subcategory).items}
+                  subcategories={(subcategory as Subcategory).subcategories}
+                  modifiers={(subcategory as Subcategory).modifiers}
                   onSubcategoryClick={handleSubcategoryClick}
                 />
               );

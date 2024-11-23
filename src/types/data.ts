@@ -16,6 +16,7 @@ export interface Category {
   name: string;
   description: string;
   path?: string;
+  items?: string[] | Record<string, string[]>;
   subcategories?: Record<string, NavigationSubcategory | Subcategory>;
   modifiers?: Record<string, Modifier>;
   metadata?: Metadata;
@@ -52,6 +53,7 @@ export type CategoryItem = Category | NavigationSubcategory | Subcategory | Modi
 export interface SubcategoryData {
   name: string;
   description: string;
+  items?: string[] | Record<string, string[]>;
   modifiers?: Record<string, Modifier>;
   metadata?: Metadata;
 }
