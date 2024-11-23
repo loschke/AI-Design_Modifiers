@@ -1,0 +1,37 @@
+# Ensure modules are loaded
+<IfModule mod_headers.c>
+    Header set X-Content-Type-Options "nosniff"
+    Header set X-Frame-Options "DENY"
+    Header set X-XSS-Protection "1; mode=block"
+    
+    # Enable CORS for font files
+    <FilesMatch "\.(ttf|otf|eot|woff|woff2)$">
+        Header set Access-Control-Allow-Origin "*"
+    </FilesMatch>
+</IfModule>
+
+# Correct MIME types
+<IfModule mod_mime.c>
+    AddType application/javascript .js
+    AddType application/javascript .mjs
+    AddType text/javascript .js
+    AddType text/javascript .mjs
+    AddType text/css .css
+</IfModule>
+
+# Serve files with correct encoding
+AddDefaultCharset UTF-8
+
+# Enable rewrite engine
+RewriteEngine On
+
+# If the request is not for a file that exists
+RewriteCond %{REQUEST_FILENAME} !-f
+# If the request is not for a directory that exists
+RewriteCond %{REQUEST_FILENAME} !-d
+# Rewrite all requests to index.html
+RewriteRule ^ index.html [QSA,L]
+
+# Force HTTPS
+RewriteCond %{HTTPS} off
+RewriteRule ^(.*)$ https://%{HTTP_HOST}%{REQUEST_URI} [L,R=301]
