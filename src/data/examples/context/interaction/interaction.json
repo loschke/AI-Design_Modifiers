@@ -1,0 +1,45 @@
+{
+  "name": "🤝 Interaktion",
+  "description": "Beispiele für Interaktionen zwischen Subjekten",
+  "modifiers": {
+    "basic_interaction": {
+      "name": "🤝 Interaktion",
+      "description": "",
+      "examples": [
+        {
+          "title": "Soziale Interaktion",
+          "prompt": "a candid photograph of friends sharing laughter during a coffee break",
+          "elements": {
+            "interaction": ["sharing laughter"],
+            "subject": ["friends"],
+            "context": ["coffee break"],
+            "attributes": ["candid"]
+          },
+          "explanation": "Dieser Prompt zeigt eine natürliche soziale Interaktion in einem alltäglichen Kontext."
+        },
+        {
+          "title": "Mensch-Tier Interaktion",
+          "prompt": "an oil painting of a child gently petting a curious cat in a sunny garden",
+          "elements": {
+            "interaction": ["petting"],
+            "subject": ["child", "cat"],
+            "environment": ["garden"],
+            "attributes": ["gentle", "sunny"]
+          },
+          "explanation": "Diese Variation stellt eine behutsame Interaktion zwischen Mensch und Tier dar."
+        },
+        {
+          "title": "Professionelle Interaktion",
+          "prompt": "a digital illustration of a teacher helping a student with their artwork",
+          "elements": {
+            "interaction": ["helping", "teaching"],
+            "subject": ["teacher", "student"],
+            "context": ["art class"],
+            "attributes": ["educational"]
+          },
+          "explanation": "Dieser Prompt fokussiert sich auf eine lehrreiche Interaktion im Bildungskontext."
+        }
+      ]
+    }
+  }
+}

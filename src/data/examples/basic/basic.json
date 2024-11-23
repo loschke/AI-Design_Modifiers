@@ -1,0 +1,21 @@
+{
+  "name": "🎯 Basis-Beispiele",
+  "description": "Einfache Prompts mit Konzept-Elementen",
+  "subcategories": {
+    "portrait": {
+      "name": "👤 Portrait",
+      "description": "Einfaches Portrait-Beispiel mit grundlegenden Elementen",
+      "path": "/examples/basic/portrait"
+    },
+    "landscape": {
+      "name": "🌅 Landschaft",
+      "description": "Einfache Landschafts-Beispiele",
+      "path": "/examples/basic/landscape"
+    },
+    "stillleben": {
+      "name": "🍎 Stillleben",
+      "description": "Einfache Stillleben-Beispiele mit grundlegenden Elementen",
+      "path": "/examples/basic/stillleben"
+    }
+  }
+}

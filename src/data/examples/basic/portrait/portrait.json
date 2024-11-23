@@ -1,0 +1,42 @@
+{
+  "name": "👤 Portrait",
+  "description": "Einfaches Portrait-Beispiel mit grundlegenden Elementen",
+  "modifiers": {
+    "basic_portrait": {
+      "name": "👤 Portrait",
+      "description": "",
+      "examples": [
+        {
+          "title": "Klassisches Portrait",
+          "prompt": "an oil painting of a young woman with long brown hair",
+          "elements": {
+            "medium": ["oil painting"],
+            "subject": ["woman", "portrait"],
+            "attributes": ["young", "long brown hair"]
+          },
+          "explanation": "Dieser einfache Prompt kombiniert ein künstlerisches Medium (Ölgemälde) mit einem klaren Subjekt (junge Frau) und grundlegenden Attributen (langes braunes Haar)."
+        },
+        {
+          "title": "Männliches Portrait",
+          "prompt": "a charcoal drawing of an elderly man with a beard",
+          "elements": {
+            "medium": ["charcoal drawing"],
+            "subject": ["man", "portrait"],
+            "attributes": ["elderly", "beard"]
+          },
+          "explanation": "Dieser Prompt nutzt eine andere Zeichentechnik (Kohle) und variiert das Subjekt (älterer Mann) mit charakteristischen Merkmalen (Bart)."
+        },
+        {
+          "title": "Kindliches Portrait",
+          "prompt": "a watercolor portrait of a smiling child with curly red hair",
+          "elements": {
+            "medium": ["watercolor"],
+            "subject": ["child", "portrait"],
+            "attributes": ["smiling", "curly red hair"]
+          },
+          "explanation": "Diese Variation verwendet Aquarell für ein lebendiges Kinderportrait und fügt emotionale Elemente (Lächeln) hinzu."
+        }
+      ]
+    }
+  }
+}

@@ -1,0 +1,21 @@
+{
+  "name": "✨ Kreative Beispiele",
+  "description": "Beispiele für kreative und experimentelle Prompts",
+  "subcategories": {
+    "style": {
+      "name": "🎨 Stilrichtung",
+      "description": "Beispiele für verschiedene Kunststile",
+      "path": "/examples/creative/style"
+    },
+    "effects": {
+      "name": "🌈 Effekte",
+      "description": "Beispiele für visuelle Effekte",
+      "path": "/examples/creative/effects"
+    },
+    "concept": {
+      "name": "💭 Konzept",
+      "description": "Beispiele für konzeptuelle Kunst",
+      "path": "/examples/creative/concept"
+    }
+  }
+}

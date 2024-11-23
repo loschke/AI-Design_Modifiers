@@ -1,0 +1,45 @@
+{
+  "name": "🌈 Effekte",
+  "description": "Beispiele für visuelle Effekte",
+  "modifiers": {
+    "basic_effects": {
+      "name": "🌈 Effekte",
+      "description": "",
+      "examples": [
+        {
+          "title": "Doppelbelichtung",
+          "prompt": "a double exposure effect combining a portrait with a forest landscape",
+          "elements": {
+            "effect": ["double exposure"],
+            "subjects": ["portrait", "forest"],
+            "technique": ["overlay"],
+            "style": ["photographic"]
+          },
+          "explanation": "Dieser Prompt kombiniert zwei Bilder für einen künstlerischen Überlagerungseffekt."
+        },
+        {
+          "title": "Glitch Art",
+          "prompt": "a glitch art effect applied to a cityscape with digital distortion and color shifts",
+          "elements": {
+            "effect": ["glitch", "digital distortion"],
+            "subject": ["cityscape"],
+            "attributes": ["color shifts"],
+            "style": ["digital art"]
+          },
+          "explanation": "Diese Variation nutzt digitale Störeffekte für eine moderne Ästhetik."
+        },
+        {
+          "title": "Bewegungsunschärfe",
+          "prompt": "a photograph with motion blur of a dancer in performance, capturing movement",
+          "elements": {
+            "effect": ["motion blur"],
+            "subject": ["dancer"],
+            "context": ["performance"],
+            "focus": ["movement"]
+          },
+          "explanation": "Dieser Prompt verwendet Bewegungsunschärfe, um Dynamik darzustellen."
+        }
+      ]
+    }
+  }
+}

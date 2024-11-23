@@ -1,0 +1,42 @@
+{
+  "name": "🏃 Aktion",
+  "description": "Beispiele für Aktionen und Bewegungen",
+  "modifiers": {
+    "basic_action": {
+      "name": "🏃 Aktion",
+      "description": "",
+      "examples": [
+        {
+          "title": "Sport",
+          "prompt": "a dynamic photograph of a basketball player mid-jump during a slam dunk",
+          "elements": {
+            "action": ["jump", "slam dunk"],
+            "subject": ["basketball player"],
+            "attributes": ["dynamic"]
+          },
+          "explanation": "Dieser Prompt fokussiert sich auf eine explosive Sportaktion mit dynamischer Bewegung."
+        },
+        {
+          "title": "Tanz",
+          "prompt": "an impressionist painting of a ballet dancer performing a graceful pirouette",
+          "elements": {
+            "action": ["dance", "pirouette"],
+            "subject": ["ballet dancer"],
+            "attributes": ["graceful"]
+          },
+          "explanation": "Diese Variation zeigt eine künstlerische Darstellung einer eleganten Tanzbewegung."
+        },
+        {
+          "title": "Alltägliche Bewegung",
+          "prompt": "a pencil sketch of a person walking their dog on an autumn morning",
+          "elements": {
+            "action": ["walking"],
+            "subject": ["person", "dog"],
+            "attributes": ["autumn morning"]
+          },
+          "explanation": "Dieser Prompt illustriert eine alltägliche Aktivität in einem spezifischen zeitlichen Kontext."
+        }
+      ]
+    }
+  }
+}

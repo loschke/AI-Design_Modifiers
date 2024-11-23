@@ -1,0 +1,21 @@
+{
+  "name": "🌍 Kontext-Beispiele",
+  "description": "Beispiele für kontextbezogene Prompts",
+  "subcategories": {
+    "environment": {
+      "name": "🏞️ Umgebung",
+      "description": "Beispiele für verschiedene Umgebungen und Settings",
+      "path": "/examples/context/environment"
+    },
+    "action": {
+      "name": "🏃 Aktion",
+      "description": "Beispiele für Aktionen und Bewegungen",
+      "path": "/examples/context/action"
+    },
+    "interaction": {
+      "name": "🤝 Interaktion",
+      "description": "Beispiele für Interaktionen zwischen Subjekten",
+      "path": "/examples/context/interaction"
+    }
+  }
+}

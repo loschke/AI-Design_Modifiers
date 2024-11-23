@@ -30,6 +30,14 @@ export interface NavigationSubcategory {
   metadata?: Metadata;
 }
 
+// Interface for prompt examples
+export interface PromptExample {
+  title: string;
+  prompt: string;
+  elements: Record<string, string[] | Record<string, string[]>>;
+  explanation: string;
+}
+
 // For actual content (like in realistic.json)
 export interface Subcategory {
   name: string;
@@ -43,7 +51,8 @@ export interface Subcategory {
 export interface Modifier {
   name: string;
   description: string;
-  items: string[] | Record<string, string[]>;
+  items?: string[] | Record<string, string[]>;
+  examples?: PromptExample[];
   subcategories?: Record<string, NavigationSubcategory | Subcategory>;
   metadata?: Metadata;
 }
@@ -55,5 +64,6 @@ export interface SubcategoryData {
   description: string;
   items?: string[] | Record<string, string[]>;
   modifiers?: Record<string, Modifier>;
+  examples?: PromptExample[];
   metadata?: Metadata;
 }

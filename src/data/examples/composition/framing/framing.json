@@ -1,0 +1,44 @@
+{
+  "name": "📷 Bildausschnitt",
+  "description": "Beispiele für verschiedene Framing-Techniken",
+  "modifiers": {
+    "basic_framing": {
+      "name": "📷 Bildausschnitt",
+      "description": "",
+      "examples": [
+        {
+          "title": "Nahaufnahme",
+          "prompt": "an extreme close-up photograph of a butterfly on a flower, focusing on wing details",
+          "elements": {
+            "framing": ["extreme close-up"],
+            "subject": ["butterfly", "flower"],
+            "focus": ["wing details"]
+          },
+          "explanation": "Dieser Prompt nutzt eine extreme Nahaufnahme, um feine Details hervorzuheben."
+        },
+        {
+          "title": "Panorama",
+          "prompt": "a wide panoramic view of a mountain range at dawn, showing the entire horizon",
+          "elements": {
+            "framing": ["panoramic view"],
+            "subject": ["mountain range"],
+            "attributes": ["dawn"],
+            "composition": ["entire horizon"]
+          },
+          "explanation": "Diese Variation verwendet ein breites Panoramaformat für eine umfassende Landschaftsdarstellung."
+        },
+        {
+          "title": "Gerahmte Komposition",
+          "prompt": "a photograph of a cityscape viewed through an ancient stone arch",
+          "elements": {
+            "framing": ["viewed through arch"],
+            "subject": ["cityscape"],
+            "composition": ["natural frame"],
+            "elements": ["stone arch"]
+          },
+          "explanation": "Dieser Prompt nutzt natürliche Rahmenelemente zur Bildkomposition."
+        }
+      ]
+    }
+  }
+}

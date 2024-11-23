@@ -1,0 +1,42 @@
+{
+  "name": "🍎 Stillleben",
+  "description": "Einfache Stillleben-Beispiele mit grundlegenden Elementen",
+  "modifiers": {
+    "basic_stillleben": {
+      "name": "🍎 Stillleben",
+      "description": "",
+      "examples": [
+        {
+          "title": "Obstschale",
+          "prompt": "a realistic digital painting of a bowl of fresh fruits on a wooden table",
+          "elements": {
+            "medium": ["digital painting"],
+            "subject": ["fruits", "bowl", "table"],
+            "attributes": ["realistic", "fresh", "wooden"]
+          },
+          "explanation": "Dieser Prompt nutzt ein modernes Medium (digitale Malerei) für ein klassisches Motiv (Stillleben) mit klaren Objekten (Obstschale, Holztisch) und Qualitätsattributen (realistisch, frisch)."
+        },
+        {
+          "title": "Blumenarrangement",
+          "prompt": "an oil painting of colorful wildflowers in a vintage ceramic vase",
+          "elements": {
+            "medium": ["oil painting"],
+            "subject": ["wildflowers", "vase"],
+            "attributes": ["colorful", "vintage", "ceramic"]
+          },
+          "explanation": "Diese Variation verwendet Ölmalerei für ein florales Stillleben und kombiniert natürliche Elemente (Wildblumen) mit einem charakteristischen Gefäß (Vintage-Keramikvase)."
+        },
+        {
+          "title": "Küchenstillleben",
+          "prompt": "a pastel drawing of rustic bread loaves and cheese on a marble countertop",
+          "elements": {
+            "medium": ["pastel drawing"],
+            "subject": ["bread", "cheese", "countertop"],
+            "attributes": ["rustic", "marble"]
+          },
+          "explanation": "Dieser Prompt nutzt Pastellkreide für ein kulinarisches Stillleben und verbindet traditionelle Lebensmittel (Brot, Käse) mit einer eleganten Oberfläche (Marmor)."
+        }
+      ]
+    }
+  }
+}

@@ -29,12 +29,14 @@ function App() {
       const contextData = await import('./data/context/context.json');
       const compositionData = await import('./data/composition/composition.json');
       const creativityData = await import('./data/creativity/creativity.json');
+      const examplesData = await import('./data/examples/examples.json');
       
       setClusters({
         concept: conceptData.default,
         context: contextData.default,
         composition: compositionData.default,
-        creativity: creativityData.default
+        creativity: creativityData.default,
+        examples: examplesData.default
       });
     } catch (err) {
       setError('Failed to load clusters');
@@ -327,7 +329,7 @@ function App() {
                 key={key}
                 title={category.name}
                 description={category.description}
-                icon="�"
+                icon="📁"
                 onClick={() => handleCardClick(category, key)}
                 subcategories={categoryData?.subcategories}
                 items={previewItems}

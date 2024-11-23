@@ -1,0 +1,31 @@
+{
+  "name": "💡 Beispiele",
+  "description": "Praktische Beispiele für Prompts - Von einfach bis komplex",
+  "icon": "examples-icon",
+  "categories": {
+    "basic": {
+      "name": "🎯 Basis-Beispiele",
+      "description": "Einfache Prompts mit Konzept-Elementen",
+      "path": "/examples/basic"
+    },
+    "context": {
+      "name": "🌍 Kontext-Beispiele",
+      "description": "Hier werden Basis-Prompts erweitert um Kontext-Elemente",
+      "path": "/examples/context"
+    },
+    "composition": {
+      "name": "📸 Kompositions-Beispiele",
+      "description": "Hier werden Kontext-Prompts erweitert um kompositorische Elemente",
+      "path": "/examples/composition"
+    },
+    "creative": {
+      "name": "✨ Kreative Beispiele",
+      "description": "Hier werden Kompositions-Prompts erweitert um künstlerische Elemente",
+      "path": "/examples/creative"
+    }
+  },
+  "metadata": {
+    "order": 5,
+    "tags": ["examples", "tutorials", "learning"]
+  }
+}

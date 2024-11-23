@@ -1,0 +1,45 @@
+{
+  "name": "💭 Konzept",
+  "description": "Beispiele für konzeptuelle Kunst",
+  "modifiers": {
+    "basic_concept": {
+      "name": "💭 Konzept",
+      "description": "",
+      "examples": [
+        {
+          "title": "Surreale Kombination",
+          "prompt": "a surreal digital painting of a floating teacup with a miniature ocean inside",
+          "elements": {
+            "concept": ["surreal combination"],
+            "subjects": ["teacup", "ocean"],
+            "attributes": ["floating", "miniature"],
+            "style": ["digital painting"]
+          },
+          "explanation": "Dieser Prompt verbindet unerwartete Elemente für eine surreale Komposition."
+        },
+        {
+          "title": "Metaphorische Darstellung",
+          "prompt": "an illustration of time as a flowing river made of clock gears and water",
+          "elements": {
+            "concept": ["metaphor"],
+            "subjects": ["river", "clock gears"],
+            "theme": ["time"],
+            "technique": ["mixed media"]
+          },
+          "explanation": "Diese Variation visualisiert ein abstraktes Konzept durch metaphorische Elemente."
+        },
+        {
+          "title": "Konzeptuelle Transformation",
+          "prompt": "a gradual transformation sequence from a seed to a city skyline",
+          "elements": {
+            "concept": ["transformation"],
+            "subjects": ["seed", "city skyline"],
+            "technique": ["sequence"],
+            "theme": ["growth"]
+          },
+          "explanation": "Dieser Prompt stellt eine konzeptuelle Entwicklung durch visuelle Transformation dar."
+        }
+      ]
+    }
+  }
+}

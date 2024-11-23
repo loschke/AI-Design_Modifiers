@@ -1,0 +1,42 @@
+{
+  "name": "🏞️ Umgebung",
+  "description": "Beispiele für verschiedene Umgebungen und Settings",
+  "modifiers": {
+    "basic_environment": {
+      "name": "🏞️ Umgebung",
+      "description": "",
+      "examples": [
+        {
+          "title": "Urbane Szene",
+          "prompt": "a digital art of a bustling city street at night with neon lights",
+          "elements": {
+            "environment": ["city street"],
+            "attributes": ["bustling", "night"],
+            "effects": ["neon lights"]
+          },
+          "explanation": "Dieser Prompt kombiniert urbane Umgebung mit nächtlicher Atmosphäre und charakteristischen Lichtelementen."
+        },
+        {
+          "title": "Naturlandschaft",
+          "prompt": "an oil painting of a serene meadow with wildflowers during golden hour",
+          "elements": {
+            "environment": ["meadow"],
+            "attributes": ["serene", "golden hour"],
+            "subject": ["wildflowers"]
+          },
+          "explanation": "Diese Variation zeigt eine natürliche Umgebung mit zeitspezifischer Beleuchtung und floralen Elementen."
+        },
+        {
+          "title": "Indoor Setting",
+          "prompt": "a watercolor sketch of a cozy vintage library interior with warm lighting",
+          "elements": {
+            "environment": ["library interior"],
+            "attributes": ["cozy", "vintage"],
+            "effects": ["warm lighting"]
+          },
+          "explanation": "Dieser Prompt fokussiert sich auf ein Innenraum-Setting mit spezifischer Atmosphäre und Beleuchtung."
+        }
+      ]
+    }
+  }
+}

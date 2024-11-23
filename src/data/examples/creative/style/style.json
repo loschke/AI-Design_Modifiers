@@ -1,0 +1,45 @@
+{
+  "name": "🎨 Stilrichtung",
+  "description": "Beispiele für verschiedene Kunststile",
+  "modifiers": {
+    "basic_style": {
+      "name": "🎨 Stilrichtung",
+      "description": "",
+      "examples": [
+        {
+          "title": "Impressionismus",
+          "prompt": "an impressionist painting of a garden with loose brushstrokes and vibrant colors",
+          "elements": {
+            "style": ["impressionist"],
+            "technique": ["loose brushstrokes"],
+            "subject": ["garden"],
+            "attributes": ["vibrant colors"]
+          },
+          "explanation": "Dieser Prompt nutzt charakteristische Merkmale des Impressionismus."
+        },
+        {
+          "title": "Pop Art",
+          "prompt": "a pop art style portrait with bold colors and halftone dot patterns",
+          "elements": {
+            "style": ["pop art"],
+            "technique": ["halftone dots"],
+            "attributes": ["bold colors"],
+            "type": ["portrait"]
+          },
+          "explanation": "Diese Variation verwendet typische Pop-Art-Elemente und -Techniken."
+        },
+        {
+          "title": "Kubismus",
+          "prompt": "a cubist interpretation of a coffee cup and newspaper on a table",
+          "elements": {
+            "style": ["cubist"],
+            "subject": ["coffee cup", "newspaper"],
+            "composition": ["geometric shapes"],
+            "setting": ["table"]
+          },
+          "explanation": "Dieser Prompt interpretiert alltägliche Objekte im kubistischen Stil."
+        }
+      ]
+    }
+  }
+}

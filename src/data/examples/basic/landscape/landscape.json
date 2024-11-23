@@ -1,0 +1,42 @@
+{
+  "name": "🌅 Landschaft",
+  "description": "Einfache Landschafts-Beispiele mit grundlegenden Elementen",
+  "modifiers": {
+    "basic_landscape": {
+      "name": "🌅 Landschaft",
+      "description": "",
+      "examples": [
+        {
+          "title": "Bergsee",
+          "prompt": "a watercolor painting of a peaceful mountain lake at sunrise",
+          "elements": {
+            "medium": ["watercolor painting"],
+            "subject": ["mountain", "lake"],
+            "attributes": ["peaceful", "sunrise"]
+          },
+          "explanation": "Dieser Basis-Prompt verbindet eine Maltechnik (Aquarell) mit Landschaftselementen (Berg, See) und einer grundlegenden Stimmung (friedlich) sowie Tageszeit (Sonnenaufgang)."
+        },
+        {
+          "title": "Küstenlandschaft",
+          "prompt": "an acrylic painting of dramatic coastal cliffs during sunset",
+          "elements": {
+            "medium": ["acrylic painting"],
+            "subject": ["coast", "cliffs"],
+            "attributes": ["dramatic", "sunset"]
+          },
+          "explanation": "Diese Variation nutzt Acrylfarben für eine dramatische Küstenszene und setzt einen anderen Zeitpunkt (Sonnenuntergang) für stimmungsvolle Effekte."
+        },
+        {
+          "title": "Waldszene",
+          "prompt": "a digital painting of a misty forest with sunbeams filtering through trees",
+          "elements": {
+            "medium": ["digital painting"],
+            "subject": ["forest", "trees"],
+            "attributes": ["misty", "sunbeams"]
+          },
+          "explanation": "Dieser Prompt verwendet digitale Malerei für eine atmosphärische Waldszene mit Lichtelementen (Sonnenstrahlen) und Stimmung (neblig)."
+        }
+      ]
+    }
+  }
+}

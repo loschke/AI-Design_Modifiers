@@ -1,0 +1,43 @@
+{
+  "name": "👁️ Perspektive",
+  "description": "Beispiele für verschiedene Perspektiven",
+  "modifiers": {
+    "basic_perspective": {
+      "name": "👁️ Perspektive",
+      "description": "",
+      "examples": [
+        {
+          "title": "Vogelperspektive",
+          "prompt": "an aerial view photograph of a winding river through a forest landscape",
+          "elements": {
+            "perspective": ["aerial view", "bird's eye"],
+            "subject": ["river", "forest"],
+            "composition": ["winding pattern"]
+          },
+          "explanation": "Dieser Prompt nutzt die Vogelperspektive für einen umfassenden Landschaftsüberblick."
+        },
+        {
+          "title": "Froschperspektive",
+          "prompt": "a low angle shot of towering skyscrapers against a dramatic cloudy sky",
+          "elements": {
+            "perspective": ["low angle", "worm's eye"],
+            "subject": ["skyscrapers"],
+            "environment": ["cloudy sky"]
+          },
+          "explanation": "Diese Variation verwendet die Froschperspektive für einen dramatischen Aufwärtsblick."
+        },
+        {
+          "title": "Isometrische Perspektive",
+          "prompt": "an isometric digital illustration of a colorful city block with detailed architecture",
+          "elements": {
+            "perspective": ["isometric"],
+            "style": ["digital illustration"],
+            "subject": ["city block"],
+            "attributes": ["colorful", "detailed"]
+          },
+          "explanation": "Dieser Prompt verwendet eine technische Perspektive für eine stilisierte Architekturdarstellung."
+        }
+      ]
+    }
+  }
+}

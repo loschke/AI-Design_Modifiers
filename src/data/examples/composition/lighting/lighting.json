@@ -1,0 +1,44 @@
+{
+  "name": "💡 Beleuchtung",
+  "description": "Beispiele für Beleuchtungstechniken",
+  "modifiers": {
+    "basic_lighting": {
+      "name": "💡 Beleuchtung",
+      "description": "",
+      "examples": [
+        {
+          "title": "Natürliches Licht",
+          "prompt": "a portrait photograph using natural window light with soft shadows",
+          "elements": {
+            "lighting": ["natural window light"],
+            "effects": ["soft shadows"],
+            "style": ["portrait"]
+          },
+          "explanation": "Dieser Prompt nutzt natürliches Fensterlicht für eine weiche Porträtbeleuchtung."
+        },
+        {
+          "title": "Dramatische Beleuchtung",
+          "prompt": "an oil painting with dramatic chiaroscuro lighting of a still life",
+          "elements": {
+            "lighting": ["chiaroscuro"],
+            "style": ["oil painting"],
+            "attributes": ["dramatic"],
+            "subject": ["still life"]
+          },
+          "explanation": "Diese Variation verwendet starke Hell-Dunkel-Kontraste für dramatische Effekte."
+        },
+        {
+          "title": "Künstliche Beleuchtung",
+          "prompt": "a night scene with neon signs creating colorful lighting on wet city streets",
+          "elements": {
+            "lighting": ["neon lights"],
+            "effects": ["reflections"],
+            "environment": ["city streets"],
+            "attributes": ["wet", "night"]
+          },
+          "explanation": "Dieser Prompt kombiniert künstliche Lichtquellen mit atmosphärischen Effekten."
+        }
+      ]
+    }
+  }
+}

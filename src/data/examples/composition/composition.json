@@ -1,0 +1,21 @@
+{
+  "name": "🎨 Kompositions-Beispiele",
+  "description": "Beispiele für kompositorische Prompts",
+  "subcategories": {
+    "framing": {
+      "name": "📷 Bildausschnitt",
+      "description": "Beispiele für verschiedene Framing-Techniken",
+      "path": "/examples/composition/framing"
+    },
+    "lighting": {
+      "name": "💡 Beleuchtung",
+      "description": "Beispiele für Beleuchtungstechniken",
+      "path": "/examples/composition/lighting"
+    },
+    "perspective": {
+      "name": "👁️ Perspektive",
+      "description": "Beispiele für verschiedene Perspektiven",
+      "path": "/examples/composition/perspective"
+    }
+  }
+}
