@@ -1,16 +1,22 @@
+@import url('../public/fonts/fonts.css');
+
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
 
 @layer base {
   body {
-    @apply bg-white dark:bg-gray-900 text-gray-900 dark:text-white;
+    @apply bg-base-100 text-base-content font-ff-clan;
+  }
+
+  h1, h2, h3, h4, h5, h6 {
+    @apply font-black italic;
   }
 }
 
 @layer components {
   .card {
-    @apply bg-white dark:bg-gray-800 rounded-lg shadow-md p-4 hover:shadow-lg transition-shadow duration-200;
+    @apply bg-base-100 rounded-lg shadow-md p-4 hover:shadow-lg transition-shadow duration-200;
   }
   
   .btn {
@@ -18,7 +24,7 @@
   }
   
   .btn-primary {
-    @apply bg-blue-600 text-white hover:bg-blue-700;
+    @apply bg-primary text-primary-content hover:bg-accent hover:text-accent-content;
   }
   
   .container-custom {

@@ -23,8 +23,8 @@ export const SubcategoryDetail = ({ subcategory }: SubcategoryDetailProps) => {
       onClick={() => handleCopy(value)}
       className={`inline-flex items-center px-3 py-1.5 rounded-md text-sm font-medium 
         ${copiedValue === value 
-          ? 'bg-green-100 dark:bg-green-800 text-green-800 dark:text-green-200' 
-          : 'bg-gray-100 dark:bg-gray-700 text-gray-700 dark:text-gray-300 hover:bg-gray-200 dark:hover:bg-gray-600'
+          ? 'bg-success text-success-content' 
+          : 'bg-base-200 text-base-content hover:bg-base-300'
         } transition-colors duration-200`}
     >
       {value}
@@ -60,7 +60,7 @@ export const SubcategoryDetail = ({ subcategory }: SubcategoryDetailProps) => {
       if (Array.isArray(values)) {
         return (
           <div key={idx} className="flex flex-col gap-2">
-            <h3 className="text-sm font-medium text-gray-500 dark:text-gray-400 capitalize">{category}</h3>
+            <h3 className="text-sm font-black italic text-neutral-content capitalize">{category}</h3>
             <div className="flex flex-wrap gap-2">
               {values.map((value, valueIndex) => (
                 <div key={`${idx}-${valueIndex}`}>
@@ -74,7 +74,7 @@ export const SubcategoryDetail = ({ subcategory }: SubcategoryDetailProps) => {
       // If values is another object, render it recursively
       return (
         <div key={idx} className="flex flex-col gap-4">
-          <h3 className="text-sm font-medium text-gray-500 dark:text-gray-400 capitalize">{category}</h3>
+          <h3 className="text-sm font-black italic text-neutral-content capitalize">{category}</h3>
           {renderModifierItems(values)}
         </div>
       );
@@ -92,12 +92,12 @@ export const SubcategoryDetail = ({ subcategory }: SubcategoryDetailProps) => {
     // If it's a subcategory with modifiers
     if (subcategory.modifiers) {
       return Object.entries(subcategory.modifiers).map(([key, modifier]) => (
-        <div key={key} className="border-t border-gray-200 dark:border-gray-700 pt-4 mt-4 first:border-0 first:pt-0 first:mt-0">
-          <h3 className="text-lg font-semibold text-gray-800 dark:text-white mb-2">
+        <div key={key} className="border-t border-base-200 pt-4 mt-4 first:border-0 first:pt-0 first:mt-0">
+          <h3 className="text-lg font-black italic text-base-content mb-2">
             {modifier.name}
           </h3>
           {modifier.description && (
-            <p className="text-gray-600 dark:text-gray-400 mb-3">
+            <p className="text-neutral-content mb-3">
               {modifier.description}
             </p>
           )}
@@ -111,8 +111,8 @@ export const SubcategoryDetail = ({ subcategory }: SubcategoryDetailProps) => {
 
   if (!subcategory) {
     return (
-      <div className="bg-white dark:bg-gray-800 rounded-lg shadow p-6">
-        <div className="text-center text-gray-600 dark:text-gray-400">
+      <div className="bg-base-100 rounded-lg shadow p-6">
+        <div className="text-center text-neutral-content">
           No data available
         </div>
       </div>
@@ -120,13 +120,13 @@ export const SubcategoryDetail = ({ subcategory }: SubcategoryDetailProps) => {
   }
 
   return (
-    <div className="bg-white dark:bg-gray-800 rounded-lg shadow p-6">
+    <div className="bg-base-100 rounded-lg shadow p-6">
       <div className="mb-6">
-        <h2 className="text-2xl font-bold text-gray-900 dark:text-white mb-2">
+        <h2 className="text-2xl font-black italic text-base-content mb-2">
           {subcategory.name}
         </h2>
         {subcategory.description && (
-          <p className="text-gray-600 dark:text-gray-400">
+          <p className="text-neutral-content">
             {subcategory.description}
           </p>
         )}

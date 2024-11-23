@@ -36,13 +36,13 @@ export const GridCard = ({
             <button 
               key={index}
               onClick={(e) => e.stopPropagation()}
-              className="inline-flex items-center px-2.5 py-0.5 rounded-md text-sm font-medium bg-blue-100 dark:bg-blue-900 text-blue-800 dark:text-blue-200 hover:bg-blue-200 dark:hover:bg-blue-800 transition-colors duration-200"
+              className="inline-flex items-center px-2.5 py-0.5 rounded-md text-sm font-medium bg-accent text-accent-content hover:bg-primary hover:text-primary-content transition-colors duration-200"
             >
               {item}
             </button>
           ))}
           {items.length > 3 && (
-            <span className="text-sm text-gray-500 dark:text-gray-400 self-center">
+            <span className="text-sm text-neutral-content self-center">
               +{items.length - 3} more
             </span>
           )}
@@ -56,20 +56,20 @@ export const GridCard = ({
     const [key, values] = firstCategory;
     return (
       <div className="flex flex-col gap-2 mt-3">
-        {title && <h4 className="text-sm font-medium text-gray-500 dark:text-gray-400">{title}</h4>}
-        <h4 className="text-sm font-medium text-gray-500 dark:text-gray-400">{key}</h4>
+        {title && <h4 className="text-sm font-black italic text-neutral-content">{title}</h4>}
+        <h4 className="text-sm font-black italic text-neutral-content">{key}</h4>
         <div className="flex flex-wrap gap-2">
           {values.slice(0, 3).map((value, valueIndex) => (
             <button 
               key={`${key}-${valueIndex}`}
               onClick={(e) => e.stopPropagation()}
-              className="inline-flex items-center px-2.5 py-0.5 rounded-md text-sm font-medium bg-blue-100 dark:bg-blue-900 text-blue-800 dark:text-blue-200 hover:bg-blue-200 dark:hover:bg-blue-800 transition-colors duration-200"
+              className="inline-flex items-center px-2.5 py-0.5 rounded-md text-sm font-medium bg-accent text-accent-content hover:bg-primary hover:text-primary-content transition-colors duration-200"
             >
               {value}
             </button>
           ))}
           {values.length > 3 && (
-            <span className="text-sm text-gray-500 dark:text-gray-400 font-bold self-center">
+            <span className="text-sm text-neutral-content font-bold self-center">
               +{values.length - 3} more
             </span>
           )}
@@ -83,13 +83,13 @@ export const GridCard = ({
 
     return (
       <div className="mt-4 space-y-3">
-        <h4 className="text-sm font-medium text-gray-500 dark:text-gray-400">Beinhaltet:</h4>
+        <h4 className="text-sm font-black italic text-neutral-content">Beinhaltet:</h4>
         <div className="flex flex-wrap gap-2">
           {Object.entries(subcategories).map(([key, subcategory]) => (
             <button 
               key={key}
               onClick={(e) => handleItemClick(e, key, subcategory)}
-              className="inline-flex items-center px-2.5 py-0.5 rounded-md text-sm font-medium bg-blue-100 dark:bg-blue-900 text-blue-800 dark:text-blue-200 hover:bg-blue-200 dark:hover:bg-blue-800 transition-colors duration-200"
+              className="inline-flex items-center px-2.5 py-0.5 rounded-md text-sm font-medium bg-accent text-accent-content hover:bg-primary hover:text-primary-content transition-colors duration-200"
             >
               {subcategory.name}
             </button>
@@ -104,10 +104,10 @@ export const GridCard = ({
 
     return (
       <div className="mt-4 space-y-3">
-        <h4 className="text-sm font-medium text-gray-500 dark:text-gray-400">Beinhaltet:</h4>
+        <h4 className="text-sm font-black italic text-neutral-content">Beinhaltet:</h4>
         <div className="flex flex-wrap gap-2">
           {Object.entries(modifiers).map(([key, modifier]) => (
-            <span key={key} className="text-sm text-gray-600 font-bold dark:text-gray-300">
+            <span key={key} className="text-sm text-base-content font-bold">
               {modifier.name}
             </span>
           ))}
@@ -119,23 +119,23 @@ export const GridCard = ({
   return (
     <div 
       onClick={onClick}
-      className="card cursor-pointer group hover:bg-gray-50 dark:hover:bg-gray-800 transition-colors duration-200"
+      className="card cursor-pointer group hover:bg-base-200 transition-colors duration-200"
     >
       <div className="flex flex-col gap-4">
         <div className="flex items-start gap-4">
           {icon && (
-            <div className="flex-shrink-0 w-10 h-10 flex items-center justify-center rounded-lg bg-blue-100 dark:bg-blue-900">
-              <span className="text-blue-600 dark:text-blue-400 text-lg">
+            <div className="flex-shrink-0 w-10 h-10 flex items-center justify-center rounded-lg bg-neutral">
+              <span className="text-neutral-content text-lg">
                 {icon}
               </span>
             </div>
           )}
           
           <div className="flex-1 min-w-0">
-            <h3 className="text-lg font-semibold text-gray-900 dark:text-white group-hover:text-blue-600 dark:group-hover:text-blue-400 truncate">
+            <h3 className="text-lg font-black italic text-base-content group-hover:text-accent truncate">
               {title}
             </h3>
-            <p className="mt-1 text-sm text-gray-500 dark:text-gray-400">
+            <p className="mt-1 text-sm text-neutral-content">
               {description}
             </p>
             
