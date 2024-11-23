@@ -1,9 +1,9 @@
 {
-  "name": "Daily Activities",
+  "name": "📅 Daily Activities",
   "description": "Alltägliche Aktivitäten und Routinen",
   "modifiers": {
     "rest": {
-      "name": "Rest Activities",
+      "name": "😴 Rest Activities",
       "description": "Aktivitäten der Ruhe und Entspannung",
       "items": [
         "sleeping",
@@ -17,7 +17,7 @@
       ]
     },
     "work": {
-      "name": "Work Activities",
+      "name": "💼 Work Activities",
       "description": "Berufliche und kreative Tätigkeiten",
       "items": [
         "working",
@@ -34,7 +34,7 @@
       ]
     },
     "household": {
-      "name": "Household Activities",
+      "name": "🏠 Household Activities",
       "description": "Häusliche Tätigkeiten",
       "items": [
         "cooking",
@@ -49,7 +49,7 @@
       ]
     },
     "leisure": {
-      "name": "Leisure Activities",
+      "name": "🎮 Leisure Activities",
       "description": "Freizeitaktivitäten",
       "items": [
         "reading",

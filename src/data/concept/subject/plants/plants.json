@@ -1,9 +1,9 @@
 {
-  "name": "Plants",
+  "name": "🌿 Plants",
   "description": "Pflanzen und botanische Motive",
   "modifiers": {
     "trees": {
-      "name": "Trees",
+      "name": "🌳 Trees",
       "description": "Verschiedene Baumarten",
       "items": {
         "deciduous": [
@@ -23,7 +23,7 @@
       }
     },
     "flowers": {
-      "name": "Flowers",
+      "name": "🌸 Flowers",
       "description": "Blumen und Blüten",
       "items": {
         "garden": [
@@ -44,7 +44,7 @@
       }
     },
     "other_plants": {
-      "name": "Other Plants",
+      "name": "🌱 Other Plants",
       "description": "Weitere Pflanzenarten",
       "items": {
         "shrubs": [

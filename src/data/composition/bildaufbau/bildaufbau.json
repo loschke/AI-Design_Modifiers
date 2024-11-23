@@ -1,19 +1,19 @@
 {
-  "name": "Bildtiefe",
+  "name": "🖼️ Bildtiefe",
   "description": "Räumliche Anordnung und Gestaltung der Tiefenwirkung",
   "subcategories": {
     "planes": {
-      "name": "Bildebenen",
+      "name": "🎪 Bildebenen",
       "description": "Vorder-, Mittel- und Hintergrundgestaltung",
       "path": "/composition/depth/planes"
     },
     "layering": {
-      "name": "Schichtung",
+      "name": "📚 Schichtung",
       "description": "Techniken und räumliche Beziehungen der Tiefenstaffelung",
       "path": "/composition/depth/layering"
     },
     "techniques": {
-      "name": "Kompositionstechniken",
+      "name": "🎯 Kompositionstechniken",
       "description": "Perspektive, Fokus und Anordnung für Tiefenwirkung",
       "path": "/composition/depth/techniques"
     }

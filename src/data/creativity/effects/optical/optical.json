@@ -1,9 +1,9 @@
 {
-  "name": "Optische Effekte",
+  "name": "👁️ Optische Effekte",
   "description": "Linsen-, Belichtungs- und Textureffekte",
   "modifiers": {
     "lens": {
-      "name": "Linseneffekte",
+      "name": "🔍 Linseneffekte",
       "description": "Effekte durch Linseneigenschaften und -manipulationen",
       "items": [
         "with cracked lens effect",
@@ -14,7 +14,7 @@
       ]
     },
     "exposure": {
-      "name": "Belichtungseffekte",
+      "name": "📸 Belichtungseffekte",
       "description": "Effekte durch mehrfache oder manipulierte Belichtung",
       "items": [
         "with double exposure",
@@ -25,7 +25,7 @@
       ]
     },
     "texture": {
-      "name": "Textureffekte",
+      "name": "🎞️ Textureffekte",
       "description": "Filmische und analoge Textureffekte",
       "items": [
         "with film grain texture",
@@ -36,7 +36,7 @@
       ]
     },
     "color": {
-      "name": "Farbeffekte",
+      "name": "🎨 Farbeffekte",
       "description": "Farbmanipulationen und -bearbeitung",
       "items": {
         "grading": [

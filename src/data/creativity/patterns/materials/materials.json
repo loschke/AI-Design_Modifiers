@@ -1,9 +1,9 @@
 {
-  "name": "Materialien",
+  "name": "🧱 Materialien",
   "description": "Natürliche und künstliche Materialarten",
   "modifiers": {
     "natural": {
-      "name": "Natürliche Materialien",
+      "name": "🌳 Natürliche Materialien",
       "description": "Materialien aus der Natur",
       "items": {
         "wood": {
@@ -37,7 +37,7 @@
       }
     },
     "manufactured": {
-      "name": "Hergestellte Materialien",
+      "name": "⚙️ Hergestellte Materialien",
       "description": "Künstlich hergestellte Materialien",
       "items": {
         "metal": {
@@ -71,7 +71,7 @@
       }
     },
     "fabric": {
-      "name": "Textilien",
+      "name": "🧵 Textilien",
       "description": "Natürliche und synthetische Stoffe",
       "items": {
         "natural": [
@@ -98,7 +98,7 @@
       }
     },
     "modern": {
-      "name": "Moderne Materialien",
+      "name": "🔬 Moderne Materialien",
       "description": "Zeitgenössische und technische Materialien",
       "items": {
         "composites": [

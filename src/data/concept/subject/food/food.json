@@ -1,9 +1,9 @@
 {
-  "name": "Food and Drinks",
+  "name": "🍽️ Food and Drinks",
   "description": "Lebensmittel und Getränke aller Art",
   "modifiers": {
     "fruits": {
-      "name": "Fruits",
+      "name": "🍎 Fruits",
       "description": "Verschiedene Obstsorten",
       "items": [
         "an apple",
@@ -16,7 +16,7 @@
       ]
     },
     "vegetables": {
-      "name": "Vegetables",
+      "name": "🥕 Vegetables",
       "description": "Verschiedene Gemüsesorten",
       "items": [
         "a carrot",
@@ -28,7 +28,7 @@
       ]
     },
     "meat": {
-      "name": "Meat",
+      "name": "🥩 Meat",
       "description": "Fleisch und Fleischgerichte",
       "items": [
         "a steak",
@@ -39,7 +39,7 @@
       ]
     },
     "seafood": {
-      "name": "Seafood",
+      "name": "🦐 Seafood",
       "description": "Meeresfrüchte und Fischgerichte",
       "items": [
         "a fish fillet",
@@ -50,7 +50,7 @@
       ]
     },
     "desserts": {
-      "name": "Desserts",
+      "name": "🍰 Desserts",
       "description": "Süßspeisen und Nachspeisen",
       "items": [
         "a cake",
@@ -62,7 +62,7 @@
       ]
     },
     "beverages": {
-      "name": "Beverages",
+      "name": "🥤 Beverages",
       "description": "Getränke",
       "items": {
         "non_alcoholic": [

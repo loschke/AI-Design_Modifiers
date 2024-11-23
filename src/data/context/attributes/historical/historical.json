@@ -1,9 +1,9 @@
 {
-  "name": "Historical Attributes",
+  "name": "📜 Historical Attributes",
   "description": "Zeitliche und geschichtliche Attribute",
   "modifiers": {
     "eras": {
-      "name": "Historical Eras",
+      "name": "⌛ Historical Eras",
       "description": "Verschiedene geschichtliche Epochen",
       "items": {
         "ancient": [
@@ -36,7 +36,7 @@
       }
     },
     "time_periods": {
-      "name": "Time Periods",
+      "name": "🕰️ Time Periods",
       "description": "Allgemeine Zeitperioden",
       "items": {
         "prehistoric": [
@@ -63,7 +63,7 @@
       }
     },
     "historical_events": {
-      "name": "Historical Events",
+      "name": "📅 Historical Events",
       "description": "Bedeutende historische Ereignisse und Zeitpunkte",
       "items": [
         "during wartime",

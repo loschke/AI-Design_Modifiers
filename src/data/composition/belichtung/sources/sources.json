@@ -1,9 +1,9 @@
 {
-  "name": "Lichtquellen",
+  "name": "💡 Lichtquellen",
   "description": "Verschiedene Arten von natürlichen und künstlichen Lichtquellen",
   "modifiers": {
     "natural": {
-      "name": "Natürliches Licht",
+      "name": "☀️ Natürliches Licht",
       "description": "Natürliche Lichtquellen und Tageszeiten",
       "items": {
         "daylight": [
@@ -44,7 +44,7 @@
       }
     },
     "artificial": {
-      "name": "Künstliches Licht",
+      "name": "💡 Künstliches Licht",
       "description": "Künstliche Beleuchtungsquellen",
       "items": {
         "controlled": [

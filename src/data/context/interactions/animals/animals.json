@@ -1,9 +1,9 @@
 {
-  "name": "Animal Interactions",
+  "name": "🦊 Animal Interactions",
   "description": "Interaktionen mit verschiedenen Tierarten",
   "modifiers": {
     "pets": {
-      "name": "Pet Interactions",
+      "name": "🐕 Pet Interactions",
       "description": "Interaktionen mit Haustieren",
       "items": [
         "with dogs",
@@ -17,7 +17,7 @@
       ]
     },
     "wild_animals": {
-      "name": "Wild Animal Interactions",
+      "name": "🦁 Wild Animal Interactions",
       "description": "Interaktionen mit wilden Tieren",
       "items": [
         "with elephants",
@@ -31,7 +31,7 @@
       ]
     },
     "farm_animals": {
-      "name": "Farm Animal Interactions",
+      "name": "🐄 Farm Animal Interactions",
       "description": "Interaktionen mit Nutztieren",
       "items": [
         "with chickens",

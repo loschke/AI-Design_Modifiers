@@ -1,9 +1,9 @@
 {
-  "name": "Unmögliche Welten",
+  "name": "🎪 Unmögliche Welten",
   "description": "Paradoxe und mystische Landschaften",
   "modifiers": {
     "spatial_paradox": {
-      "name": "Räumliche Paradoxa",
+      "name": "🌀 Räumliche Paradoxa",
       "description": "Unmögliche räumliche Konstruktionen",
       "items": [
         "with impossible geometry",
@@ -14,7 +14,7 @@
       ]
     },
     "nested_realities": {
-      "name": "Verschachtelte Realitäten",
+      "name": "🪄 Verschachtelte Realitäten",
       "description": "Ineinander verwobene Welten und Dimensionen",
       "items": [
         "with worlds within worlds",
@@ -25,7 +25,7 @@
       ]
     },
     "parallel_dimensions": {
-      "name": "Parallele Dimensionen",
+      "name": "🌌 Parallele Dimensionen",
       "description": "Gleichzeitig existierende Realitäten",
       "items": [
         "with overlapping realities",
@@ -36,7 +36,7 @@
       ]
     },
     "mystical_landscapes": {
-      "name": "Mystische Landschaften",
+      "name": "✨ Mystische Landschaften",
       "description": "Übernatürliche und magische Umgebungen",
       "items": [
         "with floating islands",

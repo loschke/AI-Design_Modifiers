@@ -1,9 +1,9 @@
 {
-  "name": "Bildausschnitt",
+  "name": "🎯 Bildausschnitt",
   "description": "Verschiedene Einstellungsgrößen und Framing-Optionen",
   "modifiers": {
     "extreme-close-up": {
-      "name": "Extreme Nahaufnahme",
+      "name": "🔍 Extreme Nahaufnahme",
       "description": "Extrem nahe Aufnahme von Details",
       "items": {
         "general": [
@@ -16,7 +16,7 @@
       }
     },
     "close-up": {
-      "name": "Nahaufnahme",
+      "name": "👁️ Nahaufnahme",
       "description": "Nahe Aufnahme des Gesichts",
       "items": {
         "general": [
@@ -29,7 +29,7 @@
       }
     },
     "medium-close-up": {
-      "name": "Nahe Aufnahme",
+      "name": "👤 Nahe Aufnahme",
       "description": "Aufnahme von Kopf bis Brust",
       "items": {
         "general": [
@@ -42,7 +42,7 @@
       }
     },
     "medium": {
-      "name": "Halbnahe",
+      "name": "👥 Halbnahe",
       "description": "Aufnahme von der Hüfte aufwärts",
       "items": {
         "general": [
@@ -55,7 +55,7 @@
       }
     },
     "cowboy": {
-      "name": "Amerikanische",
+      "name": "🤠 Amerikanische",
       "description": "Aufnahme vom Knie aufwärts",
       "items": {
         "general": [
@@ -68,7 +68,7 @@
       }
     },
     "full-body": {
-      "name": "Ganzkörper",
+      "name": "🧍 Ganzkörper",
       "description": "Vollständige Aufnahme der Person",
       "items": {
         "general": [

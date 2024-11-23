@@ -14,7 +14,6 @@ interface GridCardProps {
 export const GridCard = ({ 
   title, 
   description, 
-  icon, 
   onClick, 
   items,
   subcategories,
@@ -22,7 +21,7 @@ export const GridCard = ({
   onSubcategoryClick
 }: GridCardProps) => {
   const handleItemClick = (e: React.MouseEvent, key: string, item: NavigationSubcategory | Subcategory | Category | Modifier) => {
-    e.stopPropagation(); // Prevent card click when clicking subcategory
+    e.stopPropagation();
     if (onSubcategoryClick) {
       onSubcategoryClick(key, item);
     }
@@ -31,18 +30,18 @@ export const GridCard = ({
   const renderItems = (items: string[] | Record<string, string[]>, title?: string) => {
     if (Array.isArray(items)) {
       return (
-        <div className="flex flex-wrap gap-2">
+        <div className="flex flex-wrap gap-4">
           {items.slice(0, 3).map((item, index) => (
             <button 
               key={index}
               onClick={(e) => e.stopPropagation()}
-              className="inline-flex items-center px-2.5 py-0.5 rounded-md text-sm font-medium bg-accent text-accent-content hover:bg-primary hover:text-primary-content transition-colors duration-200"
+              className="inline-flex items-center px-4 py-2 rounded-lg text-sm font-medium bg-base-200 text-base-content hover:bg-accent hover:text-accent-content transition-all duration-300 shadow-sm hover:shadow-md"
             >
               {item}
             </button>
           ))}
           {items.length > 3 && (
-            <span className="text-sm text-neutral-content self-center">
+            <span className="text-sm text-neutral-content self-center font-medium px-2">
               +{items.length - 3} more
             </span>
           )}
@@ -55,21 +54,21 @@ export const GridCard = ({
 
     const [key, values] = firstCategory;
     return (
-      <div className="flex flex-col gap-2 mt-3">
-        {title && <h4 className="text-sm font-black italic text-neutral-content">{title}</h4>}
-        <h4 className="text-sm font-black italic text-neutral-content">{key}</h4>
-        <div className="flex flex-wrap gap-2">
+      <div className="flex flex-col gap-4 mt-4">
+        {title && <h4 className="text-sm font-bold text-neutral-content/50 uppercase tracking-wide">{title}</h4>}
+        <h4 className="text-sm font-bold text-neutral-content/50 uppercase tracking-wide">{key}</h4>
+        <div className="flex flex-wrap gap-4">
           {values.slice(0, 3).map((value, valueIndex) => (
             <button 
               key={`${key}-${valueIndex}`}
               onClick={(e) => e.stopPropagation()}
-              className="inline-flex items-center px-2.5 py-0.5 rounded-md text-sm font-medium bg-accent text-accent-content hover:bg-primary hover:text-primary-content transition-colors duration-200"
+              className="inline-flex items-center px-4 py-2 rounded-lg text-sm font-medium bg-base-200 text-base-content hover:bg-accent hover:text-accent-content transition-all duration-300 shadow-sm hover:shadow-md"
             >
               {value}
             </button>
           ))}
           {values.length > 3 && (
-            <span className="text-sm text-neutral-content font-bold self-center">
+            <span className="text-sm text-neutral-content font-medium self-center px-2">
               +{values.length - 3} more
             </span>
           )}
@@ -82,14 +81,14 @@ export const GridCard = ({
     if (!subcategories) return null;
 
     return (
-      <div className="mt-4 space-y-3">
-        <h4 className="text-sm font-black italic text-neutral-content">Beinhaltet:</h4>
-        <div className="flex flex-wrap gap-2">
+      <div className="mt-6 space-y-4">
+        <h4 className="text-sm font-bold text-neutral-content/50 uppercase tracking-wide">Beinhaltet:</h4>
+        <div className="flex flex-wrap gap-4">
           {Object.entries(subcategories).map(([key, subcategory]) => (
             <button 
               key={key}
               onClick={(e) => handleItemClick(e, key, subcategory)}
-              className="inline-flex items-center px-2.5 py-0.5 rounded-md text-sm font-medium bg-accent text-accent-content hover:bg-primary hover:text-primary-content transition-colors duration-200"
+              className="inline-flex items-center px-4 py-2 rounded-lg text-sm font-medium bg-base-200 text-base-content hover:bg-accent hover:text-accent-content transition-all duration-300 shadow-sm hover:shadow-md"
             >
               {subcategory.name}
             </button>
@@ -103,11 +102,14 @@ export const GridCard = ({
     if (!modifiers) return null;
 
     return (
-      <div className="mt-4 space-y-3">
-        <h4 className="text-sm font-black italic text-neutral-content">Beinhaltet:</h4>
-        <div className="flex flex-wrap gap-2">
+      <div className="mt-6 space-y-4">
+        <h4 className="text-sm font-bold text-neutral-content/50 uppercase tracking-wide">Beinhaltet:</h4>
+        <div className="flex flex-wrap gap-4">
           {Object.entries(modifiers).map(([key, modifier]) => (
-            <span key={key} className="text-sm text-base-content font-bold">
+            <span 
+              key={key} 
+              className="inline-flex items-center px-4 py-2 rounded-lg text-sm font-medium bg-base-200 text-base-content"
+            >
               {modifier.name}
             </span>
           ))}
@@ -119,36 +121,26 @@ export const GridCard = ({
   return (
     <div 
       onClick={onClick}
-      className="card cursor-pointer group hover:bg-base-200 transition-colors duration-200"
+      className="card bg-base-300/50 backdrop-blur-sm hover:bg-base-200 cursor-pointer group transition-all duration-300 border border-base-200/20 hover:border-accent/20"
     >
-      <div className="flex flex-col gap-4">
-        <div className="flex items-start gap-4">
-          {icon && (
-            <div className="flex-shrink-0 w-10 h-10 flex items-center justify-center rounded-lg bg-neutral">
-              <span className="text-neutral-content text-lg">
-                {icon}
-              </span>
+      <div className="flex flex-col gap-6">
+        <div className="flex-1 min-w-0">
+          <h3 className="text-xl font-black text-base-content group-hover:text-accent truncate transition-colors duration-300">
+            {title}
+          </h3>
+          <p className="mt-2 text-base text-neutral-content/90 leading-relaxed">
+            {description}
+          </p>
+          
+          {renderSubcategories()}
+          
+          {items && (
+            <div className="mt-6">
+              {renderItems(items)}
             </div>
           )}
-          
-          <div className="flex-1 min-w-0">
-            <h3 className="text-lg font-black italic text-base-content group-hover:text-accent truncate">
-              {title}
-            </h3>
-            <p className="mt-1 text-sm text-neutral-content">
-              {description}
-            </p>
-            
-            {renderSubcategories()}
-            
-            {items && (
-              <div className="mt-4">
-                {renderItems(items)}
-              </div>
-            )}
 
-            {renderModifiers()}
-          </div>
+          {renderModifiers()}
         </div>
       </div>
     </div>

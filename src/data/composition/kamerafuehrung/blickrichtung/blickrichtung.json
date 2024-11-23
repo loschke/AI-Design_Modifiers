@@ -1,9 +1,9 @@
 {
-  "name": "Blickrichtung",
+  "name": "👁️ Blickrichtung",
   "description": "Verschiedene Kamerawinkel und Blickrichtungen für die Aufnahme",
   "modifiers": {
     "frontal": {
-      "name": "Frontalaufnahme",
+      "name": "⬆️ Frontalaufnahme",
       "description": "Direkte Aufnahme von vorne",
       "items": {
         "general": [
@@ -16,7 +16,7 @@
       }
     },
     "side": {
-      "name": "Seitenansicht",
+      "name": "➡️ Seitenansicht",
       "description": "Aufnahme von der Seite",
       "items": {
         "general": [
@@ -29,7 +29,7 @@
       }
     },
     "rear": {
-      "name": "Rückansicht",
+      "name": "⬇️ Rückansicht",
       "description": "Aufnahme von hinten",
       "items": {
         "general": [
@@ -42,7 +42,7 @@
       }
     },
     "diagonal": {
-      "name": "Diagonalansicht",
+      "name": "↗️ Diagonalansicht",
       "description": "Aufnahme im 45-Grad-Winkel",
       "items": {
         "general": [

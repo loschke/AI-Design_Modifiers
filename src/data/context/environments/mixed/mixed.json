@@ -1,9 +1,9 @@
 {
-  "name": "Mixed Environments",
+  "name": "🏘️ Mixed Environments",
   "description": "Übergangs- und gemischte Zonen",
   "modifiers": {
     "parks": {
-      "name": "Parks and Gardens",
+      "name": "🌳 Parks and Gardens",
       "description": "Angelegte Naturräume",
       "items": [
         "in city park",
@@ -15,7 +15,7 @@
       ]
     },
     "transition_zones": {
-      "name": "Transition Areas",
+      "name": "🏡 Transition Areas",
       "description": "Übergangszonen zwischen Stadt und Natur",
       "items": [
         "in suburban area",

@@ -21,7 +21,7 @@ export const SubcategoryDetail = ({ subcategory }: SubcategoryDetailProps) => {
   const renderCopyButton = (value: string) => (
     <button
       onClick={() => handleCopy(value)}
-      className={`inline-flex items-center px-3 py-1.5 rounded-md text-sm font-medium 
+      className={`inline-flex items-center px-4 py-2 rounded-md text-sm font-medium 
         ${copiedValue === value 
           ? 'bg-success text-success-content' 
           : 'bg-base-200 text-base-content hover:bg-base-300'
@@ -29,11 +29,11 @@ export const SubcategoryDetail = ({ subcategory }: SubcategoryDetailProps) => {
     >
       {value}
       {copiedValue === value ? (
-        <svg className="w-4 h-4 ml-1.5" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+        <svg className="w-4 h-4 ml-2" fill="none" stroke="currentColor" viewBox="0 0 24 24">
           <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M5 13l4 4L19 7" />
         </svg>
       ) : (
-        <svg className="w-4 h-4 ml-1.5" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+        <svg className="w-4 h-4 ml-2" fill="none" stroke="currentColor" viewBox="0 0 24 24">
           <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M8 5H6a2 2 0 00-2 2v12a2 2 0 002 2h10a2 2 0 002-2v-1M8 5a2 2 0 002 2h2a2 2 0 002-2M8 5a2 2 0 012-2h2a2 2 0 012 2m0 0h2a2 2 0 012 2v3m2 4H10m0 0l3-3m-3 3l3 3" />
         </svg>
       )}
@@ -45,7 +45,7 @@ export const SubcategoryDetail = ({ subcategory }: SubcategoryDetailProps) => {
 
     if (Array.isArray(items)) {
       return (
-        <div className="flex flex-wrap gap-2">
+        <div className="flex flex-wrap gap-4">
           {items.map((item, index) => (
             <div key={index}>
               {renderCopyButton(item)}
@@ -59,9 +59,9 @@ export const SubcategoryDetail = ({ subcategory }: SubcategoryDetailProps) => {
       // Check if values is an array
       if (Array.isArray(values)) {
         return (
-          <div key={idx} className="flex flex-col gap-2">
-            <h3 className="text-sm font-black italic text-neutral-content capitalize">{category}</h3>
-            <div className="flex flex-wrap gap-2">
+          <div key={idx} className="flex flex-col gap-4">
+            <h3 className="text-sm font-black text-neutral-content capitalize">{category}</h3>
+            <div className="flex flex-wrap gap-4">
               {values.map((value, valueIndex) => (
                 <div key={`${idx}-${valueIndex}`}>
                   {renderCopyButton(value)}
@@ -73,8 +73,8 @@ export const SubcategoryDetail = ({ subcategory }: SubcategoryDetailProps) => {
       }
       // If values is another object, render it recursively
       return (
-        <div key={idx} className="flex flex-col gap-4">
-          <h3 className="text-sm font-black italic text-neutral-content capitalize">{category}</h3>
+        <div key={idx} className="flex flex-col gap-6">
+          <h3 className="text-sm font-black text-neutral-content capitalize">{category}</h3>
           {renderModifierItems(values)}
         </div>
       );
@@ -92,12 +92,12 @@ export const SubcategoryDetail = ({ subcategory }: SubcategoryDetailProps) => {
     // If it's a subcategory with modifiers
     if (subcategory.modifiers) {
       return Object.entries(subcategory.modifiers).map(([key, modifier]) => (
-        <div key={key} className="border-t border-base-200 pt-4 mt-4 first:border-0 first:pt-0 first:mt-0">
-          <h3 className="text-lg font-black italic text-base-content mb-2">
+        <div key={key} className="border-t border-base-200 pt-6 mt-6 first:border-0 first:pt-0 first:mt-0">
+          <h3 className="text-lg font-black text-base-content mb-4">
             {modifier.name}
           </h3>
           {modifier.description && (
-            <p className="text-neutral-content mb-3">
+            <p className="text-neutral-content mb-4">
               {modifier.description}
             </p>
           )}
@@ -111,7 +111,7 @@ export const SubcategoryDetail = ({ subcategory }: SubcategoryDetailProps) => {
 
   if (!subcategory) {
     return (
-      <div className="bg-base-100 rounded-lg shadow p-6">
+      <div className="bg-base-100 rounded-lg shadow p-8">
         <div className="text-center text-neutral-content">
           No data available
         </div>
@@ -120,9 +120,9 @@ export const SubcategoryDetail = ({ subcategory }: SubcategoryDetailProps) => {
   }
 
   return (
-    <div className="bg-base-100 rounded-lg shadow p-6">
-      <div className="mb-6">
-        <h2 className="text-2xl font-black italic text-base-content mb-2">
+    <div className="bg-base-100 rounded-lg shadow p-8">
+      <div className="mb-8">
+        <h2 className="text-2xl font-black text-base-content mb-4">
           {subcategory.name}
         </h2>
         {subcategory.description && (
@@ -132,7 +132,7 @@ export const SubcategoryDetail = ({ subcategory }: SubcategoryDetailProps) => {
         )}
       </div>
 
-      <div className="flex flex-col gap-4">
+      <div className="flex flex-col gap-6">
         {renderContent()}
       </div>
     </div>

@@ -1,19 +1,19 @@
 {
-  "name": "Kreative Kunst",
+  "name": "🎨 Kreative Kunst",
   "description": "Künstlerische Stile und historische Kunstepochen",
   "subcategories": {
     "historical": {
-      "name": "Historische Kunst",
+      "name": "🏺 Historische Kunst",
       "description": "Klassische und moderne Kunstepochen",
       "path": "/creativity/art/historical"
     },
     "movements": {
-      "name": "Kunstbewegungen",
+      "name": "🌊 Kunstbewegungen",
       "description": "Moderne und zeitgenössische Kunstbewegungen",
       "path": "/creativity/art/movements"
     },
     "techniques": {
-      "name": "Künstlerische Techniken",
+      "name": "🖌️ Künstlerische Techniken",
       "description": "Technische und stilistische Ansätze",
       "path": "/creativity/art/techniques"
     }

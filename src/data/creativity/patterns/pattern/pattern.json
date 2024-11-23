@@ -1,9 +1,9 @@
 {
-  "name": "Muster",
+  "name": "🔷 Muster",
   "description": "Geometrische und natürliche Musterstrukturen",
   "modifiers": {
     "geometric": {
-      "name": "Geometrische Muster",
+      "name": "📐 Geometrische Muster",
       "description": "Mathematisch basierte Musterstrukturen",
       "items": {
         "basic": [
@@ -23,7 +23,7 @@
       }
     },
     "natural": {
-      "name": "Natürliche Muster",
+      "name": "🌿 Natürliche Muster",
       "description": "Muster aus der Natur",
       "items": {
         "floral": [
@@ -50,7 +50,7 @@
       }
     },
     "abstract": {
-      "name": "Abstrakte Muster",
+      "name": "🎨 Abstrakte Muster",
       "description": "Nicht-gegenständliche Musterformen",
       "items": {
         "fluid": [
@@ -76,7 +76,7 @@
       }
     },
     "cultural": {
-      "name": "Kulturelle Muster",
+      "name": "🎭 Kulturelle Muster",
       "description": "Traditionelle und kulturspezifische Muster",
       "items": [
         "with Celtic knots",

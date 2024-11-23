@@ -1,9 +1,9 @@
 {
-  "name": "Künstlerische Techniken",
+  "name": "🖌️ Künstlerische Techniken",
   "description": "Technische und stilistische Ansätze in der Kunst",
   "modifiers": {
     "painting": {
-      "name": "Maltechniken",
+      "name": "🎨 Maltechniken",
       "description": "Verschiedene Techniken der Malerei",
       "items": {
         "brushwork": [
@@ -30,7 +30,7 @@
       }
     },
     "stylistic": {
-      "name": "Stilistische Elemente",
+      "name": "✨ Stilistische Elemente",
       "description": "Grundlegende stilistische Ansätze",
       "items": {
         "approach": [
@@ -57,7 +57,7 @@
       }
     },
     "fusion": {
-      "name": "Fusion und Innovation",
+      "name": "🔄 Fusion und Innovation",
       "description": "Kombinationen und experimentelle Ansätze",
       "items": {
         "style_combinations": [

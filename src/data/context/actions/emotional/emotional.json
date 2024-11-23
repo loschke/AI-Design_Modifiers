@@ -1,9 +1,9 @@
 {
-  "name": "Emotional Actions",
+  "name": "❤️ Emotional Actions",
   "description": "Gefühlsbezogene Handlungen und Ausdrücke",
   "modifiers": {
     "positive": {
-      "name": "Positive Emotions",
+      "name": "😊 Positive Emotions",
       "description": "Handlungen, die positive Gefühle ausdrücken",
       "items": [
         "laughing",
@@ -18,7 +18,7 @@
       ]
     },
     "negative": {
-      "name": "Negative Emotions",
+      "name": "😢 Negative Emotions",
       "description": "Handlungen, die negative Gefühle ausdrücken",
       "items": [
         "crying",
@@ -32,7 +32,7 @@
       ]
     },
     "neutral": {
-      "name": "Neutral Emotions",
+      "name": "🤔 Neutral Emotions",
       "description": "Neutrale oder nachdenkliche Handlungen",
       "items": [
         "thinking",

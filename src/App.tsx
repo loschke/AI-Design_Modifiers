@@ -327,7 +327,7 @@ function App() {
                 key={key}
                 title={category.name}
                 description={category.description}
-                icon="📁"
+                icon="�"
                 onClick={() => handleCardClick(category, key)}
                 subcategories={categoryData?.subcategories}
                 items={previewItems}

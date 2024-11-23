@@ -1,19 +1,19 @@
 {
-  "name": "Kameraführung",
+  "name": "📹 Kameraführung",
   "description": "Verschiedene Aspekte der Kamerapositionierung und Aufnahmetechniken",
   "subcategories": {
     "blickrichtung": {
-      "name": "Blickrichtung",
+      "name": "👁️ Blickrichtung",
       "description": "Verschiedene Aufnahmewinkel und Blickrichtungen der Kamera",
       "path": "/composition/kamerafuehrung/blickrichtung"
     },
     "bildausschnitt": {
-      "name": "Bildausschnitt",
+      "name": "🎯 Bildausschnitt",
       "description": "Verschiedene Einstellungsgrößen und Framing-Techniken",
       "path": "/composition/kamerafuehrung/bildausschnitt"
     },
     "perspektive": {
-      "name": "Perspektive",
+      "name": "📐 Perspektive",
       "description": "Verschiedene Kameraperspektiven und Aufnahmewinkel",
       "path": "/composition/kamerafuehrung/perspektive"
     }

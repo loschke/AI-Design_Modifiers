@@ -1,9 +1,9 @@
 {
-  "name": "Kunstbewegungen",
+  "name": "🌊 Kunstbewegungen",
   "description": "Moderne und zeitgenössische Kunstströmungen",
   "modifiers": {
     "early_modern": {
-      "name": "Frühe Moderne",
+      "name": "🎨 Frühe Moderne",
       "description": "Kunstbewegungen der frühen Moderne",
       "items": {
         "surrealism": [
@@ -30,7 +30,7 @@
       }
     },
     "contemporary": {
-      "name": "Zeitgenössisch",
+      "name": "🖼️ Zeitgenössisch",
       "description": "Aktuelle Kunstformen und -bewegungen",
       "items": {
         "digital_art": [

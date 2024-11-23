@@ -1,9 +1,9 @@
 {
-  "name": "Persons",
+  "name": "👥 Persons",
   "description": "Menschen als Hauptmotive in verschiedenen Konstellationen",
   "modifiers": {
     "individual": {
-      "name": "Individual Persons",
+      "name": "👤 Individual Persons",
       "description": "Einzelne Personen verschiedener Altersgruppen",
       "items": [
         "a person",
@@ -17,7 +17,7 @@
       ]
     },
     "groups": {
-      "name": "Groups of People",
+      "name": "👨‍👩‍👧‍👦 Groups of People",
       "description": "Verschiedene Personengruppen",
       "items": [
         "a group of people",
@@ -31,7 +31,7 @@
       ]
     },
     "professions": {
-      "name": "Professional Roles",
+      "name": "👨‍⚕️ Professional Roles",
       "description": "Menschen in verschiedenen Berufen",
       "items": [
         "a doctor",

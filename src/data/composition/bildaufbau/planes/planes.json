@@ -1,9 +1,9 @@
 {
-  "name": "Bildebenen",
+  "name": "🎪 Bildebenen",
   "description": "Gestaltung der verschiedenen Tiefenebenen im Bild",
   "modifiers": {
     "foreground": {
-      "name": "Vordergrund",
+      "name": "🔍 Vordergrund",
       "description": "Elemente und Positionierung im vorderen Bildbereich",
       "items": {
         "position": [
@@ -32,7 +32,7 @@
       }
     },
     "middleground": {
-      "name": "Mittelgrund",
+      "name": "⭐ Mittelgrund",
       "description": "Elemente und Positionierung im mittleren Bildbereich",
       "items": {
         "position": [
@@ -61,7 +61,7 @@
       }
     },
     "background": {
-      "name": "Hintergrund",
+      "name": "🌄 Hintergrund",
       "description": "Elemente und Positionierung im hinteren Bildbereich",
       "items": {
         "position": [

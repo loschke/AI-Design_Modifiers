@@ -1,9 +1,9 @@
 {
-  "name": "Realistic Media",
+  "name": "📸 Realistic Media",
   "description": "Fotografische und filmische Medientypen für realistische Darstellungen",
   "modifiers": {
     "photography": {
-      "name": "Photography",
+      "name": "📷 Photography",
       "description": "Verschiedene Arten der Fotografie",
       "items": {
         "general": [
@@ -43,7 +43,7 @@
       }
     },
     "film": {
-      "name": "Film",
+      "name": "🎬 Film",
       "description": "Filmische Darstellungsformen",
       "items": [
         "a still from a film",

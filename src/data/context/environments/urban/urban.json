@@ -1,9 +1,9 @@
 {
-  "name": "Urban Environments",
+  "name": "🏙️ Urban Environments",
   "description": "Städtische und gebaute Umgebungen",
   "modifiers": {
     "city": {
-      "name": "City Areas",
+      "name": "🌆 City Areas",
       "description": "Verschiedene Stadtbereiche",
       "items": {
         "downtown": [
@@ -30,7 +30,7 @@
       }
     },
     "buildings": {
-      "name": "Building Types",
+      "name": "🏛️ Building Types",
       "description": "Verschiedene Gebäudearten",
       "items": {
         "residential": [

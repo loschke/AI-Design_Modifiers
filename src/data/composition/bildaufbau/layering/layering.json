@@ -1,9 +1,9 @@
 {
-  "name": "Schichtung",
+  "name": "📚 Schichtung",
   "description": "Techniken und Methoden zur Erzeugung von Tiefenstaffelung",
   "modifiers": {
     "basic_techniques": {
-      "name": "Grundlegende Techniken",
+      "name": "🔨 Grundlegende Techniken",
       "description": "Fundamentale Methoden der Tiefenstaffelung",
       "items": [
         "with layered depth",
@@ -16,7 +16,7 @@
       ]
     },
     "spatial": {
-      "name": "Räumliche Beziehungen",
+      "name": "🔲 Räumliche Beziehungen",
       "description": "Techniken zur räumlichen Anordnung",
       "items": [
         "with converging lines",
@@ -27,7 +27,7 @@
       ]
     },
     "depth_cues": {
-      "name": "Tiefenhinweise",
+      "name": "🎯 Tiefenhinweise",
       "description": "Visuelle Hinweise zur Tiefenwahrnehmung",
       "items": {
         "scale": [

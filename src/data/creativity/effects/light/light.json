@@ -1,9 +1,9 @@
 {
-  "name": "Lichteffekte",
+  "name": "✨ Lichteffekte",
   "description": "Natürliche und künstliche Lichtmanipulationen",
   "modifiers": {
     "natural": {
-      "name": "Natürliche Lichteffekte",
+      "name": "☀️ Natürliche Lichteffekte",
       "description": "Effekte mit natürlichen Lichtquellen",
       "items": [
         "with light leaks",
@@ -14,7 +14,7 @@
       ]
     },
     "artificial": {
-      "name": "Künstliche Lichteffekte",
+      "name": "💡 Künstliche Lichteffekte",
       "description": "Effekte mit künstlichen Lichtquellen",
       "items": [
         "with iridescent lighting",
@@ -25,7 +25,7 @@
       ]
     },
     "experimental": {
-      "name": "Experimentelle Lichteffekte",
+      "name": "🌟 Experimentelle Lichteffekte",
       "description": "Kreative und ungewöhnliche Lichtmanipulationen",
       "items": [
         "with light painting",

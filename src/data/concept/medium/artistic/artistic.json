@@ -1,9 +1,9 @@
 {
-  "name": "Artistic Media",
+  "name": "🖌️ Artistic Media",
   "description": "Traditionelle künstlerische Medien und Techniken",
   "modifiers": {
     "painting": {
-      "name": "Painting",
+      "name": "🎨 Painting",
       "description": "Verschiedene Maltechniken",
       "items": [
         "an oil painting of",
@@ -13,7 +13,7 @@
       ]
     },
     "drawing": {
-      "name": "Drawing",
+      "name": "✏️ Drawing",
       "description": "Zeichnerische Techniken",
       "items": [
         "a drawing of",
@@ -22,7 +22,7 @@
       ]
     },
     "printmaking": {
-      "name": "Printmaking",
+      "name": "🖨️ Printmaking",
       "description": "Drucktechniken",
       "items": [
         "a woodcut of",
@@ -32,7 +32,7 @@
       ]
     },
     "sculpture": {
-      "name": "Sculpture",
+      "name": "🗿 Sculpture",
       "description": "Dreidimensionale Kunstformen",
       "items": [
         "a sculpture of",

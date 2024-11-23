@@ -1,29 +1,29 @@
 {
-  "name": "Actions",
+  "name": "⚡ Actions",
   "description": "Verschiedene Arten von Handlungen und Aktivitäten",
   "subcategories": {
     "movement": {
-      "name": "Movement",
+      "name": "🏃 Movement",
       "description": "Grundlegende, sportliche und akrobatische Bewegungen",
       "path": "/context/actions/movement"
     },
     "combat": {
-      "name": "Combat",
+      "name": "⚔️ Combat",
       "description": "Kampfbezogene Aktivitäten und Handlungen",
       "path": "/context/actions/combat"
     },
     "daily": {
-      "name": "Daily Activities",
+      "name": "📅 Daily Activities",
       "description": "Alltägliche Aktivitäten und Routinen",
       "path": "/context/actions/daily"
     },
     "emotional": {
-      "name": "Emotional Actions",
+      "name": "❤️ Emotional Actions",
       "description": "Gefühlsbezogene Handlungen und Ausdrücke",
       "path": "/context/actions/emotional"
     },
     "performance": {
-      "name": "Performance",
+      "name": "🎭 Performance",
       "description": "Künstlerische und öffentliche Auftritte",
       "path": "/context/actions/performance"
     }

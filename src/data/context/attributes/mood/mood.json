@@ -1,9 +1,9 @@
 {
-  "name": "Mood Attributes",
+  "name": "🌟 Mood Attributes",
   "description": "Stimmungs- und Atmosphäre-Eigenschaften",
   "modifiers": {
     "emotional": {
-      "name": "Emotional Atmosphere",
+      "name": "💫 Emotional Atmosphere",
       "description": "Emotionale Stimmungen und Atmosphären",
       "items": [
         "in peaceful setting",
@@ -15,7 +15,7 @@
       ]
     },
     "sensory": {
-      "name": "Sensory Attributes",
+      "name": "👁️ Sensory Attributes",
       "description": "Sensorische Eigenschaften der Umgebung",
       "items": {
         "visual": [

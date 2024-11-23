@@ -1,9 +1,9 @@
 {
-  "name": "Historische Kunst",
+  "name": "🏺 Historische Kunst",
   "description": "Klassische und moderne Kunstepochen",
   "modifiers": {
     "classical": {
-      "name": "Klassische Epochen",
+      "name": "🎨 Klassische Epochen",
       "description": "Historische Kunststile vom Mittelalter bis zur Romantik",
       "items": {
         "renaissance": [
@@ -37,7 +37,7 @@
       }
     },
     "modern_epoch": {
-      "name": "Moderne Epochen",
+      "name": "🖼️ Moderne Epochen",
       "description": "Kunstbewegungen des späten 19. und frühen 20. Jahrhunderts",
       "items": {
         "impressionism": [

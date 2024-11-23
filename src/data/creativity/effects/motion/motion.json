@@ -1,9 +1,9 @@
 {
-  "name": "Bewegungseffekte",
+  "name": "💫 Bewegungseffekte",
   "description": "Dynamische und zeitbasierte Effekte",
   "modifiers": {
     "blur": {
-      "name": "Bewegungsunschärfe",
+      "name": "🌀 Bewegungsunschärfe",
       "description": "Verschiedene Arten der Bewegungsunschärfe",
       "items": [
         "with motion blur",
@@ -14,7 +14,7 @@
       ]
     },
     "time": {
-      "name": "Zeiteffekte",
+      "name": "⏱️ Zeiteffekte",
       "description": "Zeitbasierte Bewegungseffekte",
       "items": [
         "with long exposure",
@@ -25,7 +25,7 @@
       ]
     },
     "dynamic": {
-      "name": "Dynamische Effekte",
+      "name": "⚡ Dynamische Effekte",
       "description": "Effekte zur Darstellung von Bewegung",
       "items": [
         "with action freeze",
@@ -36,7 +36,7 @@
       ]
     },
     "attributes": {
-      "name": "Effekt-Eigenschaften",
+      "name": "🎯 Effekt-Eigenschaften",
       "description": "Qualitäten und Anwendungen von Effekten",
       "items": {
         "intensity": [
@@ -63,7 +63,7 @@
       }
     },
     "combinations": {
-      "name": "Effekt-Kombinationen",
+      "name": "🔄 Effekt-Kombinationen",
       "description": "Kreative Kombinationen verschiedener Effekte",
       "items": {
         "creative_mix": [

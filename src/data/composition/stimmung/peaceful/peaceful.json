@@ -1,9 +1,9 @@
 {
-  "name": "Friedlich",
+  "name": "🕊️ Friedlich",
   "description": "Ruhige und ausgewogene Stimmungen",
   "modifiers": {
     "calming": {
-      "name": "Beruhigend",
+      "name": "🌅 Beruhigend",
       "description": "Sanfte, entspannende Stimmungen",
       "items": [
         "serene",
@@ -21,7 +21,7 @@
       ]
     },
     "natural": {
-      "name": "Natürlich",
+      "name": "🌿 Natürlich",
       "description": "Organische, fließende Stimmungen",
       "items": [
         "organic",
@@ -36,7 +36,7 @@
       ]
     },
     "nostalgic": {
-      "name": "Nostalgisch",
+      "name": "📷 Nostalgisch",
       "description": "Zeitlose, klassische Stimmungen",
       "items": {
         "vintage": [

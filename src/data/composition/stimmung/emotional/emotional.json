@@ -1,9 +1,9 @@
 {
-  "name": "Emotional",
+  "name": "💖 Emotional",
   "description": "Gefühlsbetonte und atmosphärische Stimmungen",
   "modifiers": {
     "melancholic": {
-      "name": "Melancholisch",
+      "name": "🌧️ Melancholisch",
       "description": "Nachdenkliche, schwermütige Stimmungen",
       "items": {
         "thoughtful": [
@@ -30,7 +30,7 @@
       }
     },
     "tense": {
-      "name": "Angespannt",
+      "name": "😨 Angespannt",
       "description": "Spannungsgeladene, düstere Stimmungen",
       "items": {
         "dark": [
@@ -57,7 +57,7 @@
       }
     },
     "ethereal": {
-      "name": "Ätherisch",
+      "name": "✨ Ätherisch",
       "description": "Überirdische, magische Stimmungen",
       "items": {
         "magical": [

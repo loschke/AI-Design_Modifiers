@@ -1,19 +1,19 @@
 {
-  "name": "Spezialeffekte",
+  "name": "🌈 Spezialeffekte",
   "description": "Kreative Effekte und visuelle Manipulationen",
   "subcategories": {
     "optical": {
-      "name": "Optische Effekte",
+      "name": "👁️ Optische Effekte",
       "description": "Linsen- und Belichtungseffekte",
       "path": "/creativity/effects/optical"
     },
     "light": {
-      "name": "Lichteffekte",
+      "name": "✨ Lichteffekte",
       "description": "Natürliche und künstliche Lichtmanipulationen",
       "path": "/creativity/effects/light"
     },
     "motion": {
-      "name": "Bewegungseffekte",
+      "name": "💫 Bewegungseffekte",
       "description": "Dynamische und zeitbasierte Effekte",
       "path": "/creativity/effects/motion"
     }

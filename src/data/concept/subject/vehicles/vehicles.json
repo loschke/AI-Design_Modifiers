@@ -1,9 +1,9 @@
 {
-  "name": "Vehicles",
+  "name": "🚗 Vehicles",
   "description": "Verschiedene Arten von Fahrzeugen",
   "modifiers": {
     "land": {
-      "name": "Land Vehicles",
+      "name": "🚙 Land Vehicles",
       "description": "Landfahrzeuge",
       "items": {
         "cars": [
@@ -44,7 +44,7 @@
       }
     },
     "air": {
-      "name": "Air Vehicles",
+      "name": "✈️ Air Vehicles",
       "description": "Luftfahrzeuge",
       "items": {
         "commercial": [
@@ -66,7 +66,7 @@
       }
     },
     "water": {
-      "name": "Water Vehicles",
+      "name": "🚢 Water Vehicles",
       "description": "Wasserfahrzeuge",
       "items": {
         "commercial": [
@@ -89,7 +89,7 @@
       }
     },
     "space": {
-      "name": "Space Vehicles",
+      "name": "🚀 Space Vehicles",
       "description": "Raumfahrzeuge",
       "items": [
         "a spaceship",

@@ -1,9 +1,9 @@
 {
-  "name": "Atmospheric Attributes",
+  "name": "🌤️ Atmospheric Attributes",
   "description": "Wetter- und Lichtverhältnisse",
   "modifiers": {
     "weather": {
-      "name": "Weather Conditions",
+      "name": "🌦️ Weather Conditions",
       "description": "Verschiedene Wetterbedingungen",
       "items": {
         "clear": [
@@ -38,7 +38,7 @@
       }
     },
     "lighting": {
-      "name": "Lighting Conditions",
+      "name": "💡 Lighting Conditions",
       "description": "Natürliche und künstliche Beleuchtung",
       "items": {
         "natural": [

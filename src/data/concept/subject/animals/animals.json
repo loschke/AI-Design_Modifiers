@@ -1,9 +1,9 @@
 {
-  "name": "Animals",
+  "name": "🦊 Animals",
   "description": "Tiere aller Art als Hauptmotive",
   "modifiers": {
     "mammals": {
-      "name": "Mammals",
+      "name": "🦁 Mammals",
       "description": "Säugetiere",
       "items": {
         "domestic": [
@@ -30,7 +30,7 @@
       }
     },
     "birds": {
-      "name": "Birds",
+      "name": "🦅 Birds",
       "description": "Vögel",
       "items": {
         "domestic": [
@@ -52,7 +52,7 @@
       }
     },
     "reptiles": {
-      "name": "Reptiles",
+      "name": "🦎 Reptiles",
       "description": "Reptilien",
       "items": [
         "a snake",
@@ -65,7 +65,7 @@
       ]
     },
     "amphibians": {
-      "name": "Amphibians",
+      "name": "🐸 Amphibians",
       "description": "Amphibien",
       "items": [
         "a frog",
@@ -76,7 +76,7 @@
       ]
     },
     "fish": {
-      "name": "Fish",
+      "name": "🐠 Fish",
       "description": "Fische",
       "items": [
         "a goldfish",
@@ -89,7 +89,7 @@
       ]
     },
     "insects": {
-      "name": "Insects and Arachnids",
+      "name": "🦋 Insects and Arachnids",
       "description": "Insekten und Spinnentiere",
       "items": [
         "a butterfly",
@@ -102,7 +102,7 @@
       ]
     },
     "mythical": {
-      "name": "Mythical Creatures",
+      "name": "🐲 Mythical Creatures",
       "description": "Mythische Tierwesen",
       "items": [
         "a dragon",

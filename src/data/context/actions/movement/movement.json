@@ -1,9 +1,9 @@
 {
-  "name": "Movement",
+  "name": "🏃 Movement",
   "description": "Grundlegende, sportliche und akrobatische Bewegungen",
   "modifiers": {
     "basic": {
-      "name": "Basic Movements",
+      "name": "🚶 Basic Movements",
       "description": "Grundlegende Bewegungsarten",
       "items": [
         "running",
@@ -24,7 +24,7 @@
       ]
     },
     "sports": {
-      "name": "Sports Movements",
+      "name": "🏊 Sports Movements",
       "description": "Sportbezogene Bewegungen",
       "items": [
         "swimming",
@@ -40,7 +40,7 @@
       ]
     },
     "acrobatic": {
-      "name": "Acrobatic Movements",
+      "name": "🤸 Acrobatic Movements",
       "description": "Akrobatische und künstlerische Bewegungen",
       "items": [
         "flipping",

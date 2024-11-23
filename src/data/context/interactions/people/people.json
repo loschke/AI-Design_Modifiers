@@ -1,9 +1,9 @@
 {
-  "name": "People Interactions",
+  "name": "👥 People Interactions",
   "description": "Verschiedene Formen der Interaktion mit Menschen",
   "modifiers": {
     "family": {
-      "name": "Family Interactions",
+      "name": "👨‍👩‍👧‍👦 Family Interactions",
       "description": "Interaktionen im Familienkreis",
       "items": [
         "with parents",
@@ -16,7 +16,7 @@
       ]
     },
     "social": {
-      "name": "Social Interactions",
+      "name": "🤝 Social Interactions",
       "description": "Soziale Interaktionen im Alltag",
       "items": [
         "with friends",
@@ -29,7 +29,7 @@
       ]
     },
     "professional": {
-      "name": "Professional Interactions",
+      "name": "💼 Professional Interactions",
       "description": "Berufliche und professionelle Interaktionen",
       "items": [
         "with clients",
@@ -43,7 +43,7 @@
       ]
     },
     "group": {
-      "name": "Group Interactions",
+      "name": "👥 Group Interactions",
       "description": "Interaktionen mit größeren Gruppen",
       "items": [
         "with a crowd",

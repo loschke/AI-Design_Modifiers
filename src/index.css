@@ -1,4 +1,4 @@
-@import url('../public/fonts/fonts.css');
+@import url('/fonts/fonts.css');
 
 @tailwind base;
 @tailwind components;
@@ -6,21 +6,21 @@
 
 @layer base {
   body {
-    @apply bg-base-100 text-base-content font-ff-clan;
+    @apply bg-gradient-to-br from-base-100 to-base-300 min-h-screen text-base-content font-ff-clan;
   }
 
   h1, h2, h3, h4, h5, h6 {
-    @apply font-black italic;
+    @apply font-black tracking-wide;
   }
 }
 
 @layer components {
   .card {
-    @apply bg-base-100 rounded-lg shadow-md p-4 hover:shadow-lg transition-shadow duration-200;
+    @apply bg-base-100 rounded-xl shadow-lg p-6 transition-all duration-300 backdrop-blur-sm;
   }
   
   .btn {
-    @apply px-4 py-2 rounded-md font-medium transition-colors duration-200;
+    @apply px-4 py-2 rounded-lg font-medium transition-colors duration-300 shadow-sm hover:shadow-md;
   }
   
   .btn-primary {
@@ -30,4 +30,43 @@
   .container-custom {
     @apply max-w-[1920px] mx-auto px-4 sm:px-6 lg:px-8 xl:px-12;
   }
+
+  .breadcrumb {
+    @apply flex items-center space-x-2 text-sm text-neutral-content/70;
+  }
+
+  .breadcrumb-item {
+    @apply hover:text-accent transition-colors duration-200;
+  }
+
+  .breadcrumb-separator {
+    @apply text-neutral-content/40;
+  }
+}
+
+/* Custom Scrollbar */
+::-webkit-scrollbar {
+  @apply w-2;
+}
+
+::-webkit-scrollbar-track {
+  @apply bg-base-200;
+}
+
+::-webkit-scrollbar-thumb {
+  @apply bg-neutral rounded-full;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  @apply bg-accent;
+}
+
+/* Smooth Transitions */
+* {
+  @apply transition-colors duration-200;
+}
+
+/* Focus Styles */
+:focus-visible {
+  @apply outline-none ring-2 ring-accent ring-offset-2 ring-offset-base-100;
 }

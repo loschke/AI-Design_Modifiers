@@ -1,9 +1,9 @@
 {
-  "name": "Nature Interactions",
+  "name": "🌿 Nature Interactions",
   "description": "Interaktionen mit natürlichen Elementen",
   "modifiers": {
     "plants": {
-      "name": "Plant Interactions",
+      "name": "🌱 Plant Interactions",
       "description": "Interaktionen mit Pflanzen",
       "items": [
         "with trees",
@@ -16,7 +16,7 @@
       ]
     },
     "elements": {
-      "name": "Element Interactions",
+      "name": "🌋 Element Interactions",
       "description": "Interaktionen mit Naturgewalten",
       "items": [
         "with water",
@@ -29,7 +29,7 @@
       ]
     },
     "weather": {
-      "name": "Weather Interactions",
+      "name": "🌤️ Weather Interactions",
       "description": "Interaktionen mit Wetterphänomenen",
       "items": [
         "with rain",

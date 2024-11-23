@@ -1,9 +1,9 @@
 {
-  "name": "Dramatisch",
+  "name": "⚡ Dramatisch",
   "description": "Intensive und dynamische Stimmungen",
   "modifiers": {
     "intense": {
-      "name": "Intensiv",
+      "name": "💥 Intensiv",
       "description": "Kraftvolle, eindrucksvolle Stimmungen",
       "items": [
         "powerful",
@@ -18,7 +18,7 @@
       ]
     },
     "dynamic": {
-      "name": "Dynamisch",
+      "name": "🌪️ Dynamisch",
       "description": "Bewegte, energiegeladene Stimmungen",
       "items": [
         "energetic",
@@ -33,7 +33,7 @@
       ]
     },
     "joyful": {
-      "name": "Freudig",
+      "name": "✨ Freudig",
       "description": "Lebendige, positive Stimmungen",
       "items": {
         "energetic": [

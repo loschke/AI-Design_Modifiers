@@ -1,9 +1,9 @@
 {
-  "name": "Natural Environments",
+  "name": "🌲 Natural Environments",
   "description": "Natürliche Landschaften und Gewässer",
   "modifiers": {
     "landscapes": {
-      "name": "Natural Landscapes",
+      "name": "🏞️ Natural Landscapes",
       "description": "Verschiedene Landschaftstypen",
       "items": {
         "forest": [
@@ -50,7 +50,7 @@
       }
     },
     "water_bodies": {
-      "name": "Water Bodies",
+      "name": "💧 Water Bodies",
       "description": "Natürliche Gewässer",
       "items": {
         "ocean": [

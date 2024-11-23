@@ -1,9 +1,9 @@
 {
-  "name": "Metamorphosen",
+  "name": "🦋 Metamorphosen",
   "description": "Verwandlungen und Verschmelzungen",
   "modifiers": {
     "biological": {
-      "name": "Biologische Fusion",
+      "name": "🧬 Biologische Fusion",
       "description": "Verschmelzungen lebender Formen",
       "items": [
         "with human-animal hybrid",
@@ -14,7 +14,7 @@
       ]
     },
     "object": {
-      "name": "Objektverwandlung",
+      "name": "🔄 Objektverwandlung",
       "description": "Transformation unbelebter Objekte",
       "items": [
         "with melting objects",
@@ -25,7 +25,7 @@
       ]
     },
     "fluid": {
-      "name": "Fließende Dynamik",
+      "name": "💫 Fließende Dynamik",
       "description": "Flüssige und fließende Transformationen",
       "items": [
         "with liquid metal flow",
@@ -36,7 +36,7 @@
       ]
     },
     "temporal": {
-      "name": "Zeitliche Anomalien",
+      "name": "⏳ Zeitliche Anomalien",
       "description": "Zeitbasierte Transformationen",
       "items": {
         "fusion": [

@@ -1,9 +1,9 @@
 {
-  "name": "Combat",
+  "name": "⚔️ Combat",
   "description": "Kampfbezogene Aktivitäten und Handlungen",
   "modifiers": {
     "martial": {
-      "name": "Martial Arts",
+      "name": "🥋 Martial Arts",
       "description": "Kampfkunst und Training",
       "items": [
         "fighting",
@@ -18,7 +18,7 @@
       ]
     },
     "warfare": {
-      "name": "Warfare Actions",
+      "name": "🛡️ Warfare Actions",
       "description": "Militärische und taktische Handlungen",
       "items": [
         "battling",
@@ -33,7 +33,7 @@
       ]
     },
     "sports_combat": {
-      "name": "Combat Sports",
+      "name": "🥊 Combat Sports",
       "description": "Kampfsportarten",
       "items": [
         "boxing",

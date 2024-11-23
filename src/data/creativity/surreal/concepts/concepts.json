@@ -1,9 +1,9 @@
 {
-  "name": "Abstrakte Konzepte",
+  "name": "🌀 Abstrakte Konzepte",
   "description": "Philosophische und emotionale Visualisierungen",
   "modifiers": {
     "mystical": {
-      "name": "Mystische Elemente",
+      "name": "✨ Mystische Elemente",
       "description": "Spirituelle und esoterische Konzepte",
       "items": {
         "sacred_geometry": [
@@ -30,7 +30,7 @@
       }
     },
     "abstract": {
-      "name": "Abstrakte Konzepte",
+      "name": "🎯 Abstrakte Konzepte",
       "description": "Philosophische und emotionale Ideen",
       "items": {
         "emotional": [
@@ -50,7 +50,7 @@
       }
     },
     "attributes": {
-      "name": "Surrealistische Attribute",
+      "name": "🔮 Surrealistische Attribute",
       "description": "Qualitäten surrealer Darstellungen",
       "items": {
         "distortion": [
@@ -77,7 +77,7 @@
       }
     },
     "combinations": {
-      "name": "Surrealistische Kombinationen",
+      "name": "🔄 Surrealistische Kombinationen",
       "description": "Vermischung verschiedener surrealer Elemente",
       "items": {
         "reality_mixing": [

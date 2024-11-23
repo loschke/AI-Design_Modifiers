@@ -1,26 +1,25 @@
 {
-  "name": "#3 - Komposition",
+  "name": "3️⃣ Komposition",
   "description": "Grundlegende Elemente der visuellen Komposition und Bildgestaltung",
   "icon": "composition-icon",
   "categories": {
     "kamerafuehrung": {
-      "name": "Kameraführung",
+      "name": "📹 Kameraführung",
       "description": "Techniken und Stile der Kamerapositionierung und -bewegung",
       "path": "/composition/kamerafuehrung"
     },
     "bildaufbau": {
-        "name": "Bildaufbau",
+        "name": "🖼️ Bildaufbau",
         "description": "Techniken und Möglichkeiten des Bildaufbaus",
         "path": "/composition/bildaufbau"
       },
     "belichtung": {
-        "name": "Belichtung",
+        "name": "💡 Belichtung",
         "description": "Belichtung und Bildgestaltung",
         "path": "/composition/belichtung"
-      }
-      ,
+      },
     "stimmung": {
-        "name": "Stimmung",
+        "name": "🌟 Stimmung",
         "description": "Stimmung und Atmosphäre des Bildes",
         "path": "/composition/stimmung"
       }

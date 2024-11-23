@@ -1,9 +1,9 @@
 {
-  "name": "Kompositionstechniken",
+  "name": "🎯 Kompositionstechniken",
   "description": "Spezifische Techniken zur Gestaltung der Tiefenwirkung",
   "modifiers": {
     "perspective": {
-      "name": "Perspektivische Techniken",
+      "name": "📐 Perspektivische Techniken",
       "description": "Methoden zur perspektivischen Tiefengestaltung",
       "items": [
         "with linear perspective",
@@ -14,7 +14,7 @@
       ]
     },
     "focus": {
-      "name": "Fokustechniken",
+      "name": "🎯 Fokustechniken",
       "description": "Methoden der Tiefengestaltung durch Fokussierung",
       "items": [
         "with selective focus",
@@ -25,7 +25,7 @@
       ]
     },
     "arrangement": {
-      "name": "Anordnungstechniken",
+      "name": "🔲 Anordnungstechniken",
       "description": "Methoden zur räumlichen Anordnung",
       "items": {
         "planes": [

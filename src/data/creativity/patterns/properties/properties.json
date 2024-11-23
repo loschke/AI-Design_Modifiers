@@ -1,9 +1,9 @@
 {
-  "name": "Eigenschaften",
+  "name": "🎯 Eigenschaften",
   "description": "Materialqualitäten und Kombinationen",
   "modifiers": {
     "pattern_attributes": {
-      "name": "Mustereigenschaften",
+      "name": "📏 Mustereigenschaften",
       "description": "Qualitäten von Mustern",
       "items": {
         "scale": [
@@ -30,7 +30,7 @@
       }
     },
     "material_states": {
-      "name": "Materialzustände",
+      "name": "✨ Materialzustände",
       "description": "Eigenschaften von Materialoberflächen",
       "items": {
         "finish": [
@@ -57,7 +57,7 @@
       }
     },
     "combinations": {
-      "name": "Kombinationen",
+      "name": "🔄 Kombinationen",
       "description": "Kreative Material- und Musterkombinationen",
       "items": {
         "pattern_material": [

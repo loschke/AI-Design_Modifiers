@@ -1,9 +1,9 @@
 {
-  "name": "Perspektive",
+  "name": "📐 Perspektive",
   "description": "Verschiedene Kameraperspektiven und Aufnahmewinkel",
   "modifiers": {
     "low-angle": {
-      "name": "Froschperspektive",
+      "name": "⬆️ Froschperspektive",
       "description": "Aufnahme von unten nach oben",
       "items": {
         "general": [
@@ -16,7 +16,7 @@
       }
     },
     "high-angle": {
-      "name": "Vogelperspektive",
+      "name": "⬇️ Vogelperspektive",
       "description": "Aufnahme von oben nach unten",
       "items": {
         "general": [
@@ -29,7 +29,7 @@
       }
     },
     "wide-angle": {
-      "name": "Weitwinkel",
+      "name": "🔭 Weitwinkel",
       "description": "Aufnahme mit weitem Bildwinkel",
       "items": {
         "general": [
@@ -42,7 +42,7 @@
       }
     },
     "over-shoulder": {
-      "name": "Über-die-Schulter",
+      "name": "👤 Über-die-Schulter",
       "description": "Aufnahme über die Schulter einer Person",
       "items": {
         "general": [
@@ -55,7 +55,7 @@
       }
     },
     "ground-level": {
-      "name": "Bodenperspektive",
+      "name": "🌱 Bodenperspektive",
       "description": "Aufnahme auf Bodenhöhe",
       "items": {
         "general": [
@@ -68,7 +68,7 @@
       }
     },
     "selfie": {
-      "name": "Selfie",
+      "name": "🤳 Selfie",
       "description": "Selbstaufnahme mit der Kamera",
       "items": {
         "general": [
@@ -81,7 +81,7 @@
       }
     },
     "pov": {
-      "name": "Point-of-View",
+      "name": "👁️ Point-of-View",
       "description": "Aufnahme aus der Ich-Perspektive",
       "items": {
         "general": [

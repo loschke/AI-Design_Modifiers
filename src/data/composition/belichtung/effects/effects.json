@@ -1,9 +1,9 @@
 {
-  "name": "Lichteffekte",
+  "name": "✨ Lichteffekte",
   "description": "Spezielle Effekte und Erscheinungsformen des Lichts",
   "modifiers": {
     "optical": {
-      "name": "Optische Effekte",
+      "name": "👁️ Optische Effekte",
       "description": "Kamera- und linsenbedingte Lichteffekte",
       "items": [
         "lens flare",
@@ -16,7 +16,7 @@
       ]
     },
     "atmospheric": {
-      "name": "Atmosphärische Effekte",
+      "name": "🌤️ Atmosphärische Effekte",
       "description": "Umgebungsbedingte Lichteffekte",
       "items": [
         "volumetric light",
@@ -29,7 +29,7 @@
       ]
     },
     "reflective": {
-      "name": "Reflektive Effekte",
+      "name": "💫 Reflektive Effekte",
       "description": "Lichtreflexionen und -brechungen",
       "items": [
         "reflections",
@@ -42,7 +42,7 @@
       ]
     },
     "shadows": {
-      "name": "Schatteneffekte",
+      "name": "🌓 Schatteneffekte",
       "description": "Verschiedene Arten von Schatten",
       "items": {
         "characteristics": [

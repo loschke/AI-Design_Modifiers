@@ -1,19 +1,19 @@
 {
-  "name": "Beleuchtung",
+  "name": "💡 Beleuchtung",
   "description": "Natürliche und künstliche Lichtquellen sowie deren Eigenschaften",
   "subcategories": {
     "sources": {
-      "name": "Lichtquellen",
+      "name": "🔦 Lichtquellen",
       "description": "Natürliche und künstliche Beleuchtungsarten",
       "path": "/komposition/lighting/sources"
     },
     "effects": {
-      "name": "Lichteffekte",
+      "name": "✨ Lichteffekte",
       "description": "Optische, atmosphärische und reflektive Effekte",
       "path": "/komposition/lighting/effects"
     },
     "qualities": {
-      "name": "Lichtqualitäten",
+      "name": "☀️ Lichtqualitäten",
       "description": "Eigenschaften und Charakteristiken des Lichts",
       "path": "/komposition/lighting/qualities"
     }

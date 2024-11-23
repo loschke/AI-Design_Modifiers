@@ -1,9 +1,9 @@
 {
-  "name": "Digital Media",
+  "name": "💻 Digital Media",
   "description": "Digitale Kunst- und Designformen",
   "modifiers": {
     "general": {
-      "name": "General Digital Art",
+      "name": "🎨 General Digital Art",
       "description": "Allgemeine digitale Kunstformen",
       "items": [
         "a digital painting of",
@@ -12,7 +12,7 @@
       ]
     },
     "icons": {
-      "name": "Icons",
+      "name": "⭐ Icons",
       "description": "Verschiedene Icon-Stile",
       "items": [
         "a minimalist icon of",
@@ -23,7 +23,7 @@
       ]
     },
     "ui_elements": {
-      "name": "UI Elements",
+      "name": "🔲 UI Elements",
       "description": "Benutzeroberflächen-Elemente",
       "items": [
         "a user interface button of",
@@ -34,7 +34,7 @@
       ]
     },
     "illustrations": {
-      "name": "Digital Illustrations",
+      "name": "✨ Digital Illustrations",
       "description": "Spezielle digitale Illustrationsformen",
       "items": [
         "a vector illustration of",

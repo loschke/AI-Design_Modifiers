@@ -1,9 +1,9 @@
 {
-  "name": "Marketing Media",
+  "name": "📢 Marketing Media",
   "description": "Medientypen für Marketing und Werbung",
   "modifiers": {
     "branding": {
-      "name": "Branding",
+      "name": "™️ Branding",
       "description": "Corporate Design und Branding-Elemente",
       "items": [
         "a corporate logo of",
@@ -14,7 +14,7 @@
       ]
     },
     "print": {
-      "name": "Print Marketing",
+      "name": "📰 Print Marketing",
       "description": "Gedruckte Marketingmaterialien",
       "items": [
         "a magazine advertisement of",
@@ -26,7 +26,7 @@
       ]
     },
     "digital_marketing": {
-      "name": "Digital Marketing",
+      "name": "💻 Digital Marketing",
       "description": "Digitale Marketingmaterialien",
       "items": [
         "a social media post of",
@@ -37,7 +37,7 @@
       ]
     },
     "product": {
-      "name": "Product Marketing",
+      "name": "📦 Product Marketing",
       "description": "Produktbezogene Marketingmaterialien",
       "items": [
         "a product mockup of",

@@ -1,9 +1,9 @@
 {
-  "name": "Cultural Attributes",
+  "name": "🎭 Cultural Attributes",
   "description": "Kulturelle und gesellschaftliche Attribute",
   "modifiers": {
     "traditions": {
-      "name": "Cultural Traditions",
+      "name": "🎊 Cultural Traditions",
       "description": "Traditionelle und kulturelle Kontexte",
       "items": {
         "ceremonies": [
@@ -25,7 +25,7 @@
       }
     },
     "regional": {
-      "name": "Regional Cultures",
+      "name": "🌏 Regional Cultures",
       "description": "Regionale kulturelle Stile und Einflüsse",
       "items": {
         "asian": [
@@ -63,7 +63,7 @@
       }
     },
     "social_settings": {
-      "name": "Social Settings",
+      "name": "👥 Social Settings",
       "description": "Gesellschaftliche Kontexte und Milieus",
       "items": {
         "formal": [
@@ -93,7 +93,7 @@
       }
     },
     "artistic_styles": {
-      "name": "Artistic and Design Styles",
+      "name": "🎨 Artistic and Design Styles",
       "description": "Künstlerische und Design-Stile",
       "items": {
         "classical": [

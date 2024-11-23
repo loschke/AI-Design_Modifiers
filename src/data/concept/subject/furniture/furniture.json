@@ -1,9 +1,9 @@
 {
-  "name": "Furniture",
+  "name": "🪑 Furniture",
   "description": "Möbel und Einrichtungsgegenstände",
   "modifiers": {
     "seating": {
-      "name": "Seating",
+      "name": "💺 Seating",
       "description": "Sitzmöbel",
       "items": [
         "a sofa",
@@ -15,7 +15,7 @@
       ]
     },
     "tables": {
-      "name": "Tables",
+      "name": "🪟 Tables",
       "description": "Tische",
       "items": [
         "a dining table",
@@ -26,7 +26,7 @@
       ]
     },
     "storage": {
-      "name": "Storage Furniture",
+      "name": "📚 Storage Furniture",
       "description": "Aufbewahrungsmöbel",
       "items": [
         "a bookshelf",
@@ -37,7 +37,7 @@
       ]
     },
     "sleeping": {
-      "name": "Sleeping Furniture",
+      "name": "🛏️ Sleeping Furniture",
       "description": "Schlafmöbel",
       "items": [
         "a bed",
@@ -48,7 +48,7 @@
       ]
     },
     "accessories": {
-      "name": "Furniture Accessories",
+      "name": "💡 Furniture Accessories",
       "description": "Einrichtungszubehör",
       "items": [
         "a lamp",

@@ -1,9 +1,9 @@
 {
-  "name": "Texturen",
+  "name": "📝 Texturen",
   "description": "Natürliche und künstliche Materialoberflächen",
   "modifiers": {
     "natural_materials": {
-      "name": "Natürliche Materialien",
+      "name": "🌳 Natürliche Materialien",
       "description": "Texturen aus natürlichen Materialien",
       "items": {
         "wood": {
@@ -37,7 +37,7 @@
       }
     },
     "manufactured": {
-      "name": "Hergestellte Materialien",
+      "name": "⚙️ Hergestellte Materialien",
       "description": "Texturen aus künstlichen Materialien",
       "items": {
         "metal": {
@@ -71,7 +71,7 @@
       }
     },
     "fabric": {
-      "name": "Textilien",
+      "name": "🧵 Textilien",
       "description": "Texturen aus Stoffmaterialien",
       "items": {
         "natural": [

@@ -1,9 +1,9 @@
 {
-  "name": "Lichtqualitäten",
+  "name": "☀️ Lichtqualitäten",
   "description": "Eigenschaften und Charakteristiken des Lichts",
   "modifiers": {
     "temperature": {
-      "name": "Farbtemperatur",
+      "name": "🌡️ Farbtemperatur",
       "description": "Temperatur und Färbung des Lichts",
       "items": [
         "warm light",
@@ -15,7 +15,7 @@
       ]
     },
     "intensity": {
-      "name": "Intensität",
+      "name": "💡 Intensität",
       "description": "Stärke und Intensität des Lichts",
       "items": [
         "bright light",
@@ -27,7 +27,7 @@
       ]
     },
     "direction": {
-      "name": "Richtung",
+      "name": "➡️ Richtung",
       "description": "Richtung und Ausrichtung des Lichts",
       "items": [
         "front light",
@@ -41,7 +41,7 @@
       ]
     },
     "modification": {
-      "name": "Modifikation",
+      "name": "🔧 Modifikation",
       "description": "Veränderung und Anpassung des Lichts",
       "items": [
         "diffused light",

@@ -1,9 +1,9 @@
 {
-  "name": "Temporal Attributes",
+  "name": "⏰ Temporal Attributes",
   "description": "Zeit- und saisonbezogene Attribute",
   "modifiers": {
     "time_of_day": {
-      "name": "Time of Day",
+      "name": "🌅 Time of Day",
       "description": "Tageszeiten und Übergänge",
       "items": {
         "daylight": [
@@ -35,7 +35,7 @@
       }
     },
     "seasons": {
-      "name": "Seasons",
+      "name": "🍂 Seasons",
       "description": "Jahreszeiten und saisonale Ereignisse",
       "items": {
         "spring": [
