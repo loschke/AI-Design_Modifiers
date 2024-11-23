@@ -1,0 +1,93 @@
+{
+  "name": "Abstrakte Konzepte",
+  "description": "Philosophische und emotionale Visualisierungen",
+  "modifiers": {
+    "mystical": {
+      "name": "Mystische Elemente",
+      "description": "Spirituelle und esoterische Konzepte",
+      "items": {
+        "sacred_geometry": [
+          "with golden ratio spirals",
+          "featuring platonic solids",
+          "with mandala patterns",
+          "in geometric harmony",
+          "with sacred proportions"
+        ],
+        "alchemical": [
+          "with mystical symbols",
+          "featuring alchemical diagrams",
+          "with esoteric elements",
+          "in ritualistic pattern",
+          "with occult symbolism"
+        ],
+        "cosmic": [
+          "with celestial geometry",
+          "featuring cosmic patterns",
+          "with astronomical symbols",
+          "in astral projection",
+          "with universal harmony"
+        ]
+      }
+    },
+    "abstract": {
+      "name": "Abstrakte Konzepte",
+      "description": "Philosophische und emotionale Ideen",
+      "items": {
+        "emotional": [
+          "with visualized emotions",
+          "featuring mental landscapes",
+          "with psychological spaces",
+          "in dream logic",
+          "with mood manifestation"
+        ],
+        "philosophical": [
+          "with conceptual paradox",
+          "featuring abstract thought",
+          "with metaphysical space",
+          "in theoretical dimension",
+          "with philosophical visualization"
+        ]
+      }
+    },
+    "attributes": {
+      "name": "Surrealistische Attribute",
+      "description": "Qualitäten surrealer Darstellungen",
+      "items": {
+        "distortion": [
+          "subtle",
+          "moderate",
+          "extreme",
+          "layered",
+          "progressive"
+        ],
+        "dreamlike": [
+          "ethereal",
+          "haunting",
+          "whimsical",
+          "mysterious",
+          "transcendent"
+        ],
+        "symbolic": [
+          "personal",
+          "archetypal",
+          "cultural",
+          "universal",
+          "esoteric"
+        ]
+      }
+    },
+    "combinations": {
+      "name": "Surrealistische Kombinationen",
+      "description": "Vermischung verschiedener surrealer Elemente",
+      "items": {
+        "reality_mixing": [
+          "combining organic and mechanical elements",
+          "mixing temporal and spatial distortions",
+          "blending mystical and mundane objects",
+          "fusing abstract and concrete concepts",
+          "merging multiple dimensions"
+        ]
+      }
+    }
+  }
+}

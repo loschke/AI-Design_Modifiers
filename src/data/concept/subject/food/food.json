@@ -1,0 +1,85 @@
+{
+  "name": "Food and Drinks",
+  "description": "Lebensmittel und Getränke aller Art",
+  "modifiers": {
+    "fruits": {
+      "name": "Fruits",
+      "description": "Verschiedene Obstsorten",
+      "items": [
+        "an apple",
+        "a banana",
+        "an orange",
+        "a grape",
+        "a strawberry",
+        "a mango",
+        "a pineapple"
+      ]
+    },
+    "vegetables": {
+      "name": "Vegetables",
+      "description": "Verschiedene Gemüsesorten",
+      "items": [
+        "a carrot",
+        "a tomato",
+        "a potato",
+        "a broccoli",
+        "a cucumber",
+        "an onion"
+      ]
+    },
+    "meat": {
+      "name": "Meat",
+      "description": "Fleisch und Fleischgerichte",
+      "items": [
+        "a steak",
+        "a chicken breast",
+        "a pork chop",
+        "a hamburger",
+        "a roast"
+      ]
+    },
+    "seafood": {
+      "name": "Seafood",
+      "description": "Meeresfrüchte und Fischgerichte",
+      "items": [
+        "a fish fillet",
+        "a shrimp",
+        "a lobster",
+        "a crab",
+        "an oyster"
+      ]
+    },
+    "desserts": {
+      "name": "Desserts",
+      "description": "Süßspeisen und Nachspeisen",
+      "items": [
+        "a cake",
+        "a pie",
+        "an ice cream",
+        "a cookie",
+        "a chocolate",
+        "a pastry"
+      ]
+    },
+    "beverages": {
+      "name": "Beverages",
+      "description": "Getränke",
+      "items": {
+        "non_alcoholic": [
+          "a coffee",
+          "a tea",
+          "a juice",
+          "a smoothie",
+          "a soda"
+        ],
+        "alcoholic": [
+          "a wine",
+          "a beer",
+          "a cocktail",
+          "a martini",
+          "a whiskey"
+        ]
+      }
+    }
+  }
+}

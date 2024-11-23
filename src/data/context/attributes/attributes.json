@@ -1,0 +1,36 @@
+{
+  "name": "Environmental Attributes",
+  "description": "Eigenschaften und Merkmale von Umgebungen",
+  "subcategories": {
+    "temporal": {
+      "name": "Temporal Attributes",
+      "description": "Zeit- und saisonbezogene Eigenschaften",
+      "path": "/context/attributes/temporal"
+    },
+    "atmospheric": {
+      "name": "Atmospheric Attributes",
+      "description": "Wetter- und Lichtverhältnisse",
+      "path": "/context/attributes/atmospheric"
+    },
+    "mood": {
+      "name": "Mood Attributes",
+      "description": "Stimmungs- und Atmosphäre-Eigenschaften",
+      "path": "/context/attributes/mood"
+    },
+    "historical": {
+      "name": "Historical Attributes",
+      "description": "Geschichtliche Eigenschaften",
+      "path": "/context/attributes/historical"
+    },
+    "cultural": {
+      "name": "Cultural Attributes",
+      "description": "Kulturelle Eigenschaften",
+      "path": "/context/attributes/cultural"
+    }
+  },
+  "metadata": {
+    "order": 4,
+    "defaultSubcategory": "temporal",
+    "tags": ["attributes", "characteristics", "properties"]
+  }
+}

@@ -1,0 +1,71 @@
+{
+  "name": "Urban Environments",
+  "description": "Städtische und gebaute Umgebungen",
+  "modifiers": {
+    "city": {
+      "name": "City Areas",
+      "description": "Verschiedene Stadtbereiche",
+      "items": {
+        "downtown": [
+          "in city center",
+          "in financial district",
+          "in shopping district",
+          "in entertainment district",
+          "in historic district"
+        ],
+        "residential": [
+          "in suburb",
+          "in apartment complex",
+          "in gated community",
+          "in historic neighborhood",
+          "in modern development"
+        ],
+        "industrial": [
+          "in factory district",
+          "in warehouse district",
+          "in port area",
+          "in industrial park",
+          "in manufacturing zone"
+        ]
+      }
+    },
+    "buildings": {
+      "name": "Building Types",
+      "description": "Verschiedene Gebäudearten",
+      "items": {
+        "residential": [
+          "in modern house",
+          "in apartment building",
+          "in historic mansion",
+          "in tiny house",
+          "in eco-home",
+          "in smart home"
+        ],
+        "commercial": [
+          "in office building",
+          "in shopping mall",
+          "in restaurant",
+          "in hotel",
+          "in theater",
+          "in stadium"
+        ],
+        "cultural": [
+          "in museum",
+          "in art gallery",
+          "in concert hall",
+          "in library",
+          "in cultural center",
+          "in community center"
+        ],
+        "educational": [
+          "in school",
+          "in university",
+          "in research center",
+          "in laboratory",
+          "in workshop",
+          "in training facility"
+        ]
+      }
+    }
+  }
+}

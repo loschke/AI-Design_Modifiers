@@ -1,0 +1,32 @@
+{
+  "name": "#3 - Komposition",
+  "description": "Grundlegende Elemente der visuellen Komposition und Bildgestaltung",
+  "icon": "composition-icon",
+  "categories": {
+    "kamerafuehrung": {
+      "name": "Kameraführung",
+      "description": "Techniken und Stile der Kamerapositionierung und -bewegung",
+      "path": "/composition/kamerafuehrung"
+    },
+    "bildaufbau": {
+        "name": "Bildaufbau",
+        "description": "Techniken und Möglichkeiten des Bildaufbaus",
+        "path": "/composition/bildaufbau"
+      },
+    "belichtung": {
+        "name": "Belichtung",
+        "description": "Belichtung und Bildgestaltung",
+        "path": "/composition/belichtung"
+      }
+      ,
+    "stimmung": {
+        "name": "Stimmung",
+        "description": "Stimmung und Atmosphäre des Bildes",
+        "path": "/composition/stimmung"
+      }
+  },
+  "metadata": {
+    "order": 1,
+    "tags": ["composition", "visual", "camera"]
+  }
+}

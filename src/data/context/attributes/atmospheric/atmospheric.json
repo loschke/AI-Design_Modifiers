@@ -1,0 +1,68 @@
+{
+  "name": "Atmospheric Attributes",
+  "description": "Wetter- und Lichtverhältnisse",
+  "modifiers": {
+    "weather": {
+      "name": "Weather Conditions",
+      "description": "Verschiedene Wetterbedingungen",
+      "items": {
+        "clear": [
+          "on clear day",
+          "under blue sky",
+          "under cloudless sky",
+          "in bright sunshine",
+          "in perfect weather"
+        ],
+        "cloudy": [
+          "under cloudy sky",
+          "under overcast sky",
+          "in partial clouds",
+          "under gathering clouds",
+          "under storm clouds"
+        ],
+        "precipitation": [
+          "in light rain",
+          "in heavy rain",
+          "in thunderstorm",
+          "in snowfall",
+          "in hail",
+          "in drizzle"
+        ],
+        "atmospheric_effects": [
+          "in morning fog",
+          "in dense mist",
+          "in sea spray",
+          "in desert haze",
+          "in mountain mist"
+        ]
+      }
+    },
+    "lighting": {
+      "name": "Lighting Conditions",
+      "description": "Natürliche und künstliche Beleuchtung",
+      "items": {
+        "natural": [
+          "in bright sunlight",
+          "in soft daylight",
+          "in moonlight",
+          "in starlight",
+          "in filtered sunlight"
+        ],
+        "artificial": [
+          "in street lights",
+          "in neon lights",
+          "in warm indoor light",
+          "in fluorescent light",
+          "in spotlights"
+        ],
+        "special": [
+          "in northern lights",
+          "in bioluminescence",
+          "in firelight",
+          "in candlelight",
+          "in lightning flash"
+        ]
+      }
+    }
+  }
+}

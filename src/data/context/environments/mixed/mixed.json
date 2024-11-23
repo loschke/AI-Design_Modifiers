@@ -1,0 +1,30 @@
+{
+  "name": "Mixed Environments",
+  "description": "Übergangs- und gemischte Zonen",
+  "modifiers": {
+    "parks": {
+      "name": "Parks and Gardens",
+      "description": "Angelegte Naturräume",
+      "items": [
+        "in city park",
+        "in national park",
+        "in botanical garden",
+        "in urban forest",
+        "in nature reserve",
+        "in wildlife sanctuary"
+      ]
+    },
+    "transition_zones": {
+      "name": "Transition Areas",
+      "description": "Übergangszonen zwischen Stadt und Natur",
+      "items": [
+        "in suburban area",
+        "in urban-rural border",
+        "in industrial-natural border",
+        "in coastal city",
+        "in mountain town",
+        "in desert settlement"
+      ]
+    }
+  }
+}

@@ -1,0 +1,118 @@
+{
+  "name": "Animals",
+  "description": "Tiere aller Art als Hauptmotive",
+  "modifiers": {
+    "mammals": {
+      "name": "Mammals",
+      "description": "Säugetiere",
+      "items": {
+        "domestic": [
+          "a dog",
+          "a cat",
+          "a horse",
+          "a rabbit",
+          "a hamster",
+          "a guinea pig",
+          "a ferret"
+        ],
+        "wild": [
+          "a lion",
+          "a tiger",
+          "an elephant",
+          "a wolf",
+          "a bear",
+          "a deer",
+          "a monkey",
+          "a gorilla",
+          "a whale",
+          "a dolphin"
+        ]
+      }
+    },
+    "birds": {
+      "name": "Birds",
+      "description": "Vögel",
+      "items": {
+        "domestic": [
+          "a chicken",
+          "a parrot",
+          "a canary",
+          "a budgie",
+          "a peacock"
+        ],
+        "wild": [
+          "an eagle",
+          "an owl",
+          "a hawk",
+          "a penguin",
+          "a flamingo",
+          "a hummingbird",
+          "a crow"
+        ]
+      }
+    },
+    "reptiles": {
+      "name": "Reptiles",
+      "description": "Reptilien",
+      "items": [
+        "a snake",
+        "a lizard",
+        "a turtle",
+        "an alligator",
+        "a crocodile",
+        "a chameleon",
+        "a gecko"
+      ]
+    },
+    "amphibians": {
+      "name": "Amphibians",
+      "description": "Amphibien",
+      "items": [
+        "a frog",
+        "a toad",
+        "a salamander",
+        "a newt",
+        "an axolotl"
+      ]
+    },
+    "fish": {
+      "name": "Fish",
+      "description": "Fische",
+      "items": [
+        "a goldfish",
+        "a shark",
+        "a clownfish",
+        "a salmon",
+        "a tuna",
+        "an angelfish",
+        "a betta fish"
+      ]
+    },
+    "insects": {
+      "name": "Insects and Arachnids",
+      "description": "Insekten und Spinnentiere",
+      "items": [
+        "a butterfly",
+        "a bee",
+        "an ant",
+        "a ladybug",
+        "a dragonfly",
+        "a praying mantis",
+        "a spider"
+      ]
+    },
+    "mythical": {
+      "name": "Mythical Creatures",
+      "description": "Mythische Tierwesen",
+      "items": [
+        "a dragon",
+        "a unicorn",
+        "a phoenix",
+        "a griffin",
+        "a mermaid",
+        "a centaur",
+        "a pegasus"
+      ]
+    }
+  }
+}

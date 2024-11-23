@@ -1,0 +1,80 @@
+{
+  "name": "Historical Attributes",
+  "description": "Zeitliche und geschichtliche Attribute",
+  "modifiers": {
+    "eras": {
+      "name": "Historical Eras",
+      "description": "Verschiedene geschichtliche Epochen",
+      "items": {
+        "ancient": [
+          "in ancient times",
+          "in classical antiquity",
+          "in ancient Egypt",
+          "in ancient Greece",
+          "in ancient Rome",
+          "in ancient China",
+          "in ancient Maya"
+        ],
+        "medieval": [
+          "in medieval times",
+          "in dark ages",
+          "in middle ages",
+          "in feudal period",
+          "in renaissance era",
+          "in viking age",
+          "in crusader era"
+        ],
+        "modern_history": [
+          "in colonial period",
+          "in industrial revolution",
+          "in victorian era",
+          "in belle epoque",
+          "in roaring twenties",
+          "in mid-century modern",
+          "in space age"
+        ]
+      }
+    },
+    "time_periods": {
+      "name": "Time Periods",
+      "description": "Allgemeine Zeitperioden",
+      "items": {
+        "prehistoric": [
+          "in stone age",
+          "in bronze age",
+          "in iron age",
+          "in ice age",
+          "in prehistoric times"
+        ],
+        "future": [
+          "in near future",
+          "in distant future",
+          "in cyberpunk era",
+          "in post-apocalyptic time",
+          "in space colonization era"
+        ],
+        "alternate": [
+          "in steampunk world",
+          "in dieselpunk setting",
+          "in alternate history",
+          "in parallel timeline",
+          "in retro-futuristic era"
+        ]
+      }
+    },
+    "historical_events": {
+      "name": "Historical Events",
+      "description": "Bedeutende historische Ereignisse und Zeitpunkte",
+      "items": [
+        "during wartime",
+        "during revolution",
+        "during great depression",
+        "during golden age",
+        "during cultural revolution",
+        "during age of exploration",
+        "during industrial boom",
+        "during reconstruction period"
+      ]
+    }
+  }
+}

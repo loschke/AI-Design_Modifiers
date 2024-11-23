@@ -1,0 +1,54 @@
+{
+  "name": "Schichtung",
+  "description": "Techniken und Methoden zur Erzeugung von Tiefenstaffelung",
+  "modifiers": {
+    "basic_techniques": {
+      "name": "Grundlegende Techniken",
+      "description": "Fundamentale Methoden der Tiefenstaffelung",
+      "items": [
+        "with layered depth",
+        "with atmospheric perspective",
+        "with depth separation",
+        "with spatial arrangement",
+        "with stacked planes",
+        "with overlapping elements",
+        "with depth progression"
+      ]
+    },
+    "spatial": {
+      "name": "Räumliche Beziehungen",
+      "description": "Techniken zur räumlichen Anordnung",
+      "items": [
+        "with converging lines",
+        "with parallel planes",
+        "with intersecting elements",
+        "with geometric progression",
+        "with spatial rhythm"
+      ]
+    },
+    "depth_cues": {
+      "name": "Tiefenhinweise",
+      "description": "Visuelle Hinweise zur Tiefenwahrnehmung",
+      "items": {
+        "scale": [
+          "with size progression",
+          "with diminishing scale",
+          "with proportional spacing",
+          "with relative sizing"
+        ],
+        "detail": [
+          "with detail falloff",
+          "with textural progression",
+          "with clarity gradient",
+          "with focus transition"
+        ],
+        "color": [
+          "with color separation",
+          "with tonal progression",
+          "with value shifting",
+          "with chromatic depth"
+        ]
+      }
+    }
+  }
+}

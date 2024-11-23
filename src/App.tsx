@@ -23,12 +23,14 @@ function App() {
     try {
       const conceptData = await import('./data/concept/concept.json');
       const contextData = await import('./data/context/context.json');
-      const kompositionData = await import('./data/komposition/komposition.json');
+      const compositionData = await import('./data/composition/composition.json');
+      const creativityData = await import('./data/creativity/creativity.json');
       
       setClusters({
         concept: conceptData.default,
         context: contextData.default,
-        komposition: kompositionData.default
+        composition: compositionData.default,
+        creativity: creativityData.default
       });
     } catch (err) {
       setError('Failed to load clusters');

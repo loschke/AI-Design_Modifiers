@@ -1,0 +1,93 @@
+{
+  "name": "Bildebenen",
+  "description": "Gestaltung der verschiedenen Tiefenebenen im Bild",
+  "modifiers": {
+    "foreground": {
+      "name": "Vordergrund",
+      "description": "Elemente und Positionierung im vorderen Bildbereich",
+      "items": {
+        "position": [
+          "in the foreground",
+          "prominently displayed",
+          "up front",
+          "in close detail",
+          "foremost in frame",
+          "at the front edge",
+          "in immediate focus"
+        ],
+        "elements": [
+          "with framing elements",
+          "with leading objects",
+          "with foreground details",
+          "with partial objects",
+          "with decorative elements"
+        ],
+        "effects": [
+          "with bokeh foreground",
+          "with blurred foreground",
+          "with silhouetted elements",
+          "with transparent objects",
+          "with overlapping elements"
+        ]
+      }
+    },
+    "middleground": {
+      "name": "Mittelgrund",
+      "description": "Elemente und Positionierung im mittleren Bildbereich",
+      "items": {
+        "position": [
+          "in the middle ground",
+          "centrally located",
+          "between foreground and background",
+          "at mid-distance",
+          "in intermediate space",
+          "at focal point",
+          "in primary plane"
+        ],
+        "elements": [
+          "with main subject",
+          "with central action",
+          "with key elements",
+          "with focal point",
+          "with primary interest"
+        ],
+        "transitions": [
+          "smoothly transitioning",
+          "gradually blending",
+          "with subtle shifts",
+          "with depth transition",
+          "with spatial flow"
+        ]
+      }
+    },
+    "background": {
+      "name": "Hintergrund",
+      "description": "Elemente und Positionierung im hinteren Bildbereich",
+      "items": {
+        "position": [
+          "in the background",
+          "in the distance",
+          "far away",
+          "at the horizon",
+          "in the far distance",
+          "deep in space",
+          "in remote view"
+        ],
+        "elements": [
+          "with distant landscape",
+          "with background scenery",
+          "with contextual elements",
+          "with environmental details",
+          "with atmospheric elements"
+        ],
+        "effects": [
+          "with atmospheric haze",
+          "with depth blur",
+          "with fading detail",
+          "with diminishing contrast",
+          "with atmospheric perspective"
+        ]
+      }
+    }
+  }
+}

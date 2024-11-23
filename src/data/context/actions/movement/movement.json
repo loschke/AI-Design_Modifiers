@@ -1,0 +1,58 @@
+{
+  "name": "Movement",
+  "description": "Grundlegende, sportliche und akrobatische Bewegungen",
+  "modifiers": {
+    "basic": {
+      "name": "Basic Movements",
+      "description": "Grundlegende Bewegungsarten",
+      "items": [
+        "running",
+        "walking",
+        "jumping",
+        "dancing",
+        "climbing",
+        "sitting",
+        "standing",
+        "skipping",
+        "crawling",
+        "jogging",
+        "marching",
+        "sprinting",
+        "tip-toeing",
+        "strolling",
+        "wandering"
+      ]
+    },
+    "sports": {
+      "name": "Sports Movements",
+      "description": "Sportbezogene Bewegungen",
+      "items": [
+        "swimming",
+        "skiing",
+        "skating",
+        "surfing",
+        "hiking",
+        "biking",
+        "snowboarding",
+        "rowing",
+        "diving",
+        "climbing"
+      ]
+    },
+    "acrobatic": {
+      "name": "Acrobatic Movements",
+      "description": "Akrobatische und künstlerische Bewegungen",
+      "items": [
+        "flipping",
+        "spinning",
+        "twirling",
+        "cartwheeling",
+        "somersaulting",
+        "balancing",
+        "leaping",
+        "tumbling",
+        "pirouetting"
+      ]
+    }
+  }
+}

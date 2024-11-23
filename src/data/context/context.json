@@ -1,21 +1,31 @@
 {
-    "name": "Context",
-    "description": "Fundamental Environmental Context",
-    "icon": "context-icon",
-    "categories": {
-      "medium": {
-        "name": "Action",
-        "description": "Different types of artistic and visual media",
-        "path": "/context/action"
-      },
-      "style": {
-        "name": "Interaction",
-        "description": "Artistic styles and visual characteristics",
-        "path": "/context/interaction"
-      }
+  "name": "#2 - Kontext",
+  "description": "Die Bühne für die Idee - Wo, wann und was geschieht",
+  "icon": "context-icon",
+  "categories": {
+    "actions": {
+      "name": "Actions",
+      "description": "Verschiedene Arten von Handlungen und Aktivitäten",
+      "path": "/context/actions"
     },
-    "metadata": {
-      "order": 1,
-      "tags": ["basic", "essential"]
+    "interactions": {
+      "name": "Interactions",
+      "description": "Interaktionen mit Menschen, Tieren, Objekten und der Natur",
+      "path": "/context/interactions"
+    },
+    "environments": {
+      "name": "Environments",
+      "description": "Natürliche und künstliche Umgebungen",
+      "path": "/context/environments"
+    },
+    "attributes": {
+      "name": "Environmental Attributes",
+      "description": "Zeitliche, atmosphärische und stimmungsbezogene Eigenschaften",
+      "path": "/context/attributes"
     }
+  },
+  "metadata": {
+    "order": 2,
+    "tags": ["context", "setting", "environment"]
   }
+}

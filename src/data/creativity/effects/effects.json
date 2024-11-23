@@ -1,0 +1,26 @@
+{
+  "name": "Spezialeffekte",
+  "description": "Kreative Effekte und visuelle Manipulationen",
+  "subcategories": {
+    "optical": {
+      "name": "Optische Effekte",
+      "description": "Linsen- und Belichtungseffekte",
+      "path": "/creativity/effects/optical"
+    },
+    "light": {
+      "name": "Lichteffekte",
+      "description": "Natürliche und künstliche Lichtmanipulationen",
+      "path": "/creativity/effects/light"
+    },
+    "motion": {
+      "name": "Bewegungseffekte",
+      "description": "Dynamische und zeitbasierte Effekte",
+      "path": "/creativity/effects/motion"
+    }
+  },
+  "metadata": {
+    "order": 2,
+    "defaultSubcategory": "optical",
+    "tags": ["effects", "manipulation", "visual"]
+  }
+}

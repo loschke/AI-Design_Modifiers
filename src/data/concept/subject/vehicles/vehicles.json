@@ -1,0 +1,103 @@
+{
+  "name": "Vehicles",
+  "description": "Verschiedene Arten von Fahrzeugen",
+  "modifiers": {
+    "land": {
+      "name": "Land Vehicles",
+      "description": "Landfahrzeuge",
+      "items": {
+        "cars": [
+          "a sedan",
+          "an SUV",
+          "a sports car",
+          "a vintage car",
+          "an electric car"
+        ],
+        "trucks": [
+          "a pickup truck",
+          "a semi truck",
+          "a delivery truck",
+          "a dump truck",
+          "a fire truck"
+        ],
+        "motorcycles": [
+          "a street motorcycle",
+          "a cruiser motorcycle",
+          "a sport bike",
+          "a vintage motorcycle",
+          "a dirt bike"
+        ],
+        "bicycles": [
+          "a mountain bike",
+          "a road bike",
+          "a BMX bike",
+          "an electric bike",
+          "a vintage bicycle"
+        ],
+        "rail": [
+          "a train",
+          "a subway",
+          "a tram",
+          "a bullet train",
+          "a steam locomotive"
+        ]
+      }
+    },
+    "air": {
+      "name": "Air Vehicles",
+      "description": "Luftfahrzeuge",
+      "items": {
+        "commercial": [
+          "a passenger airplane",
+          "a cargo plane",
+          "a private jet"
+        ],
+        "military": [
+          "a fighter jet",
+          "a military helicopter",
+          "a bomber"
+        ],
+        "recreational": [
+          "a small propeller plane",
+          "a hot air balloon",
+          "a glider",
+          "a drone"
+        ]
+      }
+    },
+    "water": {
+      "name": "Water Vehicles",
+      "description": "Wasserfahrzeuge",
+      "items": {
+        "commercial": [
+          "a cruise ship",
+          "a cargo ship",
+          "a ferry"
+        ],
+        "recreational": [
+          "a yacht",
+          "a sailboat",
+          "a speedboat",
+          "a kayak",
+          "a canoe"
+        ],
+        "military": [
+          "a submarine",
+          "a battleship",
+          "an aircraft carrier"
+        ]
+      }
+    },
+    "space": {
+      "name": "Space Vehicles",
+      "description": "Raumfahrzeuge",
+      "items": [
+        "a spaceship",
+        "a rocket",
+        "a space shuttle",
+        "a satellite",
+        "a space station"
+      ]
+    }
+  }
+}

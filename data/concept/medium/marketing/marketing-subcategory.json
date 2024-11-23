@@ -1,0 +1,51 @@
+{
+  "name": "Marketing Media",
+  "description": "Medientypen für Marketing und Werbung",
+  "modifiers": {
+    "branding": {
+      "name": "Branding",
+      "description": "Corporate Design und Branding-Elemente",
+      "items": [
+        "a corporate logo of",
+        "a brand identity design of",
+        "a business card design of",
+        "a letterhead design of",
+        "a corporate identity package of"
+      ]
+    },
+    "print": {
+      "name": "Print Marketing",
+      "description": "Gedruckte Marketingmaterialien",
+      "items": [
+        "a magazine advertisement of",
+        "a billboard design of",
+        "a promotional poster of",
+        "a brochure design of",
+        "a flyer design of",
+        "a product packaging design of"
+      ]
+    },
+    "digital_marketing": {
+      "name": "Digital Marketing",
+      "description": "Digitale Marketingmaterialien",
+      "items": [
+        "a social media post of",
+        "an email newsletter design of",
+        "a digital banner ad of",
+        "an Instagram story design of",
+        "a Facebook cover image of"
+      ]
+    },
+    "product": {
+      "name": "Product Marketing",
+      "description": "Produktbezogene Marketingmaterialien",
+      "items": [
+        "a product mockup of",
+        "a product lifestyle photo of",
+        "a product detail shot of",
+        "a product showcase rendering of",
+        "a product placement shot of"
+      ]
+    }
+  }
+}

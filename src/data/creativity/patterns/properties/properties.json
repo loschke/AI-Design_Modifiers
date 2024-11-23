@@ -1,0 +1,80 @@
+{
+  "name": "Eigenschaften",
+  "description": "Materialqualitäten und Kombinationen",
+  "modifiers": {
+    "pattern_attributes": {
+      "name": "Mustereigenschaften",
+      "description": "Qualitäten von Mustern",
+      "items": {
+        "scale": [
+          "micro",
+          "macro",
+          "repeating",
+          "scattered",
+          "gradual"
+        ],
+        "density": [
+          "dense",
+          "sparse",
+          "layered",
+          "overlapping",
+          "gradient"
+        ],
+        "rhythm": [
+          "regular",
+          "irregular",
+          "flowing",
+          "dynamic",
+          "static"
+        ]
+      }
+    },
+    "material_states": {
+      "name": "Materialzustände",
+      "description": "Eigenschaften von Materialoberflächen",
+      "items": {
+        "finish": [
+          "polished",
+          "matte",
+          "textured",
+          "rough",
+          "smooth"
+        ],
+        "condition": [
+          "new",
+          "weathered",
+          "aged",
+          "distressed",
+          "pristine"
+        ],
+        "opacity": [
+          "reflective",
+          "absorbing",
+          "transparent",
+          "translucent",
+          "opaque"
+        ]
+      }
+    },
+    "combinations": {
+      "name": "Kombinationen",
+      "description": "Kreative Material- und Musterkombinationen",
+      "items": {
+        "pattern_material": [
+          "geometric pattern on polished metal",
+          "organic texture with wood grain",
+          "digital glitch on frosted glass",
+          "cultural pattern in woven fabric",
+          "fractal design on stone surface"
+        ],
+        "mixed_materials": [
+          "combining wood and metal elements",
+          "mixing glass and stone textures",
+          "blending fabric with leather details",
+          "merging polished and rough surfaces",
+          "fusing traditional and modern materials"
+        ]
+      }
+    }
+  }
+}

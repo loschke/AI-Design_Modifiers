@@ -1,0 +1,90 @@
+{
+  "name": "Muster",
+  "description": "Geometrische und natürliche Musterstrukturen",
+  "modifiers": {
+    "geometric": {
+      "name": "Geometrische Muster",
+      "description": "Mathematisch basierte Musterstrukturen",
+      "items": {
+        "basic": [
+          "with hexagonal pattern",
+          "featuring square grid",
+          "with triangular tessellation",
+          "in circular pattern",
+          "with diamond grid"
+        ],
+        "complex": [
+          "with Islamic geometric pattern",
+          "featuring Art Deco geometry",
+          "with mathematical tessellation",
+          "with nested geometric shapes",
+          "featuring architectural rhythm"
+        ]
+      }
+    },
+    "natural": {
+      "name": "Natürliche Muster",
+      "description": "Muster aus der Natur",
+      "items": {
+        "floral": [
+          "with botanical pattern",
+          "featuring vine motifs",
+          "with flowing floral design",
+          "in Art Nouveau flora",
+          "with repeated flower motif"
+        ],
+        "organic": [
+          "with cellular pattern",
+          "featuring tree rings",
+          "with leaf veins",
+          "in natural fractals",
+          "with organic flow"
+        ],
+        "animal": [
+          "with leopard spots",
+          "featuring zebra stripes",
+          "with snake scales",
+          "in peacock pattern",
+          "with butterfly wing design"
+        ]
+      }
+    },
+    "abstract": {
+      "name": "Abstrakte Muster",
+      "description": "Nicht-gegenständliche Musterformen",
+      "items": {
+        "fluid": [
+          "with marbled pattern",
+          "featuring swirling design",
+          "with liquid flow",
+          "in smoke pattern",
+          "with wave interference"
+        ],
+        "digital": [
+          "with glitch pattern",
+          "featuring pixel mosaic",
+          "with digital noise",
+          "in circuit board design",
+          "with data visualization"
+        ],
+        "fractal": [
+          "with Mandelbrot pattern",
+          "featuring recursive design",
+          "with spiral fractals",
+          "in self-similar pattern"
+        ]
+      }
+    },
+    "cultural": {
+      "name": "Kulturelle Muster",
+      "description": "Traditionelle und kulturspezifische Muster",
+      "items": [
+        "with Celtic knots",
+        "featuring Japanese waves",
+        "with Persian arabesque",
+        "in Aboriginal dot pattern",
+        "with African mudcloth design"
+      ]
+    }
+  }
+}

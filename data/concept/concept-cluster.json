@@ -1,0 +1,26 @@
+{
+  "name": "Concept",
+  "description": "Der Startpunkt der Kreativität - Was ist zu sehen und wie wurde es erstellt",
+  "icon": "concept-icon",
+  "categories": {
+    "medium": {
+      "name": "Medium",
+      "description": "Künstlerische und technische Medientypen",
+      "path": "/concept/medium"
+    },
+    "subject": {
+      "name": "Subject",
+      "description": "Hauptmotive und Objekte der Darstellung",
+      "path": "/concept/subject"
+    },
+    "examples": {
+      "name": "Examples",
+      "description": "Beispiele für verschiedene Komplexitätsstufen von Prompts",
+      "path": "/concept/examples"
+    }
+  },
+  "metadata": {
+    "order": 1,
+    "tags": ["basic", "foundation", "creative"]
+  }
+}

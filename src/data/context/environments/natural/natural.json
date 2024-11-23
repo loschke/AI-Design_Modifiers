@@ -1,0 +1,91 @@
+{
+  "name": "Natural Environments",
+  "description": "Natürliche Landschaften und Gewässer",
+  "modifiers": {
+    "landscapes": {
+      "name": "Natural Landscapes",
+      "description": "Verschiedene Landschaftstypen",
+      "items": {
+        "forest": [
+          "in dense forest",
+          "in pine forest",
+          "in rainforest",
+          "in woodland",
+          "in ancient forest",
+          "in bamboo forest",
+          "in tropical forest"
+        ],
+        "mountains": [
+          "in snowy mountains",
+          "in rocky mountains",
+          "in mountain valley",
+          "on mountain peak",
+          "in mountain range",
+          "in mountain pass"
+        ],
+        "desert": [
+          "in sandy desert",
+          "in rocky desert",
+          "in desert oasis",
+          "in desert dunes",
+          "in desert canyon",
+          "in desert plains"
+        ],
+        "coastal": [
+          "on sandy beach",
+          "on rocky coast",
+          "on tropical island",
+          "in coastal cliffs",
+          "in coastal cave",
+          "in coastal lagoon"
+        ],
+        "grassland": [
+          "in savannah",
+          "in prairie",
+          "in meadow",
+          "in steppes",
+          "in rolling hills",
+          "in grassland plains"
+        ]
+      }
+    },
+    "water_bodies": {
+      "name": "Water Bodies",
+      "description": "Natürliche Gewässer",
+      "items": {
+        "ocean": [
+          "in open ocean",
+          "in coral reef",
+          "in ocean depths",
+          "in tidal pool",
+          "in ocean waves",
+          "in ocean current"
+        ],
+        "lakes": [
+          "by mountain lake",
+          "by forest lake",
+          "in lake shore",
+          "on frozen lake",
+          "in crystal lake",
+          "in alpine lake"
+        ],
+        "rivers": [
+          "by river bank",
+          "in river rapids",
+          "at river mouth",
+          "in river delta",
+          "by river bend",
+          "at river crossing"
+        ],
+        "waterfalls": [
+          "at giant waterfall",
+          "at cascading falls",
+          "at hidden waterfall",
+          "at tropical falls",
+          "at frozen waterfall",
+          "at mountain falls"
+        ]
+      }
+    }
+  }
+}

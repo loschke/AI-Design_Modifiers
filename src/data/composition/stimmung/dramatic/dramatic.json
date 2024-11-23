@@ -1,0 +1,65 @@
+{
+  "name": "Dramatisch",
+  "description": "Intensive und dynamische Stimmungen",
+  "modifiers": {
+    "intense": {
+      "name": "Intensiv",
+      "description": "Kraftvolle, eindrucksvolle Stimmungen",
+      "items": [
+        "powerful",
+        "dramatic",
+        "bold",
+        "striking",
+        "impactful",
+        "fierce",
+        "commanding",
+        "impressive",
+        "majestic"
+      ]
+    },
+    "dynamic": {
+      "name": "Dynamisch",
+      "description": "Bewegte, energiegeladene Stimmungen",
+      "items": [
+        "energetic",
+        "forceful",
+        "passionate",
+        "intense",
+        "epic",
+        "grand",
+        "theatrical",
+        "expressive",
+        "spectacular"
+      ]
+    },
+    "joyful": {
+      "name": "Freudig",
+      "description": "Lebendige, positive Stimmungen",
+      "items": {
+        "energetic": [
+          "cheerful",
+          "vibrant",
+          "playful",
+          "radiant",
+          "warm",
+          "lively",
+          "uplifting",
+          "exciting",
+          "dynamic",
+          "spirited"
+        ],
+        "positive": [
+          "happy",
+          "bright",
+          "optimistic",
+          "sunny",
+          "delightful",
+          "jubilant",
+          "blissful",
+          "carefree",
+          "lighthearted"
+        ]
+      }
+    }
+  }
+}

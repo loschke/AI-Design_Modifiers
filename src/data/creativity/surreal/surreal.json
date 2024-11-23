@@ -1,0 +1,26 @@
+{
+  "name": "Surreales & Abstraktes",
+  "description": "Unmögliche Welten und abstrakte Konzepte",
+  "subcategories": {
+    "worlds": {
+      "name": "Unmögliche Welten",
+      "description": "Paradoxe und mystische Landschaften",
+      "path": "/creativity/surreal/worlds"
+    },
+    "concepts": {
+      "name": "Abstrakte Konzepte",
+      "description": "Philosophische und emotionale Visualisierungen",
+      "path": "/creativity/surreal/concepts"
+    },
+    "transformation": {
+      "name": "Metamorphosen",
+      "description": "Verwandlungen und Verschmelzungen",
+      "path": "/creativity/surreal/transformation"
+    }
+  },
+  "metadata": {
+    "order": 4,
+    "defaultSubcategory": "worlds",
+    "tags": ["surreal", "abstract", "conceptual"]
+  }
+}

@@ -1,0 +1,74 @@
+{
+  "name": "Plants",
+  "description": "Pflanzen und botanische Motive",
+  "modifiers": {
+    "trees": {
+      "name": "Trees",
+      "description": "Verschiedene Baumarten",
+      "items": {
+        "deciduous": [
+          "an oak tree",
+          "a maple tree",
+          "a birch tree",
+          "a willow tree",
+          "an apple tree"
+        ],
+        "evergreen": [
+          "a pine tree",
+          "a spruce tree",
+          "a cedar tree",
+          "a cypress tree",
+          "a palm tree"
+        ]
+      }
+    },
+    "flowers": {
+      "name": "Flowers",
+      "description": "Blumen und Blüten",
+      "items": {
+        "garden": [
+          "a rose",
+          "a tulip",
+          "a sunflower",
+          "a daisy",
+          "a lily",
+          "an orchid"
+        ],
+        "wild": [
+          "a wildflower",
+          "a dandelion",
+          "a poppy",
+          "a buttercup",
+          "a bluebell"
+        ]
+      }
+    },
+    "other_plants": {
+      "name": "Other Plants",
+      "description": "Weitere Pflanzenarten",
+      "items": {
+        "shrubs": [
+          "a bush",
+          "a hedge",
+          "a rhododendron",
+          "a boxwood",
+          "a lavender bush"
+        ],
+        "succulents": [
+          "a cactus",
+          "an aloe vera",
+          "a jade plant",
+          "an echeveria",
+          "a succulent garden"
+        ],
+        "vines": [
+          "an ivy",
+          "a grapevine",
+          "a clematis",
+          "a wisteria",
+          "a morning glory"
+        ]
+      }
+    }
+  }
+}

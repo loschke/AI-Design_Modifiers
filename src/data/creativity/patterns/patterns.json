@@ -1,0 +1,31 @@
+{
+  "name": "Muster & Materialien",
+  "description": "Texturen, Muster und Materialeigenschaften",
+  "subcategories": {
+    "pattern": {
+      "name": "Muster",
+      "description": "Geometrische und natürliche Musterstrukturen",
+      "path": "/creativity/patterns/pattern"
+    },
+    "materials": {
+      "name": "Materialien",
+      "description": "Natürliche und künstliche Materialarten",
+      "path": "/creativity/patterns/materials"
+    },
+    "texture": {
+      "name": "Texturen",
+      "description": "Oberflächenbeschaffenheiten und -strukturen",
+      "path": "/creativity/patterns/texture"
+    },
+    "properties": {
+      "name": "Eigenschaften",
+      "description": "Materialqualitäten und Kombinationen",
+      "path": "/creativity/patterns/properties"
+    }
+  },
+  "metadata": {
+    "order": 3,
+    "defaultSubcategory": "pattern",
+    "tags": ["pattern", "texture", "material"]
+  }
+}

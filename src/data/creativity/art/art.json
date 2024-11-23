@@ -1,0 +1,26 @@
+{
+  "name": "Kreative Kunst",
+  "description": "Künstlerische Stile und historische Kunstepochen",
+  "subcategories": {
+    "historical": {
+      "name": "Historische Kunst",
+      "description": "Klassische und moderne Kunstepochen",
+      "path": "/creativity/art/historical"
+    },
+    "movements": {
+      "name": "Kunstbewegungen",
+      "description": "Moderne und zeitgenössische Kunstbewegungen",
+      "path": "/creativity/art/movements"
+    },
+    "techniques": {
+      "name": "Künstlerische Techniken",
+      "description": "Technische und stilistische Ansätze",
+      "path": "/creativity/art/techniques"
+    }
+  },
+  "metadata": {
+    "order": 1,
+    "defaultSubcategory": "historical",
+    "tags": ["art", "style", "painting"]
+  }
+}

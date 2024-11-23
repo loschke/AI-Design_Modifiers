@@ -1,0 +1,125 @@
+{
+  "name": "Materialien",
+  "description": "Natürliche und künstliche Materialarten",
+  "modifiers": {
+    "natural": {
+      "name": "Natürliche Materialien",
+      "description": "Materialien aus der Natur",
+      "items": {
+        "wood": {
+          "raw": [
+            "natural wood",
+            "solid timber",
+            "raw lumber",
+            "driftwood"
+          ],
+          "processed": [
+            "plywood",
+            "laminated wood",
+            "veneer",
+            "particleboard"
+          ]
+        },
+        "stone": {
+          "raw": [
+            "marble",
+            "granite",
+            "slate",
+            "sandstone"
+          ],
+          "processed": [
+            "polished stone",
+            "carved stone",
+            "terrazzo",
+            "concrete"
+          ]
+        }
+      }
+    },
+    "manufactured": {
+      "name": "Hergestellte Materialien",
+      "description": "Künstlich hergestellte Materialien",
+      "items": {
+        "metal": {
+          "basic": [
+            "steel",
+            "aluminum",
+            "copper",
+            "brass"
+          ],
+          "finishes": [
+            "chrome",
+            "brushed metal",
+            "oxidized metal",
+            "anodized metal"
+          ]
+        },
+        "glass": {
+          "basic": [
+            "clear glass",
+            "frosted glass",
+            "tinted glass",
+            "tempered glass"
+          ],
+          "specialty": [
+            "stained glass",
+            "mirrored glass",
+            "textured glass",
+            "safety glass"
+          ]
+        }
+      }
+    },
+    "fabric": {
+      "name": "Textilien",
+      "description": "Natürliche und synthetische Stoffe",
+      "items": {
+        "natural": [
+          "cotton",
+          "wool",
+          "silk",
+          "linen",
+          "leather"
+        ],
+        "synthetic": [
+          "nylon",
+          "polyester",
+          "acrylic",
+          "spandex",
+          "rayon"
+        ],
+        "processed": [
+          "denim",
+          "canvas",
+          "velvet",
+          "suede",
+          "felt"
+        ]
+      }
+    },
+    "modern": {
+      "name": "Moderne Materialien",
+      "description": "Zeitgenössische und technische Materialien",
+      "items": {
+        "composites": [
+          "carbon fiber",
+          "fiberglass",
+          "kevlar",
+          "reinforced plastic"
+        ],
+        "technical": [
+          "smart materials",
+          "nano materials",
+          "biomaterials",
+          "recycled composites"
+        ],
+        "sustainable": [
+          "bamboo",
+          "cork",
+          "recycled materials",
+          "biodegradable polymers"
+        ]
+      }
+    }
+  }
+}

@@ -1,0 +1,59 @@
+{
+  "name": "People Interactions",
+  "description": "Verschiedene Formen der Interaktion mit Menschen",
+  "modifiers": {
+    "family": {
+      "name": "Family Interactions",
+      "description": "Interaktionen im Familienkreis",
+      "items": [
+        "with parents",
+        "with children",
+        "with siblings",
+        "with grandparents",
+        "with cousins",
+        "with family members",
+        "with relatives"
+      ]
+    },
+    "social": {
+      "name": "Social Interactions",
+      "description": "Soziale Interaktionen im Alltag",
+      "items": [
+        "with friends",
+        "with colleagues",
+        "with neighbors",
+        "with classmates",
+        "with teammates",
+        "with strangers",
+        "with community members"
+      ]
+    },
+    "professional": {
+      "name": "Professional Interactions",
+      "description": "Berufliche und professionelle Interaktionen",
+      "items": [
+        "with clients",
+        "with customers",
+        "with students",
+        "with teachers",
+        "with doctors",
+        "with artists",
+        "with workers",
+        "with performers"
+      ]
+    },
+    "group": {
+      "name": "Group Interactions",
+      "description": "Interaktionen mit größeren Gruppen",
+      "items": [
+        "with a crowd",
+        "with an audience",
+        "with a team",
+        "with a class",
+        "with a band",
+        "with a choir",
+        "with a dance group"
+      ]
+    }
+  }
+}

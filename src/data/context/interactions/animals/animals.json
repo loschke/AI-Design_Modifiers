@@ -1,0 +1,47 @@
+{
+  "name": "Animal Interactions",
+  "description": "Interaktionen mit verschiedenen Tierarten",
+  "modifiers": {
+    "pets": {
+      "name": "Pet Interactions",
+      "description": "Interaktionen mit Haustieren",
+      "items": [
+        "with dogs",
+        "with cats",
+        "with birds",
+        "with fish",
+        "with hamsters",
+        "with rabbits",
+        "with guinea pigs",
+        "with horses"
+      ]
+    },
+    "wild_animals": {
+      "name": "Wild Animal Interactions",
+      "description": "Interaktionen mit wilden Tieren",
+      "items": [
+        "with elephants",
+        "with lions",
+        "with dolphins",
+        "with wolves",
+        "with bears",
+        "with monkeys",
+        "with eagles",
+        "with whales"
+      ]
+    },
+    "farm_animals": {
+      "name": "Farm Animal Interactions",
+      "description": "Interaktionen mit Nutztieren",
+      "items": [
+        "with chickens",
+        "with cows",
+        "with sheep",
+        "with goats",
+        "with pigs",
+        "with ducks",
+        "with geese"
+      ]
+    }
+  }
+}

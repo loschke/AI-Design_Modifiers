@@ -1,0 +1,88 @@
+{
+  "name": "Lichtquellen",
+  "description": "Verschiedene Arten von natürlichen und künstlichen Lichtquellen",
+  "modifiers": {
+    "natural": {
+      "name": "Natürliches Licht",
+      "description": "Natürliche Lichtquellen und Tageszeiten",
+      "items": {
+        "daylight": [
+          "morning light",
+          "midday sun",
+          "afternoon light",
+          "evening light",
+          "dawn light",
+          "dusk light",
+          "overcast light",
+          "filtered sunlight"
+        ],
+        "golden_hours": [
+          "golden hour light",
+          "magic hour",
+          "sunset glow",
+          "sunrise light",
+          "warm morning rays",
+          "evening gold",
+          "amber light"
+        ],
+        "blue_hours": [
+          "blue hour light",
+          "twilight",
+          "civil twilight",
+          "nautical twilight",
+          "astronomical twilight",
+          "pre-dawn light"
+        ],
+        "night": [
+          "moonlight",
+          "starlight",
+          "celestial light",
+          "lunar glow",
+          "night sky illumination",
+          "astronomical light"
+        ]
+      }
+    },
+    "artificial": {
+      "name": "Künstliches Licht",
+      "description": "Künstliche Beleuchtungsquellen",
+      "items": {
+        "controlled": [
+          "studio lighting",
+          "softbox light",
+          "strobe light",
+          "ring light",
+          "beauty dish light",
+          "continuous lighting",
+          "flash lighting"
+        ],
+        "ambient": [
+          "room light",
+          "indoor lighting",
+          "ambient glow",
+          "practical lighting",
+          "environmental lighting",
+          "interior light"
+        ],
+        "decorative": [
+          "neon light",
+          "LED lighting",
+          "fairy lights",
+          "string lights",
+          "theatrical lighting",
+          "accent lighting",
+          "mood lighting"
+        ],
+        "urban": [
+          "street light",
+          "city lights",
+          "building illumination",
+          "signage light",
+          "window light",
+          "urban glow",
+          "metropolitan lighting"
+        ]
+      }
+    }
+  }
+}

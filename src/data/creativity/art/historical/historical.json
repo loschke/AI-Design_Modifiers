@@ -1,0 +1,76 @@
+{
+  "name": "Historische Kunst",
+  "description": "Klassische und moderne Kunstepochen",
+  "modifiers": {
+    "classical": {
+      "name": "Klassische Epochen",
+      "description": "Historische Kunststile vom Mittelalter bis zur Romantik",
+      "items": {
+        "renaissance": [
+          "in Renaissance style",
+          "with Renaissance characteristics",
+          "inspired by Renaissance art",
+          "in the manner of Renaissance masters",
+          "with Renaissance composition"
+        ],
+        "baroque": [
+          "in Baroque style",
+          "with dramatic Baroque lighting",
+          "featuring Baroque dynamics",
+          "with Baroque composition",
+          "in the manner of Baroque masters"
+        ],
+        "gothic": [
+          "in Gothic style",
+          "with Gothic architecture elements",
+          "featuring Gothic details",
+          "with Gothic religious motifs",
+          "in medieval Gothic manner"
+        ],
+        "romantic": [
+          "in Romantic style",
+          "with Romantic atmosphere",
+          "featuring Romantic landscapes",
+          "with dramatic lighting",
+          "in the manner of Romantic painters"
+        ]
+      }
+    },
+    "modern_epoch": {
+      "name": "Moderne Epochen",
+      "description": "Kunstbewegungen des späten 19. und frühen 20. Jahrhunderts",
+      "items": {
+        "impressionism": [
+          "in Impressionist style",
+          "with Impressionist light effects",
+          "featuring loose brushwork",
+          "with bright color palette",
+          "in plein-air style"
+        ],
+        "post_impressionism": [
+          "with expressive brushstrokes",
+          "featuring bold color contrasts",
+          "with emotional color use",
+          "in dynamic swirling style",
+          "with thick paint application"
+        ],
+        "modernism": {
+          "cubism": [
+            "in Cubist style",
+            "with geometric forms",
+            "featuring multiple perspectives",
+            "with fragmented shapes",
+            "in analytical style"
+          ],
+          "futurism": [
+            "in Futurist style",
+            "with dynamic motion",
+            "featuring technology themes",
+            "with speed elements",
+            "in Italian Futurist manner"
+          ]
+        }
+      }
+    }
+  }
+}

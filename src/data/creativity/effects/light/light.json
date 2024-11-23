@@ -1,0 +1,39 @@
+{
+  "name": "Lichteffekte",
+  "description": "Natürliche und künstliche Lichtmanipulationen",
+  "modifiers": {
+    "natural": {
+      "name": "Natürliche Lichteffekte",
+      "description": "Effekte mit natürlichen Lichtquellen",
+      "items": [
+        "with light leaks",
+        "featuring sun flares",
+        "with natural bokeh",
+        "in golden hour lighting",
+        "with atmospheric rays"
+      ]
+    },
+    "artificial": {
+      "name": "Künstliche Lichteffekte",
+      "description": "Effekte mit künstlichen Lichtquellen",
+      "items": [
+        "with iridescent lighting",
+        "featuring neon glow",
+        "with black light effect",
+        "in multi-color exposure",
+        "with LED light trails"
+      ]
+    },
+    "experimental": {
+      "name": "Experimentelle Lichteffekte",
+      "description": "Kreative und ungewöhnliche Lichtmanipulationen",
+      "items": [
+        "with light painting",
+        "featuring holographic effect",
+        "with bioluminescent glow",
+        "in phosphorescent style",
+        "with metallic light reflection"
+      ]
+    }
+  }
+}

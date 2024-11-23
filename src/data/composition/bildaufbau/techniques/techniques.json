@@ -1,0 +1,52 @@
+{
+  "name": "Kompositionstechniken",
+  "description": "Spezifische Techniken zur Gestaltung der Tiefenwirkung",
+  "modifiers": {
+    "perspective": {
+      "name": "Perspektivische Techniken",
+      "description": "Methoden zur perspektivischen Tiefengestaltung",
+      "items": [
+        "with linear perspective",
+        "with forced perspective",
+        "with diminishing perspective",
+        "with exaggerated depth",
+        "with compressed depth"
+      ]
+    },
+    "focus": {
+      "name": "Fokustechniken",
+      "description": "Methoden der Tiefengestaltung durch Fokussierung",
+      "items": [
+        "with selective focus",
+        "with focus stacking",
+        "with depth of field control",
+        "with focal plane shift",
+        "with tilt-shift effect"
+      ]
+    },
+    "arrangement": {
+      "name": "Anordnungstechniken",
+      "description": "Methoden zur räumlichen Anordnung",
+      "items": {
+        "planes": [
+          "with multiple planes",
+          "with intersecting planes",
+          "with diagonal planes",
+          "with receding planes"
+        ],
+        "spacing": [
+          "with balanced spacing",
+          "with rhythmic spacing",
+          "with dynamic spacing",
+          "with harmonious intervals"
+        ],
+        "flow": [
+          "with visual flow",
+          "with depth movement",
+          "with spatial progression",
+          "with dynamic depth"
+        ]
+      }
+    }
+  }
+}

@@ -1,0 +1,68 @@
+{
+  "name": "Metamorphosen",
+  "description": "Verwandlungen und Verschmelzungen",
+  "modifiers": {
+    "biological": {
+      "name": "Biologische Fusion",
+      "description": "Verschmelzungen lebender Formen",
+      "items": [
+        "with human-animal hybrid",
+        "featuring creature metamorphosis",
+        "with organic transformation",
+        "in evolutionary flux",
+        "with biological fusion"
+      ]
+    },
+    "object": {
+      "name": "Objektverwandlung",
+      "description": "Transformation unbelebter Objekte",
+      "items": [
+        "with melting objects",
+        "featuring morphing structures",
+        "with fluid architecture",
+        "in material transformation",
+        "with dissolving forms"
+      ]
+    },
+    "fluid": {
+      "name": "Fließende Dynamik",
+      "description": "Flüssige und fließende Transformationen",
+      "items": [
+        "with liquid metal flow",
+        "featuring waterfall buildings",
+        "with floating liquids",
+        "in gravity-defying drops",
+        "with fluid sculpture"
+      ]
+    },
+    "temporal": {
+      "name": "Zeitliche Anomalien",
+      "description": "Zeitbasierte Transformationen",
+      "items": {
+        "fusion": [
+          "with anachronistic elements",
+          "featuring time collision",
+          "with era fusion",
+          "in temporal blend",
+          "with chronological mix"
+        ],
+        "future": {
+          "utopian": [
+            "with harmonious society",
+            "featuring perfect balance",
+            "with advanced civilization",
+            "in sustainable utopia",
+            "with evolved humanity"
+          ],
+          "dystopian": [
+            "with decaying cities",
+            "featuring post-apocalyptic world",
+            "with technological ruins",
+            "in industrial wasteland",
+            "with societal collapse"
+          ]
+        }
+      }
+    }
+  }
+}

@@ -1,0 +1,45 @@
+{
+  "name": "Nature Interactions",
+  "description": "Interaktionen mit natürlichen Elementen",
+  "modifiers": {
+    "plants": {
+      "name": "Plant Interactions",
+      "description": "Interaktionen mit Pflanzen",
+      "items": [
+        "with trees",
+        "with flowers",
+        "with gardens",
+        "with forests",
+        "with grass",
+        "with leaves",
+        "with vines"
+      ]
+    },
+    "elements": {
+      "name": "Element Interactions",
+      "description": "Interaktionen mit Naturgewalten",
+      "items": [
+        "with water",
+        "with fire",
+        "with earth",
+        "with wind",
+        "with snow",
+        "with ice",
+        "with sand"
+      ]
+    },
+    "weather": {
+      "name": "Weather Interactions",
+      "description": "Interaktionen mit Wetterphänomenen",
+      "items": [
+        "with rain",
+        "with snow",
+        "with wind",
+        "with sunshine",
+        "with storms",
+        "with fog",
+        "with mist"
+      ]
+    }
+  }
+}

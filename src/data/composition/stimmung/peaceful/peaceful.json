@@ -1,0 +1,68 @@
+{
+  "name": "Friedlich",
+  "description": "Ruhige und ausgewogene Stimmungen",
+  "modifiers": {
+    "calming": {
+      "name": "Beruhigend",
+      "description": "Sanfte, entspannende Stimmungen",
+      "items": [
+        "serene",
+        "tranquil",
+        "peaceful",
+        "calm",
+        "gentle",
+        "quiet",
+        "soothing",
+        "meditative",
+        "harmonious",
+        "relaxing",
+        "zen",
+        "balanced"
+      ]
+    },
+    "natural": {
+      "name": "Natürlich",
+      "description": "Organische, fließende Stimmungen",
+      "items": [
+        "organic",
+        "flowing",
+        "ethereal",
+        "earthy",
+        "pure",
+        "graceful",
+        "floating",
+        "airy",
+        "soft"
+      ]
+    },
+    "nostalgic": {
+      "name": "Nostalgisch",
+      "description": "Zeitlose, klassische Stimmungen",
+      "items": {
+        "vintage": [
+          "retro",
+          "vintage",
+          "timeless",
+          "classic",
+          "reminiscent",
+          "old-world",
+          "antiqued",
+          "aged",
+          "weathered",
+          "traditional"
+        ],
+        "memory": [
+          "dreamy",
+          "hazy",
+          "faded",
+          "remembering",
+          "sentimental",
+          "wistful",
+          "romantic",
+          "bygone",
+          "memory-like"
+        ]
+      }
+    }
+  }
+}

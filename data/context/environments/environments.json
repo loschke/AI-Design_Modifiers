@@ -1,0 +1,26 @@
+{
+  "name": "Environments",
+  "description": "Verschiedene Umgebungen und Schauplätze",
+  "subcategories": {
+    "natural": {
+      "name": "Natural Environments",
+      "description": "Natürliche Landschaften und Gewässer",
+      "path": "/context/environments/natural"
+    },
+    "urban": {
+      "name": "Urban Environments",
+      "description": "Städtische und gebaute Umgebungen",
+      "path": "/context/environments/urban"
+    },
+    "mixed": {
+      "name": "Mixed Environments",
+      "description": "Übergangs- und gemischte Zonen",
+      "path": "/context/environments/mixed"
+    }
+  },
+  "metadata": {
+    "order": 3,
+    "defaultSubcategory": "natural",
+    "tags": ["environments", "locations", "settings"]
+  }
+}

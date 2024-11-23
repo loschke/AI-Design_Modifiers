@@ -1,0 +1,45 @@
+{
+  "name": "Mood Attributes",
+  "description": "Stimmungs- und Atmosphäre-Eigenschaften",
+  "modifiers": {
+    "emotional": {
+      "name": "Emotional Atmosphere",
+      "description": "Emotionale Stimmungen und Atmosphären",
+      "items": [
+        "in peaceful setting",
+        "in mysterious atmosphere",
+        "in magical environment",
+        "in dramatic scene",
+        "in romantic setting",
+        "in eerie atmosphere"
+      ]
+    },
+    "sensory": {
+      "name": "Sensory Attributes",
+      "description": "Sensorische Eigenschaften der Umgebung",
+      "items": {
+        "visual": [
+          "in colorful scene",
+          "in monochromatic setting",
+          "in high contrast",
+          "in soft focus",
+          "in sharp detail"
+        ],
+        "auditory": [
+          "in quiet setting",
+          "in noisy environment",
+          "in musical atmosphere",
+          "in natural sounds",
+          "in urban sounds"
+        ],
+        "tactile": [
+          "in warm atmosphere",
+          "in cold environment",
+          "in humid setting",
+          "in dry atmosphere",
+          "in windy conditions"
+        ]
+      }
+    }
+  }
+}

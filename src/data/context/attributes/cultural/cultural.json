@@ -1,0 +1,126 @@
+{
+  "name": "Cultural Attributes",
+  "description": "Kulturelle und gesellschaftliche Attribute",
+  "modifiers": {
+    "traditions": {
+      "name": "Cultural Traditions",
+      "description": "Traditionelle und kulturelle Kontexte",
+      "items": {
+        "ceremonies": [
+          "during festival",
+          "during ceremony",
+          "during ritual",
+          "during celebration",
+          "during procession",
+          "during carnival"
+        ],
+        "customs": [
+          "during tea ceremony",
+          "during meditation",
+          "during prayer",
+          "during gathering",
+          "during feast",
+          "during traditional dance"
+        ]
+      }
+    },
+    "regional": {
+      "name": "Regional Cultures",
+      "description": "Regionale kulturelle Stile und Einflüsse",
+      "items": {
+        "asian": [
+          "in japanese style",
+          "in chinese tradition",
+          "in korean setting",
+          "in indian culture",
+          "in thai atmosphere",
+          "in persian style"
+        ],
+        "european": [
+          "in mediterranean style",
+          "in nordic tradition",
+          "in celtic setting",
+          "in slavic culture",
+          "in alpine atmosphere",
+          "in mediterranean villa"
+        ],
+        "americas": [
+          "in native american style",
+          "in aztec tradition",
+          "in incan setting",
+          "in caribbean culture",
+          "in southwestern atmosphere",
+          "in colonial style"
+        ],
+        "african": [
+          "in egyptian style",
+          "in moroccan tradition",
+          "in tribal setting",
+          "in saharan culture",
+          "in savannah atmosphere",
+          "in tribal village"
+        ]
+      }
+    },
+    "social_settings": {
+      "name": "Social Settings",
+      "description": "Gesellschaftliche Kontexte und Milieus",
+      "items": {
+        "formal": [
+          "in royal court",
+          "in noble house",
+          "in diplomatic setting",
+          "in high society",
+          "in formal ceremony",
+          "in official event"
+        ],
+        "casual": [
+          "in street scene",
+          "in marketplace",
+          "in public square",
+          "in community gathering",
+          "in local festival",
+          "in neighborhood setting"
+        ],
+        "professional": [
+          "in business district",
+          "in academic setting",
+          "in artistic community",
+          "in trade center",
+          "in craft workshop",
+          "in professional environment"
+        ]
+      }
+    },
+    "artistic_styles": {
+      "name": "Artistic and Design Styles",
+      "description": "Künstlerische und Design-Stile",
+      "items": {
+        "classical": [
+          "in baroque style",
+          "in gothic design",
+          "in renaissance art",
+          "in classical architecture",
+          "in art nouveau setting",
+          "in art deco atmosphere"
+        ],
+        "modern": [
+          "in minimalist style",
+          "in contemporary design",
+          "in modernist setting",
+          "in industrial style",
+          "in brutalist architecture",
+          "in eco-design environment"
+        ],
+        "traditional": [
+          "in folk art style",
+          "in rustic design",
+          "in vernacular architecture",
+          "in traditional crafts",
+          "in indigenous art",
+          "in ethnic design"
+        ]
+      }
+    }
+  }
+}

@@ -1,0 +1,63 @@
+{
+  "name": "Furniture",
+  "description": "Möbel und Einrichtungsgegenstände",
+  "modifiers": {
+    "seating": {
+      "name": "Seating",
+      "description": "Sitzmöbel",
+      "items": [
+        "a sofa",
+        "an armchair",
+        "a dining chair",
+        "a rocking chair",
+        "a bench",
+        "a stool"
+      ]
+    },
+    "tables": {
+      "name": "Tables",
+      "description": "Tische",
+      "items": [
+        "a dining table",
+        "a coffee table",
+        "a side table",
+        "a desk",
+        "a console table"
+      ]
+    },
+    "storage": {
+      "name": "Storage Furniture",
+      "description": "Aufbewahrungsmöbel",
+      "items": [
+        "a bookshelf",
+        "a cabinet",
+        "a dresser",
+        "a wardrobe",
+        "a chest of drawers"
+      ]
+    },
+    "sleeping": {
+      "name": "Sleeping Furniture",
+      "description": "Schlafmöbel",
+      "items": [
+        "a bed",
+        "a bunk bed",
+        "a daybed",
+        "a crib",
+        "a futon"
+      ]
+    },
+    "accessories": {
+      "name": "Furniture Accessories",
+      "description": "Einrichtungszubehör",
+      "items": [
+        "a lamp",
+        "a mirror",
+        "a rug",
+        "a clock",
+        "a cushion",
+        "a throw blanket"
+      ]
+    }
+  }
+}

@@ -1,0 +1,57 @@
+{
+  "name": "Lichtqualitäten",
+  "description": "Eigenschaften und Charakteristiken des Lichts",
+  "modifiers": {
+    "temperature": {
+      "name": "Farbtemperatur",
+      "description": "Temperatur und Färbung des Lichts",
+      "items": [
+        "warm light",
+        "cool light",
+        "neutral light",
+        "mixed temperature",
+        "color temperature",
+        "white balance"
+      ]
+    },
+    "intensity": {
+      "name": "Intensität",
+      "description": "Stärke und Intensität des Lichts",
+      "items": [
+        "bright light",
+        "dim light",
+        "harsh light",
+        "soft light",
+        "moderate light",
+        "intense light"
+      ]
+    },
+    "direction": {
+      "name": "Richtung",
+      "description": "Richtung und Ausrichtung des Lichts",
+      "items": [
+        "front light",
+        "back light",
+        "side light",
+        "rim light",
+        "top light",
+        "bottom light",
+        "cross light",
+        "fill light"
+      ]
+    },
+    "modification": {
+      "name": "Modifikation",
+      "description": "Veränderung und Anpassung des Lichts",
+      "items": [
+        "diffused light",
+        "direct light",
+        "bounced light",
+        "filtered light",
+        "shaped light",
+        "focused light",
+        "scattered light"
+      ]
+    }
+  }
+}

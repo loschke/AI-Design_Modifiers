@@ -1,0 +1,31 @@
+{
+  "name": "#4 - Kreativität",
+  "description": "Der kreative Ausdruck - Individueller Style und Look",
+  "icon": "creativity-icon",
+  "categories": {
+    "art": {
+      "name": "Kreative Kunst",
+      "description": "Künstlerische Stile und Techniken",
+      "path": "/creativity/art"
+    },
+    "effects": {
+      "name": "Spezialeffekte",
+      "description": "Kreative Effekte und Manipulationen",
+      "path": "/creativity/effects"
+    },
+    "patterns": {
+      "name": "Muster & Materialien",
+      "description": "Oberflächengestaltung und Texturen",
+      "path": "/creativity/patterns"
+    },
+    "surreal": {
+      "name": "Surreales & Abstraktes",
+      "description": "Traumwelten und unmögliche Realitäten",
+      "path": "/creativity/surreal"
+    }
+  },
+  "metadata": {
+    "order": 4,
+    "tags": ["creative", "artistic", "style"]
+  }
+}

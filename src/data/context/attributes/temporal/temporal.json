@@ -1,0 +1,72 @@
+{
+  "name": "Temporal Attributes",
+  "description": "Zeit- und saisonbezogene Attribute",
+  "modifiers": {
+    "time_of_day": {
+      "name": "Time of Day",
+      "description": "Tageszeiten und Übergänge",
+      "items": {
+        "daylight": [
+          "at sunrise",
+          "at dawn",
+          "in early morning",
+          "at morning",
+          "at noon",
+          "in afternoon",
+          "at sunset",
+          "at dusk"
+        ],
+        "night": [
+          "at twilight",
+          "at night",
+          "at midnight",
+          "in late night",
+          "in early night",
+          "during full moon",
+          "during new moon"
+        ],
+        "transitional": [
+          "during golden hour",
+          "during blue hour",
+          "at first light",
+          "at last light",
+          "during twilight"
+        ]
+      }
+    },
+    "seasons": {
+      "name": "Seasons",
+      "description": "Jahreszeiten und saisonale Ereignisse",
+      "items": {
+        "spring": [
+          "in early spring",
+          "in mid spring",
+          "in late spring",
+          "during cherry blossom",
+          "during spring bloom"
+        ],
+        "summer": [
+          "in early summer",
+          "in midsummer",
+          "in late summer",
+          "during summer heat",
+          "during summer festival"
+        ],
+        "autumn": [
+          "in early autumn",
+          "in mid autumn",
+          "in late autumn",
+          "during fall colors",
+          "during harvest"
+        ],
+        "winter": [
+          "in early winter",
+          "in midwinter",
+          "in late winter",
+          "during first snow",
+          "during winter solstice"
+        ]
+      }
+    }
+  }
+}

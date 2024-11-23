@@ -1,0 +1,79 @@
+{
+  "name": "Bewegungseffekte",
+  "description": "Dynamische und zeitbasierte Effekte",
+  "modifiers": {
+    "blur": {
+      "name": "Bewegungsunschärfe",
+      "description": "Verschiedene Arten der Bewegungsunschärfe",
+      "items": [
+        "with motion blur",
+        "featuring zoom blur effect",
+        "with panning blur",
+        "in radial blur style",
+        "with directional blur"
+      ]
+    },
+    "time": {
+      "name": "Zeiteffekte",
+      "description": "Zeitbasierte Bewegungseffekte",
+      "items": [
+        "with long exposure",
+        "featuring time-lapse effect",
+        "with motion trails",
+        "in slow shutter style",
+        "with steel wool spin effect"
+      ]
+    },
+    "dynamic": {
+      "name": "Dynamische Effekte",
+      "description": "Effekte zur Darstellung von Bewegung",
+      "items": [
+        "with action freeze",
+        "featuring motion stretch",
+        "with speed lines",
+        "in dynamic motion style",
+        "with particle trails"
+      ]
+    },
+    "attributes": {
+      "name": "Effekt-Eigenschaften",
+      "description": "Qualitäten und Anwendungen von Effekten",
+      "items": {
+        "intensity": [
+          "subtle",
+          "moderate",
+          "intense",
+          "extreme",
+          "minimal"
+        ],
+        "application": [
+          "overall",
+          "selective",
+          "gradual",
+          "layered",
+          "masked"
+        ],
+        "mood": [
+          "dramatic",
+          "ethereal",
+          "gritty",
+          "dreamy",
+          "surreal"
+        ]
+      }
+    },
+    "combinations": {
+      "name": "Effekt-Kombinationen",
+      "description": "Kreative Kombinationen verschiedener Effekte",
+      "items": {
+        "creative_mix": [
+          "combining light leaks with motion blur",
+          "mixing vintage grain with color grading",
+          "blending prism effects with long exposure",
+          "fusing neon lights with double exposure",
+          "merging texture effects with color manipulation"
+        ]
+      }
+    }
+  }
+}

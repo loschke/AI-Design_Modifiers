@@ -1,0 +1,92 @@
+{
+  "name": "Texturen",
+  "description": "Natürliche und künstliche Materialoberflächen",
+  "modifiers": {
+    "natural_materials": {
+      "name": "Natürliche Materialien",
+      "description": "Texturen aus natürlichen Materialien",
+      "items": {
+        "wood": {
+          "raw": [
+            "with visible wood grain",
+            "featuring natural knots",
+            "with rich wood texture",
+            "in weathered wood finish"
+          ],
+          "processed": [
+            "with laminated finish",
+            "featuring plywood layers",
+            "with veneer texture",
+            "in parquet pattern"
+          ]
+        },
+        "stone": {
+          "raw": [
+            "with marble veining",
+            "featuring granite texture",
+            "with slate layers",
+            "with sandstone grain"
+          ],
+          "processed": [
+            "with polished finish",
+            "featuring carved surface",
+            "with terrazzo pattern",
+            "in concrete texture"
+          ]
+        }
+      }
+    },
+    "manufactured": {
+      "name": "Hergestellte Materialien",
+      "description": "Texturen aus künstlichen Materialien",
+      "items": {
+        "metal": {
+          "polished": [
+            "with chrome finish",
+            "featuring brushed steel",
+            "with metallic sheen",
+            "in polished brass"
+          ],
+          "aged": [
+            "with patina effect",
+            "featuring rust texture",
+            "with oxidized copper",
+            "with tarnished finish"
+          ]
+        },
+        "glass": {
+          "clear": [
+            "with crystal clarity",
+            "featuring light refraction",
+            "with transparent surface",
+            "in prismatic effect"
+          ],
+          "textured": [
+            "with frosted surface",
+            "featuring stained glass",
+            "with beveled edges",
+            "with etched design"
+          ]
+        }
+      }
+    },
+    "fabric": {
+      "name": "Textilien",
+      "description": "Texturen aus Stoffmaterialien",
+      "items": {
+        "natural": [
+          "with cotton texture",
+          "featuring wool weave",
+          "with silk sheen",
+          "with leather grain"
+        ],
+        "synthetic": [
+          "with nylon sheen",
+          "featuring polyester texture",
+          "with velvet surface",
+          "with technical fabric look"
+        ]
+      }
+    }
+  }
+}

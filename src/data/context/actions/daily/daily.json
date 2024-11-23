@@ -1,0 +1,67 @@
+{
+  "name": "Daily Activities",
+  "description": "Alltägliche Aktivitäten und Routinen",
+  "modifiers": {
+    "rest": {
+      "name": "Rest Activities",
+      "description": "Aktivitäten der Ruhe und Entspannung",
+      "items": [
+        "sleeping",
+        "resting",
+        "napping",
+        "relaxing",
+        "meditating",
+        "lounging",
+        "dozing",
+        "dreaming"
+      ]
+    },
+    "work": {
+      "name": "Work Activities",
+      "description": "Berufliche und kreative Tätigkeiten",
+      "items": [
+        "working",
+        "writing",
+        "typing",
+        "building",
+        "crafting",
+        "teaching",
+        "studying",
+        "researching",
+        "programming",
+        "painting",
+        "sculpting"
+      ]
+    },
+    "household": {
+      "name": "Household Activities",
+      "description": "Häusliche Tätigkeiten",
+      "items": [
+        "cooking",
+        "cleaning",
+        "gardening",
+        "washing",
+        "organizing",
+        "decorating",
+        "mending",
+        "arranging",
+        "sweeping"
+      ]
+    },
+    "leisure": {
+      "name": "Leisure Activities",
+      "description": "Freizeitaktivitäten",
+      "items": [
+        "reading",
+        "playing",
+        "singing",
+        "drawing",
+        "knitting",
+        "photographing",
+        "collecting",
+        "gaming",
+        "exercising"
+      ]
+    }
+  }
+}

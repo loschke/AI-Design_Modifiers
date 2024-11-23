@@ -5,17 +5,17 @@
     "blickrichtung": {
       "name": "Blickrichtung",
       "description": "Verschiedene Aufnahmewinkel und Blickrichtungen der Kamera",
-      "path": "/komposition/kamerafuehrung/blickrichtung"
+      "path": "/composition/kamerafuehrung/blickrichtung"
     },
     "bildausschnitt": {
       "name": "Bildausschnitt",
       "description": "Verschiedene Einstellungsgrößen und Framing-Techniken",
-      "path": "/komposition/kamerafuehrung/bildausschnitt"
+      "path": "/composition/kamerafuehrung/bildausschnitt"
     },
     "perspektive": {
       "name": "Perspektive",
       "description": "Verschiedene Kameraperspektiven und Aufnahmewinkel",
-      "path": "/komposition/kamerafuehrung/perspektive"
+      "path": "/composition/kamerafuehrung/perspektive"
     }
   },
   "metadata": {

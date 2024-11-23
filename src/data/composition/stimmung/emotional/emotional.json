@@ -1,0 +1,86 @@
+{
+  "name": "Emotional",
+  "description": "Gefühlsbetonte und atmosphärische Stimmungen",
+  "modifiers": {
+    "melancholic": {
+      "name": "Melancholisch",
+      "description": "Nachdenkliche, schwermütige Stimmungen",
+      "items": {
+        "thoughtful": [
+          "somber",
+          "contemplative",
+          "introspective",
+          "reflective",
+          "pensive",
+          "philosophical",
+          "deep",
+          "meaningful"
+        ],
+        "moody": [
+          "atmospheric",
+          "brooding",
+          "mysterious",
+          "lonely",
+          "haunting",
+          "bittersweet",
+          "melancholic",
+          "wistful",
+          "yearning"
+        ]
+      }
+    },
+    "tense": {
+      "name": "Angespannt",
+      "description": "Spannungsgeladene, düstere Stimmungen",
+      "items": {
+        "dark": [
+          "ominous",
+          "eerie",
+          "dark",
+          "foreboding",
+          "sinister",
+          "menacing",
+          "threatening",
+          "mysterious",
+          "shadowy"
+        ],
+        "suspenseful": [
+          "suspenseful",
+          "unsettling",
+          "anxious",
+          "tense",
+          "uneasy",
+          "apprehensive",
+          "disturbing",
+          "enigmatic"
+        ]
+      }
+    },
+    "ethereal": {
+      "name": "Ätherisch",
+      "description": "Überirdische, magische Stimmungen",
+      "items": {
+        "magical": [
+          "enchanted",
+          "magical",
+          "mystical",
+          "otherworldly",
+          "fantastical",
+          "dreamlike",
+          "surreal",
+          "whimsical"
+        ],
+        "spiritual": [
+          "divine",
+          "celestial",
+          "transcendent",
+          "sacred",
+          "enlightened",
+          "holy",
+          "blessed",
+          "supernatural"
+        ]
+      }
+    }
+  }
+}

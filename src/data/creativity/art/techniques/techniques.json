@@ -1,0 +1,87 @@
+{
+  "name": "Künstlerische Techniken",
+  "description": "Technische und stilistische Ansätze in der Kunst",
+  "modifiers": {
+    "painting": {
+      "name": "Maltechniken",
+      "description": "Verschiedene Techniken der Malerei",
+      "items": {
+        "brushwork": [
+          "impasto",
+          "glazing",
+          "stippling",
+          "loose brushstrokes",
+          "precise detailing"
+        ],
+        "composition": [
+          "balanced",
+          "asymmetrical",
+          "geometric",
+          "dynamic",
+          "minimal"
+        ],
+        "color": [
+          "saturated",
+          "muted",
+          "complementary",
+          "monochromatic",
+          "high-contrast"
+        ]
+      }
+    },
+    "stylistic": {
+      "name": "Stilistische Elemente",
+      "description": "Grundlegende stilistische Ansätze",
+      "items": {
+        "approach": [
+          "minimalist",
+          "maximalist",
+          "symbolic",
+          "narrative",
+          "abstract"
+        ],
+        "expression": [
+          "bold",
+          "subtle",
+          "dynamic",
+          "contemplative",
+          "provocative"
+        ],
+        "emotional_quality": [
+          "joyful",
+          "melancholic",
+          "mysterious",
+          "energetic",
+          "serene"
+        ]
+      }
+    },
+    "fusion": {
+      "name": "Fusion und Innovation",
+      "description": "Kombinationen und experimentelle Ansätze",
+      "items": {
+        "style_combinations": [
+          "mixing traditional and digital",
+          "combining classical and street art",
+          "blending eastern and western aesthetics",
+          "fusing abstract and realistic elements",
+          "merging historical and contemporary"
+        ],
+        "experimental": [
+          "with contemporary interpretation",
+          "featuring mixed media",
+          "with experimental techniques",
+          "in hybrid style",
+          "with modern adaptation"
+        ],
+        "cultural": [
+          "combining cultural elements",
+          "mixing regional styles",
+          "blending traditional and modern",
+          "fusing different epochs",
+          "merging artistic movements"
+        ]
+      }
+    }
+  }
+}

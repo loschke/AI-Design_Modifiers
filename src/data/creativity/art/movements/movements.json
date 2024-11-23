@@ -1,0 +1,60 @@
+{
+  "name": "Kunstbewegungen",
+  "description": "Moderne und zeitgenössische Kunstströmungen",
+  "modifiers": {
+    "early_modern": {
+      "name": "Frühe Moderne",
+      "description": "Kunstbewegungen der frühen Moderne",
+      "items": {
+        "surrealism": [
+          "in Surrealist style",
+          "with dreamlike elements",
+          "featuring unexpected juxtapositions",
+          "with symbolic imagery",
+          "in the manner of Surrealist masters"
+        ],
+        "abstract_expressionism": [
+          "in Abstract Expressionist style",
+          "with gestural brushstrokes",
+          "featuring emotional expression",
+          "with spontaneous composition",
+          "in action painting style"
+        ],
+        "pop_art": [
+          "in Pop Art style",
+          "with commercial imagery",
+          "featuring bold colors",
+          "with mass media elements",
+          "in comic book style"
+        ]
+      }
+    },
+    "contemporary": {
+      "name": "Zeitgenössisch",
+      "description": "Aktuelle Kunstformen und -bewegungen",
+      "items": {
+        "digital_art": [
+          "in digital style",
+          "with generative elements",
+          "featuring algorithmic patterns",
+          "with pixel aesthetics",
+          "in contemporary digital manner"
+        ],
+        "street_art": [
+          "in street art style",
+          "with urban elements",
+          "featuring graffiti aesthetics",
+          "with spray paint texture",
+          "in contemporary urban manner"
+        ],
+        "conceptual": [
+          "in conceptual style",
+          "with minimalist elements",
+          "featuring idea-based composition",
+          "with philosophical approach",
+          "in contemporary conceptual manner"
+        ]
+      }
+    }
+  }
+}

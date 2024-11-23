@@ -1,0 +1,66 @@
+{
+  "name": "Optische Effekte",
+  "description": "Linsen-, Belichtungs- und Textureffekte",
+  "modifiers": {
+    "lens": {
+      "name": "Linseneffekte",
+      "description": "Effekte durch Linseneigenschaften und -manipulationen",
+      "items": [
+        "with cracked lens effect",
+        "through prism filter",
+        "with vintage daguerreotype effect",
+        "featuring lens distortion",
+        "with chromatic aberration"
+      ]
+    },
+    "exposure": {
+      "name": "Belichtungseffekte",
+      "description": "Effekte durch mehrfache oder manipulierte Belichtung",
+      "items": [
+        "with double exposure",
+        "featuring multiple exposure",
+        "with ghosting effect",
+        "in overlapping exposure style",
+        "with layered exposure technique"
+      ]
+    },
+    "texture": {
+      "name": "Textureffekte",
+      "description": "Filmische und analoge Textureffekte",
+      "items": [
+        "with film grain texture",
+        "featuring vintage scratches",
+        "with analog noise effect",
+        "in weathered photograph style",
+        "with aged paper texture"
+      ]
+    },
+    "color": {
+      "name": "Farbeffekte",
+      "description": "Farbmanipulationen und -bearbeitung",
+      "items": {
+        "grading": [
+          "with sepia toning",
+          "featuring cross-processed colors",
+          "with HDR effect",
+          "in vintage color grade",
+          "with cinematic color palette"
+        ],
+        "manipulation": [
+          "with duotone effect",
+          "featuring split-toning",
+          "with color shift",
+          "in selective coloring",
+          "with gradient mapping"
+        ],
+        "stylistic": [
+          "with noir contrast",
+          "featuring bleach bypass look",
+          "with lomography style",
+          "in infrared color effect",
+          "with polaroid colors"
+        ]
+      }
+    }
+  }
+}

@@ -1,21 +1,21 @@
 {
-    "name": "Concept",
-    "description": "Fundamental conceptual elements for AI image generation",
-    "icon": "concept-icon",
-    "categories": {
-      "medium": {
-        "name": "Medium",
-        "description": "Different types of artistic and visual media",
-        "path": "/concept/medium"
-      },
-      "style": {
-        "name": "Style",
-        "description": "Artistic styles and visual characteristics",
-        "path": "/concept/style"
-      }
+  "name": "#1 - Konzept",
+  "description": "Der Startpunkt der Kreativität - Was ist zu sehen und wie wurde es erstellt",
+  "icon": "concept-icon",
+  "categories": {
+    "medium": {
+      "name": "Medium",
+      "description": "Künstlerische und technische Medientypen",
+      "path": "/concept/medium"
     },
-    "metadata": {
-      "order": 1,
-      "tags": ["basic", "essential"]
+    "subject": {
+      "name": "Subject",
+      "description": "Hauptmotive und Objekte der Darstellung",
+      "path": "/concept/subject"
     }
+  },
+  "metadata": {
+    "order": 1,
+    "tags": ["basic", "foundation", "creative"]
   }
+}
