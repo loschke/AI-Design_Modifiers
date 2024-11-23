@@ -1,0 +1,84 @@
+{
+  "name": "Bildausschnitt",
+  "description": "Verschiedene Einstellungsgrößen und Framing-Optionen",
+  "modifiers": {
+    "extreme-close-up": {
+      "name": "Extreme Nahaufnahme",
+      "description": "Extrem nahe Aufnahme von Details",
+      "items": {
+        "general": [
+          "extreme close-up shot",
+          "extreme close up",
+          "macro shot",
+          "detail shot",
+          "extreme closeup"
+        ]
+      }
+    },
+    "close-up": {
+      "name": "Nahaufnahme",
+      "description": "Nahe Aufnahme des Gesichts",
+      "items": {
+        "general": [
+          "close-up shot",
+          "close up",
+          "closeup",
+          "head shot",
+          "face shot"
+        ]
+      }
+    },
+    "medium-close-up": {
+      "name": "Nahe Aufnahme",
+      "description": "Aufnahme von Kopf bis Brust",
+      "items": {
+        "general": [
+          "medium close-up shot",
+          "medium closeup",
+          "head and shoulders shot",
+          "bust shot",
+          "medium close shot"
+        ]
+      }
+    },
+    "medium": {
+      "name": "Halbnahe",
+      "description": "Aufnahme von der Hüfte aufwärts",
+      "items": {
+        "general": [
+          "medium shot",
+          "mid shot",
+          "waist shot",
+          "half shot",
+          "waist-up shot"
+        ]
+      }
+    },
+    "cowboy": {
+      "name": "Amerikanische",
+      "description": "Aufnahme vom Knie aufwärts",
+      "items": {
+        "general": [
+          "cowboy shot",
+          "american shot",
+          "knee shot",
+          "3/4 shot",
+          "western shot"
+        ]
+      }
+    },
+    "full-body": {
+      "name": "Ganzkörper",
+      "description": "Vollständige Aufnahme der Person",
+      "items": {
+        "general": [
+          "full body shot",
+          "full shot",
+          "full-length shot",
+          "head to toe shot",
+          "entire body shot"
+        ]
+      }
+    }
+  }
+}

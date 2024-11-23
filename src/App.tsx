@@ -6,7 +6,6 @@ import { SubcategoryDetail } from './components/SubcategoryDetail';
 import { Cluster, Category, Subcategory, NavigationSubcategory, Modifier, CategoryItem } from './types/data';
 
 function App() {
-  const [searchQuery, setSearchQuery] = useState('');
   const [currentPath, setCurrentPath] = useState('/');
   const [breadcrumbItems, setBreadcrumbItems] = useState<Array<{ label: string; path: string }>>([]);
   const [clusters, setClusters] = useState<Record<string, Cluster>>({});
@@ -15,8 +14,6 @@ function App() {
   const [selectedSubcategory, setSelectedSubcategory] = useState<Subcategory | Modifier | null>(null);
   const [loading, setLoading] = useState(true);
   const [error, setError] = useState<string | null>(null);
-  const [navigationLevel, setNavigationLevel] = useState(0);
-  const [currentClusterName, setCurrentClusterName] = useState<string | null>(null);
 
   useEffect(() => {
     loadClusters();
@@ -26,10 +23,12 @@ function App() {
     try {
       const conceptData = await import('./data/concept/concept.json');
       const contextData = await import('./data/context/context.json');
+      const kompositionData = await import('./data/komposition/komposition.json');
       
       setClusters({
         concept: conceptData.default,
-        context: contextData.default
+        context: contextData.default,
+        komposition: kompositionData.default
       });
     } catch (err) {
       setError('Failed to load clusters');
@@ -43,7 +42,6 @@ function App() {
     try {
       const data = await import(`./data/${clusterName}/${clusterName}.json`);
       setCurrentCluster(data.default);
-      setCurrentClusterName(clusterName);
       setCurrentCategoryData(null);
     } catch (err) {
       setError(`Failed to load cluster data: ${clusterName}`);
@@ -54,7 +52,7 @@ function App() {
   const loadCategoryData = async (clusterName: string, categoryPath: string) => {
     try {
       setLoading(true);
-      const data = await import(`./data/${clusterName}/medium/medium.json`);
+      const data = await import(`./data/${clusterName}/${categoryPath}/${categoryPath}.json`);
       setCurrentCategoryData(data.default);
     } catch (err) {
       setError(`Failed to load category data: ${categoryPath}`);
@@ -67,7 +65,10 @@ function App() {
   const loadSubcategoryData = async (clusterName: string, subcategoryPath: string) => {
     try {
       setLoading(true);
-      const data = await import(`./data/${clusterName}/medium/${subcategoryPath}/${subcategoryPath}.json`);
+      const pathParts = subcategoryPath.split('/');
+      const categoryPath = pathParts[0];
+      const subcategory = pathParts[pathParts.length - 1];
+      const data = await import(`./data/${clusterName}/${categoryPath}/${subcategory}/${subcategory}.json`);
       setSelectedSubcategory(data.default);
       setCurrentCategoryData(null); // Clear category data to show subcategory detail
     } catch (err) {
@@ -78,9 +79,8 @@ function App() {
     }
   };
 
-  const handleSearch = (query: string) => {
-    setSearchQuery(query);
-  };
+  // TODO: Implement search functionality
+  const handleSearch = () => {};
 
   const normalizePath = (path: string): string => {
     return '/' + path.split('/').filter(Boolean).join('/') + '/';
@@ -94,15 +94,12 @@ function App() {
       setCurrentPath('/');
       setBreadcrumbItems([]);
       setCurrentCluster(null);
-      setCurrentClusterName(null);
       setCurrentCategoryData(null);
-      setNavigationLevel(0);
       return;
     }
 
     const pathParts = path.split('/').filter(Boolean);
     const level = pathParts.length;
-    setNavigationLevel(level);
 
     if (path.startsWith('/')) {
       const newBreadcrumbItems = pathParts.map((part, index) => {
@@ -130,7 +127,7 @@ function App() {
       } else if (level === 3) {
         // Load cluster, category, and subcategory data
         loadClusterData(clusterName).then(() => {
-          loadSubcategoryData(clusterName, pathParts[2]);
+          loadSubcategoryData(clusterName, pathParts.slice(1).join('/'));
         });
       }
       return;
@@ -146,7 +143,8 @@ function App() {
       if (breadcrumbItems.length === 1) {
         handleNavigate(`/${currentClusterName}/${pathSegment}`);
       } else if (breadcrumbItems.length === 2) {
-        handleNavigate(`/${currentClusterName}/medium/${pathSegment}`);
+        const categoryPath = breadcrumbItems[1].path.split('/')[2];
+        handleNavigate(`/${currentClusterName}/${categoryPath}/${pathSegment}`);
       }
     }
   };
@@ -159,7 +157,7 @@ function App() {
       handleNavigate(itemPath);
     } else if ('items' in item || 'modifiers' in item) {
       if (pathParts.length === 2) { // We're at the category level
-        loadSubcategoryData(clusterName, itemPath);
+        loadSubcategoryData(clusterName, `${pathParts[1]}/${itemPath}`);
         const newBreadcrumbItems = [...breadcrumbItems, {
           label: item.name,
           path: `${currentPath}${itemPath}`
@@ -221,7 +219,6 @@ function App() {
               title={cluster.name}
               description={cluster.description}
               icon="📁"
-              imagePath={cluster.imagePath}
               onClick={() => handleCardClick(cluster, key)}
             />
           ))}
@@ -238,7 +235,6 @@ function App() {
               title={category.name}
               description={category.description}
               icon="📁"
-              imagePath={category.imagePath}
               onClick={() => handleCardClick(category, key)}
             />
           ))}
@@ -256,7 +252,6 @@ function App() {
                 title={modifier.name}
                 description={modifier.description || ''}
                 icon="📄"
-                imagePath={modifier.imagePath}
                 onClick={() => handleCardClick(modifier, key)}
                 items={modifier.items}
               />
@@ -279,7 +274,6 @@ function App() {
                   title={subcategory.name}
                   description={subcategory.description || ''}
                   icon="📄"
-                  imagePath={subcategory.imagePath}
                   onClick={() => handleCardClick(subcategory, key)}
                   items={items}
                 />

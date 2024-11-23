@@ -1,0 +1,26 @@
+{
+  "name": "Kameraführung",
+  "description": "Verschiedene Aspekte der Kamerapositionierung und Aufnahmetechniken",
+  "subcategories": {
+    "blickrichtung": {
+      "name": "Blickrichtung",
+      "description": "Verschiedene Aufnahmewinkel und Blickrichtungen der Kamera",
+      "path": "/komposition/kamerafuehrung/blickrichtung"
+    },
+    "bildausschnitt": {
+      "name": "Bildausschnitt",
+      "description": "Verschiedene Einstellungsgrößen und Framing-Techniken",
+      "path": "/komposition/kamerafuehrung/bildausschnitt"
+    },
+    "perspektive": {
+      "name": "Perspektive",
+      "description": "Verschiedene Kameraperspektiven und Aufnahmewinkel",
+      "path": "/komposition/kamerafuehrung/perspektive"
+    }
+  },
+  "metadata": {
+    "order": 1,
+    "defaultSubcategory": "bildausschnitt",
+    "tags": ["camera", "angle", "shot"]
+  }
+}

@@ -1,0 +1,97 @@
+{
+  "name": "Perspektive",
+  "description": "Verschiedene Kameraperspektiven und Aufnahmewinkel",
+  "modifiers": {
+    "low-angle": {
+      "name": "Froschperspektive",
+      "description": "Aufnahme von unten nach oben",
+      "items": {
+        "general": [
+          "low angle shot",
+          "worms eye view",
+          "low perspective",
+          "looking up at",
+          "from below"
+        ]
+      }
+    },
+    "high-angle": {
+      "name": "Vogelperspektive",
+      "description": "Aufnahme von oben nach unten",
+      "items": {
+        "general": [
+          "high angle shot",
+          "birds eye view",
+          "high perspective",
+          "looking down at",
+          "from above"
+        ]
+      }
+    },
+    "wide-angle": {
+      "name": "Weitwinkel",
+      "description": "Aufnahme mit weitem Bildwinkel",
+      "items": {
+        "general": [
+          "wide angle shot",
+          "wide perspective",
+          "wide lens shot",
+          "wide view",
+          "broad angle"
+        ]
+      }
+    },
+    "over-shoulder": {
+      "name": "Über-die-Schulter",
+      "description": "Aufnahme über die Schulter einer Person",
+      "items": {
+        "general": [
+          "over the shoulder shot",
+          "shoulder shot",
+          "over shoulder view",
+          "behind shoulder",
+          "from behind shoulder"
+        ]
+      }
+    },
+    "ground-level": {
+      "name": "Bodenperspektive",
+      "description": "Aufnahme auf Bodenhöhe",
+      "items": {
+        "general": [
+          "ground level shot",
+          "ground perspective",
+          "floor level shot",
+          "ground view",
+          "surface level shot"
+        ]
+      }
+    },
+    "selfie": {
+      "name": "Selfie",
+      "description": "Selbstaufnahme mit der Kamera",
+      "items": {
+        "general": [
+          "selfie shot",
+          "self portrait",
+          "self photo",
+          "selfie angle",
+          "selfie perspective"
+        ]
+      }
+    },
+    "pov": {
+      "name": "Point-of-View",
+      "description": "Aufnahme aus der Ich-Perspektive",
+      "items": {
+        "general": [
+          "point of view shot",
+          "pov shot",
+          "first person view",
+          "subjective camera",
+          "first person perspective"
+        ]
+      }
+    }
+  }
+}
