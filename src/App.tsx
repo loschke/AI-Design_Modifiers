@@ -1,5 +1,5 @@
 import { useState, useEffect } from 'react';
-import { Header } from './components/Header';
+import { Hero } from './components/Hero';
 import { Breadcrumb } from './components/Breadcrumb';
 import { GridCard } from './components/GridCard';
 import { SubcategoryDetail } from './components/SubcategoryDetail';
@@ -80,9 +80,6 @@ function App() {
       setLoading(false);
     }
   };
-
-  // TODO: Implement search functionality
-  const handleSearch = () => {};
 
   const normalizePath = (path: string): string => {
     return '/' + path.split('/').filter(Boolean).join('/') + '/';
@@ -183,7 +180,6 @@ function App() {
   if (loading) {
     return (
       <div className="min-h-screen bg-white dark:bg-gray-900">
-        <Header onSearch={handleSearch} />
         <main className="container-custom py-8">
           <div className="flex items-center justify-center h-64">
             <div className="animate-spin rounded-full h-12 w-12 border-b-2 border-blue-600"></div>
@@ -196,7 +192,6 @@ function App() {
   if (error) {
     return (
       <div className="min-h-screen bg-white dark:bg-gray-900">
-        <Header onSearch={handleSearch} />
         <main className="container-custom py-8">
           <div className="text-center text-red-600 dark:text-red-400">
             <h2 className="text-xl font-semibold">Error</h2>
@@ -291,7 +286,7 @@ function App() {
 
   return (
     <div className="min-h-screen bg-white dark:bg-gray-900">
-      <Header onSearch={handleSearch} />
+      <Hero />
       <Breadcrumb items={breadcrumbItems} onNavigate={handleNavigate} />
       
       <main className="container-custom max-w-[1920px] py-8">
